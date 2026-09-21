@@ -8,9 +8,11 @@ __pycache__/
 *.pyc
 .pytest_cache/
 .ipynb_checkpoints/
+.ruff_cache/
 
 # Logs (le dossier est conservé grâce à .gitkeep)
 outputs/logs/*.log
+outputs/logs/*.txt
 
 # PDF source des membres (document institutionnel : à ne pas redistribuer sans accord)
 data/input/*.pdf
@@ -19,21 +21,11 @@ data/input/*.pdf
 data/raw/cache/*
 !data/raw/cache/.gitkeep
 
-# Embeddings zembed-1 et index vectoriel : lourds (n x 2560 float32 par défaut) et
-# reconstructibles avec scripts/04 et 05. Ne pas versionner ; à publier via
-# Git LFS / une release GitHub si le professeur veut les récupérer.
-data/vector_store/*
-!data/vector_store/.gitkeep
-
-# Archive préparée pour Google Colab (contient les publications)
+# Archive préparée pour Google Colab (temporaire, reconstructible avec scripts/make_colab_bundle.py)
 outputs/colab/
 
-# Journaux de collecte détachée
-outputs/logs/*.txt
-
-# Figures interactives lourdes (reconstructibles)
-outputs/figures/*.html
+# NB : les embeddings zembed-1 (n x 2560 float32 ~ 20-30 Mo), l'index FAISS et les cartes interactives
+# sont des LIVRABLES du sujet : ils sont versionnés (data/vector_store/, outputs/figures/).
 
 .DS_Store
 Thumbs.db
-.ruff_cache/

@@ -140,7 +140,7 @@ fsbm-semantic-publications/
 │   ├── input/                    # Membres FSBM.pdf (non versionné)
 │   ├── raw/                      # chercheurs_fsbm.csv, scholars_raw.json, publications_raw.json, cache/
 │   ├── processed/                # *_clean.csv, publications_clean.parquet, dataset_final.json
-│   └── vector_store/             # embeddings.npy, index FAISS, cache SQLite (non versionnés)
+│   └── vector_store/             # embeddings.npy, index FAISS, cache des requêtes (versionnés : livrables)
 ├── notebooks/01_pipeline_demo.ipynb
 ├── src/
 │   ├── data/                     # extraction PDF, scraping Scholar (parsing/matching/backends), enrichissement, schémas Pydantic
@@ -162,8 +162,9 @@ fsbm-semantic-publications/
 
 ```json
 {
-  "chercheur_id": "fsbm_prenom_nom",
-  "scholar_id": "…",
+  "chercheur_id": "<Scholar ID unique>",
+  "chercheur_id_interne": "fsbm_prenom_nom",
+  "scholar_id": "<Scholar ID unique>",
   "nom_complet": "Prénom Nom",
   "affiliation": "…",
   "laboratoire": "…",
@@ -191,7 +192,7 @@ fsbm-semantic-publications/
 
 **Rapport qualité** : `outputs/reports/data_quality_report.{json,md}` (% sans abstract, % chercheurs sans Scholar, doublons fusionnés, publications avec DOI, abstracts récupérés par source, erreurs de scraping, erreurs de validation).
 
-**Données versionnées ou non** : les CSV/JSON/Parquet de `raw/` et `processed/` sont légers et versionnés. Les embeddings (`n × 2560` float32 par défaut), l'index FAISS et le cache SQLite sont **ignorés** par Git (reconstructibles avec les scripts 04-05 ; à publier via Git LFS ou une *release* si nécessaire). `dataset_final.json` n'inclut les vecteurs que si leur volume reste raisonnable (`embedding.embed_in_json: auto`) ; forcez avec `--embed-in-json true`.
+**Données versionnées** : tout ce qui est demandé comme livrable l'est — CSV/JSON/Parquet de `raw/` et `processed/`, `dataset_final.json` **avec** les vecteurs `embedding_zembed1` (schéma du sujet), `data/vector_store/` (embeddings zembed-1 `n × 2560`, index FAISS, correspondance `vector_id → article_id`, cache des requêtes de démonstration), figures et cartes interactives. Restent hors Git : `.env`, le PDF institutionnel `Membres FSBM.pdf` et le cache de scraping (`data/raw/cache/`).
 
 ## Recherche sémantique
 
@@ -260,7 +261,8 @@ Sorties : `outputs/figures/` (01…08 + `semantic_map_*`), `outputs/reports/` (q
 
 ## Auteurs
 
-Projet réalisé par **[Prénom NOM]**, Master Big Data / Data Science — FSBM, Université Hassan II de Casablanca.
-Encadrant : **Pr. [NOM]**.
+Projet réalisé par **Nouhaila ELHOUMA** — Master Big Data / Data Science, Faculté des Sciences Ben M'Sik (FSBM), Université Hassan II de Casablanca.
 
-*(à compléter)*
+Encadrant : **Pr. El Habib BENLAHMAR**.
+
+Licence : MIT (voir `LICENSE`).

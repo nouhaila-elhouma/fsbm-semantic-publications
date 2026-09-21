@@ -80,7 +80,7 @@ embedding:
   retries: 5
   backoff_base: 5
   latency: null                             # null | "fast" | "slow"  (paramètre officiel de l'API)
-  embed_in_json: "auto"                     # true | false | "auto" (auto : selon la taille)
+  embed_in_json: true                       # le schéma du sujet inclut « embedding_zembed1 » dans le JSON (true | false | "auto")
   embed_in_json_max_floats: 3000000
 
 search:

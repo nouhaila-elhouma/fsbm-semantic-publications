@@ -239,6 +239,32 @@ def test_researchers_not_yet_collected_validate_cleanly_and_keep_their_manual_sc
     assert validate_researchers(df) == []                                        # pas de NaN qui fait échouer Pydantic
 
 
+def test_dataset_final_follows_the_professors_schema():
+    import pandas as pd
+
+    from src.preprocessing.data_cleaner import articles_to_dataframe, build_dataset_final, clean_researchers
+
+    members = build_members_dataframe([{"etablissement": "FSBM", "chercheur_source_name": "A.ONE", "laboratoire": "Lab",
+                                        "equipe": "Eq", "type_membre": "M"}])
+    scholars = [{"chercheur_id": "fsbm_a_one", "scholar_id": "AbCdEf123456", "scholar_profile_status": "matched",
+                 "profile": {"affiliation": "Faculty of science Ben M'Sik", "interests": ["NLP"],
+                             "metrics": {"citations": 10, "h_index": 2, "i10_index": 1}, "since_year": 2021}}]
+    researchers = clean_researchers(members, scholars)
+    art = clean_publication_record({"raw_pub_id": "fsbm_a_one::p1", "chercheur_id": "fsbm_a_one", "titre": "A title",
+                                    "auteurs": ["X"], "annee": 2021, "date_publication_raw": "2021/1/1", "citations": 5,
+                                    "abstract": "deep learning " * 10, "abstract_status": "found"})
+    articles, links = deduplicate_publications([art])
+    dataset = build_dataset_final(researchers, articles_to_dataframe(articles), pd.DataFrame(links))
+    (entry,) = dataset
+    assert entry["chercheur_id"] == "AbCdEf123456"                 # « chercheur_id » = Scholar ID unique (sujet)
+    assert entry["chercheur_id_interne"] == "fsbm_a_one" and entry["scholar_id"] == "AbCdEf123456"
+    assert entry["metriques"]["citations_totales"] == 10 and entry["metriques"]["h_index"] == 2
+    (article,) = entry["articles"]
+    assert {"article_id", "titre", "auteurs", "date_publication", "journal", "citations", "abstract", "abstract_clean",
+            "embedding_zembed1"} <= set(article)
+    assert article["date_publication"] == "2021-01-01" and article["embedding_zembed1"] is None   # rempli par le script 04
+
+
 def test_header_not_repeated_on_next_page_reuses_mapping():
     report = ExtractionReport(pdf="t")
     _, mapping = rows_to_records([HEADER, ["FSBM", "A.B", "L", "E", "M"]], 1, {}, report)

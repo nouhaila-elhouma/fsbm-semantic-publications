@@ -434,7 +434,9 @@ def build_dataset_final(researchers: pd.DataFrame, articles_df: pd.DataFrame, li
                 "abstract_status": a["abstract_status"], "embedding_source": a["embedding_source"],
                 "embedding_zembed1": None})
         dataset.append({
-            "chercheur_id": row["chercheur_id"], "scholar_id": row["scholar_id"], "nom_complet": row["nom_complet"],
+            # schéma du sujet : « chercheur_id » = identifiant Scholar unique ; l'identifiant interne du PDF est conservé
+            "chercheur_id": row["scholar_id"] or row["chercheur_id"], "chercheur_id_interne": row["chercheur_id"],
+            "scholar_id": row["scholar_id"], "nom_complet": row["nom_complet"],
             "affiliation": row["affiliation"], "laboratoire": row["laboratoire"], "equipe": row["equipe"],
             "interests": list(row["interests"]), "scholar_profile_status": row["scholar_profile_status"],
             "profile_match_confidence": row["profile_match_confidence"],
