@@ -84,7 +84,7 @@ class ResearcherProfile(_Base):
     scholar_profile_status: ScholarStatus = "pending"
     profile_match_confidence: Optional[float] = Field(default=None, ge=0.0, le=1.0)
     status_detail: Optional[str] = None
-    data_source: Literal["google_scholar", "openalex"] = "google_scholar"    # d'où viennent publications et métriques
+    data_source: Literal["google_scholar", "openalex", "none"] = "google_scholar"   # origine des publications ("none" = aucune)
 
     _url = field_validator("scholar_url")(_validate_url)
 

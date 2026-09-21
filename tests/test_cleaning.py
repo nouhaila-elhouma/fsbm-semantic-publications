@@ -277,3 +277,15 @@ def test_forward_fill_merged_cells():
                {"etablissement": None, "chercheur_source_name": "C.D", "laboratoire": None, "equipe": None, "type_membre": None}]
     df = build_members_dataframe(records, forward_fill=["etablissement", "laboratoire"])
     assert df["etablissement"].tolist() == ["FSBM", "FSBM"] and df["laboratoire"].tolist() == ["Lab 1", "Lab 1"]
+
+
+def test_data_source_is_none_without_publications_and_kept_otherwise():
+    from src.preprocessing.data_cleaner import clean_researchers
+
+    members = build_members_dataframe([{"etablissement": "FSBM", "chercheur_source_name": n, "laboratoire": "L", "equipe": "E",
+                                        "type_membre": "M"} for n in ("A.ONE", "B.TWO", "C.THREE")])
+    states = [{"chercheur_id": "fsbm_a_one", "scholar_profile_status": "matched", "n_publications_collected": 12, "data_source": "openalex"},
+              {"chercheur_id": "fsbm_b_two", "scholar_profile_status": "matched", "n_publications_collected": 3},          # Scholar par défaut
+              {"chercheur_id": "fsbm_c_three", "scholar_profile_status": "matched", "n_publications_collected": 0}]         # erreur : rien collecté
+    got = clean_researchers(members, states).set_index("chercheur_id")["data_source"].to_dict()
+    assert got == {"fsbm_a_one": "openalex", "fsbm_b_two": "google_scholar", "fsbm_c_three": "none"}

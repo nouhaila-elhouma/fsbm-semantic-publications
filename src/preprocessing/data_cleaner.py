@@ -289,6 +289,11 @@ RESEARCHER_COLUMNS = [
     "collection_status", "status_detail", "data_source"]
 
 
+def _n_publications(state: dict[str, Any]) -> int:
+    """Nombre de publications d'un état (états consolidés : ``n_publications_collected`` ; états bruts : la liste)."""
+    return int(state.get("n_publications_collected", len(state.get("publications") or [])) or 0)
+
+
 def _join_unique(values: pd.Series, sep: str = " | ") -> Optional[str]:
     items = list(dict.fromkeys(v for v in values.dropna().astype(str) if v.strip()))
     return sep.join(items) if items else None
@@ -336,7 +341,8 @@ def clean_researchers(members: pd.DataFrame, scholars_raw: list[dict[str, Any]],
                      "match_method": state.get("match_method"),
                      "collection_status": state.get("collection_status", "n/a"),
                      "status_detail": state.get("status_detail"),
-                     "data_source": state.get("data_source", "google_scholar")})
+                     # un chercheur sans aucune publication collectée n'a « aucune » source (jamais « Scholar » par défaut)
+                     "data_source": state.get("data_source", "google_scholar") if _n_publications(state) else "none"})
     df = pd.DataFrame(rows, columns=RESEARCHER_COLUMNS)      # colonnes garanties même sans aucun chercheur
     for col in ("citations_totales", "h_index", "i10_index", "citations_since", "h_index_since", "i10_index_since",
                 "citations_since_2021", "h_index_since_2021", "i10_index_since_2021", "since_year"):
@@ -424,8 +430,8 @@ def build_dataset_final(researchers: pd.DataFrame, articles_df: pd.DataFrame, li
     ids_by_researcher = links.groupby("chercheur_id")["article_id"].apply(list).to_dict()
     dataset = []
     for row in researchers.to_dict("records"):
-        if row["scholar_profile_status"] != "matched":
-            continue
+        if row["scholar_profile_status"] != "matched" or not ids_by_researcher.get(row["chercheur_id"]):
+            continue                                       # le dataset ne contient que des chercheurs avec au moins un article
         articles = []
         for art_id in ids_by_researcher.get(row["chercheur_id"], []):
             a = art_by_id[art_id]

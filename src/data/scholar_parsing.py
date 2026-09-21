@@ -14,7 +14,8 @@ from bs4 import BeautifulSoup
 from src.utils.retry import BlockedError
 
 BASE_URL = "https://scholar.google.com"
-_BLOCK_MARKERS = ("unusual traffic", "not a robot", "gs_captcha", "recaptcha", "/sorry/")
+_BLOCK_MARKERS = ("unusual traffic", "not a robot", "gs_captcha", "recaptcha", "/sorry/",
+                  "system can't perform the operation now", "system can&#39;t perform the operation now")
 
 
 class ScholarParseError(RuntimeError):
@@ -25,7 +26,7 @@ def detect_block(status_code: int, url: str, text: str) -> None:
     """Lève ``BlockedError`` si la réponse indique un blocage / CAPTCHA (jamais contourné)."""
     if status_code in (429, 403):
         raise BlockedError(f"HTTP {status_code} — accès limité par Google Scholar")
-    lowered = text[:20000].lower()
+    lowered = text.lower()          # page entière : le message de CAPTCHA arrive après ~20 000 caractères de CSS/JS
     if "/sorry/" in url or any(marker in lowered for marker in _BLOCK_MARKERS):
         raise BlockedError("Page de vérification (CAPTCHA / trafic inhabituel) détectée")
 

@@ -116,6 +116,14 @@ def test_block_detection(status, url, text):
         detect_block(status, url, text)
 
 
+def test_robot_check_served_with_http_200_after_a_long_page_head_is_detected():
+    """Cas réel observé : « Please show you're not a robot » (HTTP 200) noyé après ~70 Ko de CSS/JS."""
+    page = "<html><head><style>" + "a{color:red}" * 8000 + "</style></head><body><div>The system can't perform the operation now. "            "Try again later.</div><div>Please show you're not a robot</div></body></html>"
+    assert len(page) > 60000
+    with pytest.raises(BlockedError):
+        detect_block(200, "https://scholar.google.com/citations?user=X", page)
+
+
 def test_normal_page_is_not_a_block():
     detect_block(200, "https://scholar.google.com/citations", PROFILE_HTML)
 
