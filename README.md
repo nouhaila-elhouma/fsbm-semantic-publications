@@ -1,31 +1,8 @@
-# Cartographie Sémantique et Analyse des Publications de la FSBM
+# Cartographie sémantique et analyse des publications de la FSBM
 
-Pipeline Python de bout en bout : **liste des chercheurs (PDF) → profils Google Scholar → publications → abstracts → nettoyage → embeddings `zembed-1` → index FAISS → recherche sémantique → cartographie**.
+Projet de Master (Big Data / Data Science) — Faculté des Sciences Ben M'Sik (FSBM), Université Hassan II de Casablanca.
 
-Projet de Master — Faculté des Sciences Ben M'Sik (FSBM), Université Hassan II de Casablanca.
-
-> **Règle absolue du projet : aucune donnée scientifique n'est inventée.** Toute valeur introuvable (abstract, DOI, métrique, profil) reste `None` / `NaN`, accompagnée d'un champ `*_status` qui explique pourquoi.
-
----
-
-## Contexte
-
-Évaluer et valoriser la production scientifique des enseignants-chercheurs de la FSBM demande un jeu de données propre et interrogeable. Ce projet automatise sa construction à partir de sources publiques (Google Scholar, Crossref, OpenAlex, Semantic Scholar) et le rend exploitable par du NLP : chaque publication est encodée par le modèle d'embedding **zembed-1** afin de permettre une recherche par le sens, et non par mots-clés.
-
-La liste des chercheurs provient exclusivement du document de référence **« Membres FSBM.pdf »** (colonnes *Etablissement, Enseignant Chercheur, Laboratoire, Equipe, Type Membre*). Aucun nom n'est inventé.
-
-## Objectifs
-
-1. Extraire et normaliser la liste des chercheurs FSBM depuis le PDF ;
-2. retrouver **prudemment** leur profil Google Scholar (score de confiance, jamais d'appariement sur le seul nom) ;
-3. collecter métriques (citations, h-index, i10-index) et publications ;
-4. récupérer un maximum d'abstracts par enrichissement (Scholar → Crossref → OpenAlex → Semantic Scholar) ;
-5. nettoyer, dédupliquer et valider (Pydantic) ; produire un rapport qualité ;
-6. encoder titre + abstract avec **zembed-1** ; indexer avec FAISS (cosinus) ;
-7. rechercher des **publications** et des **chercheurs** par similarité sémantique ;
-8. produire une **cartographie sémantique** (UMAP + KMeans) et des analyses descriptives.
-
-## Architecture
+Le projet part de la liste officielle des enseignants-chercheurs de la FSBM (un PDF), retrouve leurs publications sur Google Scholar, les nettoie, les encode avec le modèle d'embedding **zembed-1**, puis permet de chercher des publications et des chercheurs par le sens plutôt que par mots-clés. Il produit aussi une carte des thèmes de recherche.
 
 ```mermaid
 graph TD
@@ -33,175 +10,148 @@ A[PDF Membres FSBM] --> B[Extraction chercheurs]
 B --> C[Google Scholar]
 C --> D[Publications]
 D --> E[Enrichissement abstracts]
-E --> F[Data Cleaning]
+E --> F[Nettoyage]
 F --> G[zembed-1]
 G --> H[FAISS]
 H --> I[Recherche sémantique]
 G --> J[Cartographie sémantique]
 ```
 
-Le scraping repose sur une interface `ScholarBackend` : changer de méthode de collecte (`http` = requests + BeautifulSoup, ou `scholarly`) ne demande qu'une ligne dans `config/settings.yaml` (ou `--backend`).
+## Objectifs
+
+1. extraire la liste des chercheurs FSBM depuis le PDF ;
+2. retrouver leur profil Google Scholar, leurs métriques (citations, h-index, i10-index) et leurs publications ;
+3. récupérer les abstracts (Scholar, puis Crossref, OpenAlex, Semantic Scholar) ;
+4. nettoyer, dédupliquer et valider les données ;
+5. encoder titre + abstract avec zembed-1 et indexer avec FAISS (similarité cosinus) ;
+6. rechercher des publications et des chercheurs ;
+7. produire une cartographie des publications (UMAP + KMeans) et des statistiques descriptives.
+
+Les valeurs introuvables (abstract, DOI, métrique) restent vides, avec un champ `*_status` qui indique pourquoi. Rien n'est complété à la main ou par estimation.
 
 ## Technologies
 
-| Domaine | Outils |
-|---|---|
-| Langage | Python 3.11 / 3.12 |
-| Données | pandas, NumPy, PyArrow (Parquet), pdfplumber |
-| Collecte | requests + BeautifulSoup (défaut), `scholarly` (alternatif) |
-| Validation / config | Pydantic v2, PyYAML, python-dotenv |
-| Embeddings | **zembed-1** : poids ouverts officiels (Hugging Face) via `sentence-transformers` + PyTorch — GPU Colab ; API hébergée `zeroentropy` en option |
-| Recherche vectorielle | FAISS (`IndexFlatIP`), repli NumPy exact |
-| ML / visualisation | scikit-learn (KMeans, PCA, TF-IDF), UMAP, matplotlib, Plotly |
-| Notebook / tests | Jupyter, pytest |
-
-> **Selenium n'est pas utilisé** : les pages publiques de profil Scholar sont accessibles en HTTP simple ; Selenium n'apporterait qu'une dépendance lourde et inciterait à contourner les protections de Google, ce que le projet s'interdit.
+Python 3.11 / 3.12, pandas, NumPy, PyArrow, pdfplumber, requests + BeautifulSoup, Pydantic, PyYAML, python-dotenv, sentence-transformers + PyTorch (zembed-1), FAISS, scikit-learn, UMAP, matplotlib, Plotly, Jupyter, pytest.
 
 ## Installation
 
 ```bash
 python -m venv .venv
-```
-
-Windows :
-```bash
-.venv\Scripts\activate
-```
-Linux / macOS :
-```bash
-source .venv/bin/activate
-```
-Puis :
-```bash
+.venv\Scripts\activate          # Linux / macOS : source .venv/bin/activate
 pip install -r requirements.txt
-cp .env.example .env        # Windows : copy .env.example .env
+cp .env.example .env            # Windows : copy .env.example .env
 ```
 
-Renseignez ensuite `.env` (jamais versionné) :
+Le fichier `.env` (jamais versionné) contient :
 
 | Variable | Rôle |
 |---|---|
-| `ZEROENTROPY_API_KEY` | **Inutile par défaut** (zembed-1 s'exécute en local avec les poids ouverts). Uniquement pour les transports `sdk`/`http` : ZeroEntropy n'accepte plus de nouvelles inscriptions |
-| `CONTACT_EMAIL` | Recommandé : identifie vos requêtes auprès de Crossref/OpenAlex (« polite pool ») |
-| `OPENALEX_API_KEY` | Recommandé (gratuit, <https://openalex.org> → compte → API key) : sans clé, le quota quotidien d'OpenAlex est partagé par toute l'adresse IP et vite épuisé |
-| `SEMANTIC_SCHOLAR_API_KEY` | Optionnel (limite de débit plus élevée) |
+| `CONTACT_EMAIL` | adresse de contact envoyée à Crossref et OpenAlex |
+| `OPENALEX_API_KEY` | clé gratuite (openalex.org → compte → API key) ; sans clé le quota quotidien est partagé par tout le réseau et vite épuisé |
+| `SEMANTIC_SCHOLAR_API_KEY` | optionnelle |
+| `ZEROENTROPY_API_KEY` | inutile par défaut (voir la section zembed-1) |
 
-Placez `Membres FSBM.pdf` dans `data/input/` (ignoré par Git : document institutionnel).
+Le PDF `Membres FSBM.pdf` se place dans `data/input/` (non versionné : document institutionnel).
 
 ## Exécution
 
 ```bash
-python scripts/01_extract_members.py
-python scripts/02_scrape_scholar.py
-python scripts/03_clean_data.py
-python scripts/04_generate_embeddings.py     # zembed-1 en local : GPU requis en pratique → voir « Embeddings sur GPU (Colab) »
-python scripts/05_build_index.py
-python scripts/06_demo_search.py
+python scripts/01_extract_members.py        # PDF -> data/raw/chercheurs_fsbm.csv
+python scripts/02_scrape_scholar.py         # profils et publications Scholar
+python scripts/03_clean_data.py             # nettoyage -> data/processed/
+python scripts/04_generate_embeddings.py    # zembed-1 (GPU : voir ci-dessous)
+python scripts/05_build_index.py            # index FAISS
+python scripts/06_demo_search.py            # 5 requêtes de démonstration
+python scripts/07_semantic_map.py           # cartographie
+python scripts/08_descriptive_analysis.py   # graphiques
 ```
 
-**Embeddings sur GPU (Colab).** zembed-1 a 4 milliards de paramètres (~8 Go) : sans GPU, l’encodage prend ~2 min par publication (plusieurs jours pour 2 000). Procédure :
-1. `python scripts/make_colab_bundle.py` → `outputs/colab/colab_bundle.zip` (code + `publications_clean.parquet` uniquement ; ni `.env`, ni PDF, ni données brutes) ;
-2. ouvrir `notebooks/02_colab_embeddings_gpu.ipynb` dans Google Colab (GPU T4), envoyer le zip, exécuter les cellules ;
-3. décompresser le `zembed_outputs.zip` téléchargé dans `data/vector_store/`, puis `python scripts/05_build_index.py` (et, si souhaité, `python scripts/04_generate_embeddings.py --attach-only`).
+Chaque script accepte `--help`. Pour un essai rapide : `python scripts/02_scrape_scholar.py --limit-researchers 3 --max-publications 10`.
 
-**Un GPU est nécessaire pour le jeu de données complet.** Mesuré sur un portable (i7 4 cœurs, sans GPU utilisable) : environ **2 minutes par publication réelle** (titre + abstract ≈ 250-300 tokens) — plusieurs jours pour 2 000 publications. Le mode CPU (`python scripts/04_generate_embeddings.py`) ne convient qu'à de petits échantillons (`--limit N`) ; le cache SQLite est alimenté après chaque lot, on peut interrompre puis relancer. Sur un GPU gratuit de Colab (T4), l'ordre de grandeur attendu est de quelques minutes (estimation à partir de la puissance de calcul, non mesurée ici). Le modèle est identique dans les deux cas ; seule la durée change. Un autre GPU (Kaggle, station de l'université) convient aussi.
+### Google Scholar
 
-Les 5 requêtes de démonstration sont encodées en même temps et stockées dans le cache : `06_demo_search.py` fonctionne ensuite sans recharger le modèle. Une requête libre demande de charger les poids en local (lent sur CPU).
+Le `robots.txt` de Scholar autorise les pages de profil (`/citations?user=ID`) mais interdit la recherche d'auteurs par nom et la pagination. Le script respecte ces règles : il ne visite que les profils dont l'identifiant Scholar est connu, à raison d'une requête toutes les 10 à 20 secondes, et vérifie chaque URL avant de l'envoyer. Les identifiants se renseignent dans `data/raw/scholar_overrides.csv` (`python scripts/02_scrape_scholar.py --init-overrides` crée le modèle). Si l'on dispose déjà d'une liste JSON `nom / identifiant`, `python scripts/import_scholar_ids.py` la rapproche du PDF et remplit ce fichier.
 
-Étapes complémentaires : `python scripts/07_semantic_map.py` (cartographie), `python scripts/08_descriptive_analysis.py` (graphiques). Toutes les commandes acceptent `--help`.
+Quand Google bloque (HTTP 429, ou page « not a robot »), le script s'arrête en gardant tout ce qui a été collecté ; on relance plus tard avec la même commande. Il ne tente jamais de contourner le blocage.
 
-> **Étape 02 et `robots.txt` de Google Scholar.** Le `robots.txt` de Scholar autorise les pages de profil (`/citations?user=ID`) mais **interdit la recherche d'auteurs par nom** (`Disallow: /citations?`) et la **pagination** (`Disallow: /citations?*cstart=`). Par défaut le projet respecte ces règles : chaque URL est vérifiée avant envoi, la recherche par nom est désactivée et seuls les profils dont le **Scholar ID** est renseigné sont collectés (au plus 100 publications, une seule page).
->
-> 1. `python scripts/02_scrape_scholar.py --init-overrides` génère `data/raw/scholar_overrides.csv` (un chercheur par ligne) ;
-> 2. renseignez `scholar_id` : c'est la valeur `user=…` de l'URL du profil Scholar (laisser vide s'il n'y a pas de profil) ;
-> 3. lancez l'étape 02.
->
-> Si vous disposez déjà d'une liste `[{"nom_complet": …, "chercheur_id": <Scholar ID>}, …]` (JSON), `python scripts/import_scholar_ids.py --dry-run` puis `python scripts/import_scholar_ids.py` la rapprochent de la liste du PDF (score de nom, format de l'ID sur 12 caractères, homonymes, autres établissements) et remplissent le CSV ; les entrées douteuses sont signalées, jamais importées (rapport : `outputs/reports/scholar_ids_import_report.json`).
->
-> L'option `--allow-author-search` réactive la recherche automatique par nom (avec scoring de confiance, voir *Limites*) : c'est un **choix explicite et sous la responsabilité de l'utilisateur**, le robots.txt l'interdisant. Le backend `scholarly` n'est utilisable que si `respect_robots_txt` est désactivé dans `settings.yaml`.
+Deux moyens de compléter les chercheurs manquants :
 
-**Essai rapide sur 3 chercheurs (recommandé en premier) :**
+* **Pages enregistrées à la main.** On ouvre soi-même chaque profil dans le navigateur (en validant le contrôle « not a robot » si besoin), puis Ctrl+S (« Page Web, HTML uniquement ») dans `data/input/scholar_html/`. `python scripts/import_scholar_html.py --checklist` génère la liste cliquable des profils, et `python scripts/import_scholar_html.py` lit les fichiers enregistrés, sans aucune requête vers Google.
+* **Repli OpenAlex** (`python scripts/02b_openalex_fallback.py`), décrit ci-dessous.
 
-```bash
-python scripts/01_extract_members.py
-python scripts/02_scrape_scholar.py --init-overrides      # puis renseigner au moins 3 scholar_id
-python scripts/02_scrape_scholar.py --limit-researchers 3 --max-publications 10
-python scripts/03_clean_data.py
-python scripts/make_colab_bundle.py                   # puis notebook Colab (voir ci-dessus) pour l'encodage zembed-1
-python scripts/05_build_index.py
-python scripts/06_demo_search.py
-```
+### Repli OpenAlex
 
-**Repli OpenAlex (`scripts/02b_openalex_fallback.py`).** Google Scholar limite l'accès (HTTP 429) après un nombre restreint de requêtes ; le projet ne contourne jamais cette limite (ni proxy, ni changement d'IP). Pour ne pas rester bloqué, les chercheurs sans données Scholar sont complétés via l'**API officielle et ouverte d'OpenAlex** (publications, abstracts, DOI, revues, citations, h-index). Garde-fous :
-* un profil OpenAlex n'est retenu que si son nom est quasi identique **et** s'il est rattaché à l'Université Hassan II de Casablanca ; les homonymes importants sont écartés (`ambiguous`), les fragments d'un même auteur sont fusionnés, l'absence de profil reste une absence (`not_found`) ;
-* ces données sont étiquetées `data_source = "openalex"` (colonne `data_source` de `chercheurs_clean.csv`, champ `source_donnees` du JSON, `scrape_status = "openalex"` sur chaque publication) ;
-* **Scholar reprend la priorité** dès qu'il fournit des publications pour un chercheur (la consolidation choisit la source à chaque exécution) ;
-* validation sur les 5 chercheurs collectés depuis Scholar (`python scripts/02b_openalex_fallback.py --validate`, rapport `outputs/reports/openalex_vs_scholar_validation.json`) : le bon profil OpenAlex est retrouvé 5 fois sur 5 ; **74 % en moyenne des publications Scholar** figurent dans OpenAlex (100 %, 87 %, 81 %, 100 %, 0 %) ; les métriques OpenAlex sont un peu plus basses que celles de Scholar (couverture différente) et ne doivent **pas** être présentées comme des métriques Google Scholar.
+OpenAlex est une base scientifique ouverte avec une API officielle (publications, abstracts, DOI, revues, citations, h-index). Elle sert pour les chercheurs sans données Scholar :
 
-Options utiles de `02_scrape_scholar.py` : `--init-overrides`, `--limit-researchers N`, `--max-publications N`, `--only "Nom"` (chercheur précis), `--resume` / `--no-resume`, `--backend http|scholarly`, `--no-details`, `--skip-enrichment`, `--enrich-only`, `--allow-author-search`.
+* un profil OpenAlex n'est retenu que si son nom est quasi identique et s'il est rattaché à l'Université Hassan II de Casablanca ; les homonymes importants sont écartés et les fragments d'un même auteur sont fusionnés ;
+* les données sont étiquetées `data_source = "openalex"` (colonne du CSV, champ `source_donnees` du JSON, `scrape_status` de chaque publication) ;
+* dès que Scholar fournit des publications pour un chercheur, ses données remplacent celles d'OpenAlex ;
+* comparaison avec Scholar sur les 5 chercheurs collectés depuis Scholar (`python scripts/02b_openalex_fallback.py --validate`) : le bon profil est retrouvé 5 fois sur 5, et 74 % en moyenne des publications Scholar figurent dans OpenAlex (100 %, 87 %, 81 %, 100 %, 0 %). Les métriques OpenAlex sont un peu plus basses que celles de Scholar : on ne les présente pas comme des métriques Google Scholar.
+
+### Embeddings zembed-1 sur GPU
+
+zembed-1 compte 4 milliards de paramètres (~8 Go). Sur un portable sans GPU, l'encodage prend environ 2 minutes par publication (mesuré : plusieurs jours pour 2 000 publications). Les embeddings ont donc été calculés sur un GPU gratuit de Google Colab :
+
+1. `python scripts/make_colab_bundle.py` crée `outputs/colab/colab_bundle.zip` (le code et `publications_clean.parquet` uniquement) ;
+2. ouvrir `notebooks/02_colab_embeddings_gpu.ipynb` dans Colab (GPU T4), envoyer le zip, exécuter les cellules ;
+3. décompresser le `zembed_outputs.zip` téléchargé dans `data/vector_store/`, puis `python scripts/05_build_index.py` (et `python scripts/04_generate_embeddings.py --attach-only` pour intégrer les vecteurs au JSON).
+
+Les 5 requêtes de démonstration sont encodées en même temps et stockées dans le cache : `06_demo_search.py` s'exécute ensuite sans recharger le modèle. Une requête libre demande de charger les poids en local, ce qui est lent sans GPU.
 
 ## Structure
 
 ```
 fsbm-semantic-publications/
-├── config/settings.yaml          # tous les paramètres (délais, seuils, modèle, k…)
+├── config/settings.yaml          # paramètres (délais, seuils, modèle, k…)
 ├── data/
-│   ├── input/                    # Membres FSBM.pdf (non versionné)
-│   ├── raw/                      # chercheurs_fsbm.csv, scholars_raw.json, publications_raw.json, cache/
+│   ├── input/                    # PDF et pages Scholar enregistrées (non versionnés)
+│   ├── raw/                      # chercheurs_fsbm.csv, scholars_raw.json, publications_raw.json
 │   ├── processed/                # *_clean.csv, publications_clean.parquet, dataset_final.json
-│   └── vector_store/             # embeddings.npy, index FAISS, cache des requêtes (versionnés : livrables)
-├── notebooks/01_pipeline_demo.ipynb
+│   └── vector_store/             # embeddings.npy, index FAISS, cache des requêtes
+├── notebooks/                    # 01_pipeline_demo (démonstration), 02_colab_embeddings_gpu
 ├── src/
-│   ├── data/                     # extraction PDF, scraping Scholar (parsing/matching/backends), enrichissement, schémas Pydantic
-│   ├── preprocessing/            # text_cleaner.py, data_cleaner.py
-│   ├── embeddings/zembed_client.py
-│   ├── search/                   # vector_store.py (FAISS), semantic_search.py
-│   ├── analysis/                 # descriptive_analysis.py, semantic_map.py
-│   └── utils/                    # config, logger, retry/backoff, I/O atomique
-├── scripts/01…08_*.py            # CLI argparse
-├── tests/                        # pytest (aucun accès réseau)
+│   ├── data/                     # extraction du PDF, Scholar, OpenAlex, enrichissement, schémas
+│   ├── preprocessing/            # nettoyage du texte et des données
+│   ├── embeddings/               # client zembed-1
+│   ├── search/                   # index FAISS, recherche sémantique
+│   ├── analysis/                 # cartographie, statistiques
+│   └── utils/                    # configuration, logs, retries
+├── scripts/                      # 01 à 08, plus les scripts d'import et de repli
+├── tests/                        # pytest (sans accès réseau)
 └── outputs/{figures,logs,reports}
 ```
 
-## Dataset
+## Données
 
-**Tables logiques** : `researchers` (`chercheurs_clean.csv`), `publications` (`publications_clean.{csv,parquet}`, une ligne par article dédupliqué) et `researcher_publications` (`researcher_publications.csv`, lien N-N : un article co-signé par plusieurs chercheurs FSBM n'est stocké qu'une fois).
+Trois tables : les chercheurs (`chercheurs_clean.csv`), les publications (`publications_clean.csv` et `.parquet`, une ligne par article) et le lien entre les deux (`researcher_publications.csv`). Un article co-signé par plusieurs chercheurs FSBM n'apparaît qu'une fois.
 
-**`dataset_final.json`** (structure demandée) :
+`dataset_final.json` suit le schéma demandé (les valeurs `null` ci-dessous illustrent la structure) :
 
 ```json
 {
-  "chercheur_id": "<Scholar ID unique>",
+  "chercheur_id": "<identifiant Scholar>",
   "chercheur_id_interne": "fsbm_prenom_nom",
-  "scholar_id": "<Scholar ID unique>",
+  "scholar_id": "<identifiant Scholar>",
   "nom_complet": "Prénom Nom",
   "affiliation": "…",
   "laboratoire": "…",
   "equipe": "…",
-  "scholar_profile_status": "matched",
-  "profile_match_confidence": 0.9,
-  "metriques": { "citations_totales": null, "h_index": null, "i10_index": null,
-                 "citations_since_2021": null, "h_index_since_2021": null, "i10_index_since_2021": null },
+  "source_donnees": "google_scholar",
+  "metriques": { "citations_totales": null, "h_index": null, "i10_index": null },
   "articles": [
     { "article_id": "art_00001", "titre": "…", "auteurs": ["…"], "date_publication": "2021-01-01",
       "journal": "…", "citations": null, "doi": null,
       "abstract": "texte brut", "abstract_clean": "texte nettoyé", "abstract_status": "found",
-      "embedding_source": "title_abstract", "embedding_zembed1": [ "…" ] }
+      "embedding_source": "title_abstract", "embedding_zembed1": ["…"] }
   ]
 }
 ```
 
-(les `null` ci-dessus illustrent la structure ; ce ne sont pas des valeurs réelles.)
+Champs de statut : `scholar_profile_status` (`matched`, `ambiguous`, `not_found`, `blocked`, `error`), `abstract_status` (`found`, `truncated`, `too_short`, `not_found`, `api_error`), `abstract_source`, `embedding_source` (`title_abstract` ou `title_only`, quand il n'y a pas d'abstract), `date_precision` (`day`, `month`, `year`).
 
-**Champs de statut** : `scholar_profile_status` (`matched`, `ambiguous`, `not_found`, `blocked`, `error`), `profile_match_confidence` ∈ [0,1], `collection_status`, `abstract_status` (`found`, `truncated`, `too_short`, `not_found`, `api_error`, `publisher_unavailable`), `abstract_source` (`google_scholar`, `crossref`, `openalex`, `semantic_scholar`, `publisher_page`), `embedding_source` (`title_abstract` | `title_only`), `date_precision` (`day` | `month` | `year`).
+Nettoyage : `abstract` est le texte brut ; `abstract_clean` est en minuscules, sans HTML, sans étiquette « Abstract » ni « … » de troncature, avec les symboles scientifiques conservés. On ne retire pas les stop-words et on ne fait pas de stemming, inutiles avec des embeddings modernes. Les doublons sont détectés par DOI, puis par titre et année, puis par similarité de titre (seuil 0,93) ; deux DOI différents ne sont jamais fusionnés. Un « abstract » qui n'est en réalité qu'une liste d'affiliations d'auteurs est écarté.
 
-**Métriques « depuis 2021 »** : Scholar affiche « Since *(année courante − 5)* ». Les champs `*_since_2021` ne sont renseignés que si la fenêtre lue sur la page vaut réellement 2021 ; sinon ils restent `None` et les valeurs génériques sont dans `*_since` avec `since_year`.
-
-**Nettoyage** : `abstract` = texte brut jamais modifié ; `abstract_clean` = minuscules, sans HTML/JATS, sans étiquette « Abstract », sans « … » de troncature, symboles scientifiques (α, µ, ±, °) conservés. **Pas de suppression de stop-words ni de stemming** (inutiles et nuisibles avec des embeddings modernes). Déduplication : DOI normalisé → titre normalisé + année → flou prudent (seuil 0,93) ; jamais deux DOI différents, jamais « Part I » / « Part II ».
-
-**Rapport qualité** : `outputs/reports/data_quality_report.{json,md}` (% sans abstract, % chercheurs sans Scholar, doublons fusionnés, publications avec DOI, abstracts récupérés par source, erreurs de scraping, erreurs de validation).
-
-**Données versionnées** : tout ce qui est demandé comme livrable l'est — CSV/JSON/Parquet de `raw/` et `processed/`, `dataset_final.json` **avec** les vecteurs `embedding_zembed1` (schéma du sujet), `data/vector_store/` (embeddings zembed-1 `n × 2560`, index FAISS, correspondance `vector_id → article_id`, cache des requêtes de démonstration), figures et cartes interactives. Restent hors Git : `.env`, le PDF institutionnel `Membres FSBM.pdf` et le cache de scraping (`data/raw/cache/`).
+Le rapport qualité est dans `outputs/reports/data_quality_report.{json,md}`. Les embeddings, l'index FAISS et le JSON complet sont versionnés ; restent hors Git le `.env`, le PDF et le cache de collecte.
 
 ## Recherche sémantique
 
@@ -210,87 +160,79 @@ from src.search.semantic_search import semantic_search
 semantic_search("deep learning for medical imaging", top_k=5)
 ```
 
-1. la requête est encodée par **zembed-1** avec `input_type="query"` (les publications l'ont été avec `input_type="document"`) ;
-2. similarité cosinus (vecteurs normalisés L2, `IndexFlatIP` exact) ;
-3. résultat : `rank, score, article_id, titre, chercheurs FSBM, année, journal, laboratoire, équipe, citations, abstract court, DOI/URL`.
+La requête est encodée par zembed-1 (`input_type="query"`, les publications l'ont été en `document`), puis comparée aux publications par similarité cosinus (vecteurs normalisés, `IndexFlatIP`). Chaque résultat donne le rang, le score, le titre, les chercheurs FSBM, l'année, la revue, le laboratoire, l'équipe, les citations, un extrait de l'abstract et le DOI.
 
-**Recherche de chercheurs** (`engine.search_researchers`) : les 100 publications les plus proches sont retrouvées, puis le score d'un chercheur est la **moyenne de ses 3 meilleures similarités** (places manquantes = 0). Un chercheur avec plusieurs publications proches passe donc devant un chercheur avec une seule publication très proche. Le classement est entièrement fondé sur les embeddings, pas sur le nom du laboratoire.
+Pour classer les **chercheurs**, on retrouve les 100 publications les plus proches puis on donne à chaque chercheur la moyenne de ses 3 meilleures similarités (une place vide compte 0). Un chercheur avec plusieurs publications proches passe ainsi devant un chercheur avec une seule publication très proche. Le classement repose uniquement sur les embeddings.
 
-Démonstration : `python scripts/06_demo_search.py` exécute les 5 requêtes du sujet (*deep learning for medical imaging*, *natural language processing*, *machine learning for cancer diagnosis*, *renewable energy materials*, *environmental pollution*) et écrit `outputs/reports/demo_search_results.{md,json}`.
+`python scripts/06_demo_search.py` exécute les 5 requêtes du sujet (deep learning for medical imaging, natural language processing, machine learning for cancer diagnosis, renewable energy materials, environmental pollution) et écrit `outputs/reports/demo_search_results.{md,json}`.
 
-### Intégration de zembed-1 (vérifiée dans la documentation officielle et la fiche Hugging Face)
+## Le modèle zembed-1
 
-**Contexte.** ZeroEntropy (éditeur de zembed-1) a été racheté et n'accepte plus de nouvelles inscriptions : aucune nouvelle clé API n'est obtenable. Le modèle reste toutefois publié en **poids ouverts** ; le projet les exécute donc directement. C'est **le même modèle zembed-1** (pas un substitut), et le client refuse toute autre valeur.
+zembed-1 est développé par ZeroEntropy, qui n'accepte plus de nouvelles inscriptions à son API. Le modèle reste publié en poids ouverts, et c'est ce que le projet utilise : le même zembed-1, exécuté directement. Le client refuse tout autre nom de modèle.
 
 | Point | Valeur |
 |---|---|
-| Modèle | `zembed-1` (ZeroEntropy) — toute autre valeur lève une erreur (aucun remplacement silencieux) |
-| Poids ouverts (transport `local`, **défaut**) | `zeroentropy/zembed-1-embedding` sur Hugging Face — licence **Apache-2.0**, 4 Md de paramètres, base Qwen3-4B, révision épinglée (`cf13c81f…`) |
-| Chargement | `SentenceTransformer(..., trust_remote_code=True, model_kwargs={"torch_dtype": …})` ; `encode_query` (requêtes) / `encode_document` (publications) |
-| Code distant | `modeling_zembed.py` (20 lignes, relu) : ajoute `<|im_end|>
-` au texte puis tokenise |
-| Dimension | 2560 par défaut ; Matryoshka 1280, 640, 320, 160, 80, 40 ; **lue sur les vecteurs produits**, jamais supposée (`embedding_run.json`) |
-| Contexte | 32 768 tokens ; le projet limite à `max_seq_length: 512` (titre + abstract ≈ 150-400 tokens) |
-| Précision | `auto` : bfloat16 (GPU Ampere+, CPU) ou float16 (T4) ; NaN détectés → erreur explicite |
-| API hébergée (transports `sdk` / `http`, optionnels) | `POST https://api.zeroentropy.dev/v1/models/embed`, `Authorization: Bearer <clé>`, `input_type` obligatoire ; SDK `zeroentropy` (alpha `0.1.0a11`) ; limite 5 Mo/requête, débit 500 Ko/min |
+| Poids | `zeroentropy/zembed-1-embedding` (Hugging Face), licence Apache-2.0, 4 milliards de paramètres, base Qwen3-4B, révision épinglée (`cf13c81f…`) |
+| Chargement | `SentenceTransformer(..., trust_remote_code=True)` ; `encode_query` pour les requêtes, `encode_document` pour les publications |
+| Code distant | `modeling_zembed.py` (20 lignes, relues) : ajoute un marqueur de fin de texte puis tokenise |
+| Dimension | 2560 par défaut (Matryoshka : 1280 à 40), lue sur les vecteurs produits (`embedding_run.json`) |
+| Longueur | limitée à 512 tokens ici (titre + abstract : 150 à 400 tokens) ; le modèle accepte 32 768 |
+| Précision | bfloat16 ou float16 selon le GPU ; les NaN sont détectés |
+| API hébergée | `POST https://api.zeroentropy.dev/v1/models/embed` (transports `sdk` et `http`, optionnels, clé nécessaire) |
 
-Le client gère : lots (nombre **et** octets), retries avec backoff exponentiel (respect de `Retry-After`) pour l'API, mémoire insuffisante et NaN pour le mode local, erreurs fatales distinguées des erreurs temporaires, cache SQLite (partagé entre transports) avec sauvegarde après **chaque lot**, reprise automatique.
+Le client gère les lots, les erreurs de mémoire, les NaN, un cache SQLite sauvegardé après chaque lot et la reprise après interruption.
 
 ## Résultats
 
-**Extraction du PDF « Membres FSBM » (vérifiée, `scripts/01`)** : 215 lignes extraites = 215 annoncées en pied de page, numérotation 1…215 sans trou, 0 doublon ; **207 membres FSBM**, 8 membres d'autres établissements conservés dans le fichier brut (FSJESAS 3, FLSHBM 2, ENCG 2, FMPC 1) ; **11 laboratoires** et **42 équipes** FSBM ; tous de type « Membre Permanent(e) ».
+**Extraction du PDF.** 215 lignes extraites, égales aux 215 annoncées en pied de page, numérotées de 1 à 215 sans trou ni doublon. On compte 207 membres FSBM (et 8 d'autres établissements, gardés dans le fichier brut : FSJESAS 3, FLSHBM 2, ENCG 2, FMPC 1), 11 laboratoires et 42 équipes FSBM.
 
-**Jeu de données final (`scripts/03`, rapport `outputs/reports/data_quality_report.{json,md}`)** — chiffres mesurés sur l'exécution livrée :
+**Jeu de données final.**
 
 | Indicateur | Valeur |
 |---|---|
-| Chercheurs FSBM dans le PDF / avec un Scholar ID (périmètre du dataset) | 207 / 86 |
-| Chercheurs **avec publications** dans le dataset | **79** (les 11 laboratoires sont représentés) |
-| … dont source **Google Scholar** / **OpenAlex** (repli) | 5 / 74 |
-| Chercheurs sans données | 7 (2 profils OpenAlex ambigus, 2 introuvables, 3 sans profil rattaché à l'Université Hassan II) — laissés vides, jamais devinés |
-| Publications uniques (après fusion de 171 doublons entre co-auteurs FSBM) | **1 591** (1 728 liens chercheur↔publication) |
+| Chercheurs FSBM dans le PDF / avec un identifiant Scholar | 207 / 86 |
+| Chercheurs avec publications | 79, répartis sur les 11 laboratoires |
+| dont source Google Scholar / OpenAlex | 5 / 74 |
+| Chercheurs sans données | 7 (2 profils OpenAlex ambigus, 2 introuvables, 3 sans profil rattaché à Hassan II) |
+| Publications uniques (171 doublons entre co-auteurs fusionnés) | 1 591 (1 728 liens chercheur–publication) |
 | Avec DOI | 1 522 (95,7 %) |
-| Avec abstract | 1 122 (70,5 %) ; sans abstract 469 (29,5 %) → encodées par le titre seul (`embedding_source = title_only`) |
-| Sources des abstracts | OpenAlex 987, Semantic Scholar 74, Google Scholar 40, Crossref 21 |
-| Erreurs de validation Pydantic | 0 |
-| Embeddings zembed-1 | 1 591 × 2 560 (float32), aucun NaN ; calculés sur GPU T4 (float16) avec les poids officiels |
+| Avec abstract | 1 122 (70,5 %) ; les 469 autres sont encodées par leur titre seul |
+| Origine des abstracts | OpenAlex 987, Semantic Scholar 74, Google Scholar 40, Crossref 21 |
+| Erreurs de validation | 0 |
+| Embeddings zembed-1 | 1 591 × 2 560, aucun NaN (GPU T4, float16) |
 
-**Pourquoi 74 chercheurs sur 79 viennent d'OpenAlex.** Google Scholar a limité l'accès (HTTP 429, puis un contrôle « not a robot ») après quelques dizaines de requêtes, malgré un rythme prudent ; le projet ne contourne jamais ces limites. Le repli OpenAlex (voir plus haut) a été validé sur les 5 chercheurs collectés depuis Scholar (bon profil 5/5, 74 % de recouvrement des publications). **Deux conséquences à connaître :** (1) les métriques (citations, h-index, i10-index) de ces 74 chercheurs sont celles d'OpenAlex, généralement plus basses que celles de Scholar, et ne doivent pas être présentées comme des métriques Google Scholar (`source_donnees` les distingue) ; (2) les publications sont plafonnées à **30 par chercheur** (les plus citées), donc les classements décrivent le dataset collecté, pas la production totale. Une reprise ultérieure de `scripts/02_scrape_scholar.py` remplacera automatiquement les données de repli par celles de Scholar dès que l'accès sera rétabli.
+**Pourquoi 74 chercheurs viennent d'OpenAlex.** Google Scholar a limité l'accès (HTTP 429, puis un contrôle « not a robot ») après quelques dizaines de requêtes, malgré un rythme prudent. Deux conséquences : les métriques de ces 74 chercheurs sont celles d'OpenAlex (`source_donnees` les distingue), et chaque chercheur est limité à ses 30 publications les plus citées, donc les classements décrivent le jeu collecté et non la production totale de la FSBM.
 
-**Recherche sémantique — exemples réels** (`outputs/reports/demo_search_results.md`) : « natural language processing » ramène des travaux sur BERT et l'analyse de sentiments, et classe parmi les chercheurs E. H. Benlahmar, O. Zahour, A. Daif et S. El Filali ; « renewable energy materials » ramène pérovskites et cellules solaires à base de ZnO/CuO ; « environmental pollution » ramène la qualité des eaux souterraines et l'acidification côtière.
+**Exemples de recherche** (`outputs/reports/demo_search_results.md`). « natural language processing » ramène des travaux sur BERT et l'analyse de sentiments, et place parmi les chercheurs E. H. Benlahmar, O. Zahour, A. Daif et S. El Filali. « renewable energy materials » ramène des pérovskites et des cellules solaires ZnO/CuO. « environmental pollution » ramène la qualité des eaux souterraines et l'acidification côtière.
 
-**Cartographie** : les silhouettes sont quasi identiques pour tout k (≈ 0,03-0,04) : les publications forment un continuum thématique plutôt que des groupes nets. k a donc été **fixé à 8** (`semantic_map.n_clusters`) pour obtenir une carte lisible, et non pas choisi par optimisation.
+**Cartographie.** Projection UMAP en 2D (métrique cosinus) puis KMeans. Les scores de silhouette sont presque identiques pour tous les k (0,03 à 0,04) : les thèmes forment un continuum plutôt que des groupes nets. On a donc fixé k = 8 pour une carte lisible (`semantic_map.n_clusters`) ; ce n'est pas un choix optimisé. Chaque groupe est décrit par ses termes TF-IDF les plus caractéristiques et ses titres les plus centraux. Ces groupes sont un découpage mathématique, pas une classification officielle des disciplines.
 
-Sorties : `outputs/figures/` (01…08 + `semantic_map_*`), `outputs/reports/` (qualité, résumé descriptif, résumé des clusters, résultats de recherche).
-
-**Cartographie sémantique** : projection UMAP 2D (`random_state=42`, métrique cosinus) puis KMeans (k choisi par silhouette sur `k_range`). Chaque cluster est décrit par ses termes TF-IDF les plus caractéristiques et ses titres les plus centraux. **Les clusters sont des groupes sémantiques obtenus mathématiquement, pas des vérités scientifiques ni une classification officielle des disciplines.**
+Figures : `outputs/figures/` (graphiques 01 à 08 et cartes `semantic_map_*`, dont une version interactive en HTML).
 
 ## Limites
 
-* **Éthique et bon usage de Google Scholar** — données **publiques** uniquement ; requêtes limitées avec délai aléatoire (4–9 s par défaut) ; **aucun contournement de CAPTCHA** ni de protection (pas de proxy, pas de rotation d'identité) ; en cas de blocage (429, « unusual traffic », CAPTCHA) le programme **s'arrête proprement**, sauvegarde tout et se reprend plus tard avec `--resume` ; User-Agent explicite ; **conformité `robots.txt`** vérifiée automatiquement (voir *Exécution*). Les conditions d'utilisation de Google restreignent par ailleurs l'accès automatisé : c'est à l'utilisateur d'apprécier son usage, en particulier s'il active `--allow-author-search`.
-* Google Scholar **peut modifier son HTML** : les sélecteurs sont regroupés dans `src/data/scholar_parsing.py` ; une structure inattendue produit une erreur explicite et un statut `error`, jamais une donnée inventée.
-* Les **citations évoluent** dans le temps ; les valeurs datent de la collecte.
-* Certaines métadonnées peuvent être absentes ; l'aperçu « Description » de Scholar est parfois tronqué (`abstract_status = truncated`) et remplacé si une source externe fournit l'abstract complet.
-* L'appariement de profils est **probabiliste** : les cas `ambiguous` / `not_found` sont exportés dans `data/raw/scholar_candidates_review.csv` ; validez-les à la main en ajoutant `chercheur_id,scholar_id` à `data/raw/scholar_overrides.csv` puis relancez avec `--resume`.
-* Une cellule vide de la colonne « Cité par » de Scholar signifie 0 citation ; une valeur « * » (non fournie) devient `None`.
-* Le PDF écrit certains noms « collés » (`ELHABIB.BENLAHMAR`, `MOHAMMED.AITDAOUD`, `HASSANIAHMED.ADLOUNI`) alors que Scholar les sépare (« El Habib Ben Lahmar ») ; l'ordre nom/prénom n'est pas non plus déductible de façon fiable. La comparaison de noms est donc insensible à l'ordre, aux accents et au découpage des mots. Des homonymes stricts ne peuvent pas être distingués.
-* Le PDF est une impression de page web (barre latérale, cellules multi-lignes) : l'extraction se fait par coordonnées de mots avec contrôle d'intégrité (suite 1…N et total « Records : N sur N »). Si l'export change de mise en page, le script émet des avertissements et `--inspect` aide au diagnostic.
-* Les classements décrivent **le dataset collecté** (plafond de publications par chercheur, profils retrouvés), pas la production totale de la FSBM.
-* Le scraping Scholar et les API externes n'ont **pas pu être testés en conditions réelles** lors du développement (voir *Reproductibilité*) : les tests unitaires couvrent le parsing (fixtures HTML), les blocages, les retries, la reprise et les erreurs isolées avec des simulations.
+* Google Scholar limite l'accès automatisé et peut changer son HTML (les sélecteurs sont regroupés dans `src/data/scholar_parsing.py`). Ses conditions d'utilisation restreignent l'accès automatisé, et l'option `--allow-author-search`, qui recherche les profils par nom, va à l'encontre de son `robots.txt` : elle est désactivée par défaut.
+* La majorité des chercheurs (74 sur 79) vient d'OpenAlex : couverture différente de Scholar (74 % des publications Scholar retrouvées sur l'échantillon comparé) et métriques plus basses.
+* 30 publications au maximum par chercheur, 7 chercheurs sans données, 29,5 % des publications sans abstract.
+* Les citations évoluent : les valeurs datent de la collecte.
+* Le PDF écrit certains noms collés (`ELHABIB.BENLAHMAR`) alors que Scholar les sépare (« El Habib Ben Lahmar ») ; la comparaison de noms ignore donc l'ordre, les accents et le découpage des mots. Des homonymes stricts ne peuvent pas être distingués.
+* Le PDF est une impression de page web : l'extraction se fait par coordonnées de mots, avec un contrôle de cohérence (numéros 1 à N et total annoncé). Si la mise en page change, le script signale des avertissements ; `--inspect` aide à diagnostiquer.
+* Sur Scholar, une cellule « Cité par » vide signifie 0 citation ; la valeur « * » (non fournie) devient `None`.
+* Les tests simulent les pages Scholar, les blocages et les API ; la collecte réelle a été essayée sur quelques profils, dont celui de E. H. Benlahmar, et ses résultats correspondent à ce qu'affiche Scholar.
+* Sans GPU, zembed-1 est trop lent pour tout le corpus (voir plus haut).
 
 ## Reproductibilité
 
-* `random_state = 42` (UMAP, KMeans, PCA, échantillon de silhouette) ;
-* `requirements.txt` (contraintes minimales) et **`requirements.lock.txt`** (versions exactes de l'environnement de test : Python 3.12.13, pandas 3.0.6, numpy 2.5.3, pydantic 2.13.5, faiss-cpu 1.15.1, scikit-learn 1.9.1, umap-learn 0.5.12, zeroentropy 0.1.0a11) ;
-* toute la configuration est dans `config/settings.yaml` ; les caches (`data/raw/cache/`, `embedding_cache.sqlite`) rendent les exécutions reprenables et idempotentes ;
-* les identifiants de chercheurs sont déterministes (`fsbm_prenom_nom`) ; les `article_id` sont attribués séquentiellement après tri par titre normalisé (ils peuvent changer si le corpus change) ;
-* tests : `python -m pytest` (aucun accès réseau, aucun téléchargement de modèle, aucune clé API requise) ;
-* le code compile sous Python 3.11 et a été exécuté sous Python 3.12.
+* `random_state = 42` (UMAP, KMeans, PCA) ;
+* `requirements.txt` donne les versions minimales et `requirements.lock.txt` les versions exactes utilisées (Python 3.12) ;
+* toute la configuration est dans `config/settings.yaml` ; les caches rendent les exécutions reprenables ;
+* les identifiants de chercheurs sont déterministes (`fsbm_prenom_nom`) ; les `article_id` sont numérotés après tri par titre et peuvent changer si le corpus change ;
+* `python -m pytest` lance les tests, sans accès réseau, sans téléchargement de modèle et sans clé API.
 
 ## Auteurs
 
-Projet réalisé par **Nouhaila ELHOUMA** — Master Big Data / Data Science, Faculté des Sciences Ben M'Sik (FSBM), Université Hassan II de Casablanca.
+Projet réalisé par Nouhaila ELHOUMA — Master Big Data / Data Science, Faculté des Sciences Ben M'Sik (FSBM), Université Hassan II de Casablanca.
 
-Encadrant : **Pr. El Habib BENLAHMAR**.
+Encadrant : Pr. El Habib BENLAHMAR.
 
 Licence : MIT (voir `LICENSE`).
