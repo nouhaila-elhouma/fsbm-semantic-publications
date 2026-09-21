@@ -83,7 +83,7 @@ class PublicationEnricher:
 
     def __init__(self, settings: dict[str, Any], cache_path: Path, contact_email: Optional[str] = None,
                  s2_api_key: Optional[str] = None, session: Optional[requests.Session] = None,
-                 delay_fn: Optional[Callable[[], Any]] = None) -> None:
+                 delay_fn: Optional[Callable[[], Any]] = None, openalex_api_key: Optional[str] = None) -> None:
         self.cfg = settings["enrichment"]
         self.cache_path = Path(cache_path)
         self.cache: dict[str, dict[str, Any]] = read_json(self.cache_path, default={})
@@ -92,6 +92,7 @@ class PublicationEnricher:
         self.session.headers.update({"User-Agent": ua})
         self.contact_email = contact_email
         self.s2_api_key = s2_api_key
+        self.openalex_api_key = openalex_api_key
         self.delay = delay_fn or (lambda: polite_sleep(self.cfg["min_delay"], self.cfg["max_delay"]))
         self.threshold = self.cfg["title_match_threshold"]
         self._get_json = retry(self.cfg["retries"], 2.0, retry_on=(TransientError,))(self._get_json_once)
@@ -135,6 +136,8 @@ class PublicationEnricher:
 
     def _openalex(self, pub: dict[str, Any], doi: Optional[str]) -> dict[str, Any]:
         params = {"mailto": self.contact_email} if self.contact_email else {}
+        if self.openalex_api_key:                              # clé gratuite : budget propre (sinon quota partagé par l'IP)
+            params["api_key"] = self.openalex_api_key
         if doi:
             item = self._call(f"https://api.openalex.org/works/https://doi.org/{quote(doi, safe='/')}", params)
         else:

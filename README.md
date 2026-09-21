@@ -83,6 +83,7 @@ Renseignez ensuite `.env` (jamais versionné) :
 |---|---|
 | `ZEROENTROPY_API_KEY` | **Inutile par défaut** (zembed-1 s'exécute en local avec les poids ouverts). Uniquement pour les transports `sdk`/`http` : ZeroEntropy n'accepte plus de nouvelles inscriptions |
 | `CONTACT_EMAIL` | Recommandé : identifie vos requêtes auprès de Crossref/OpenAlex (« polite pool ») |
+| `OPENALEX_API_KEY` | Recommandé (gratuit, <https://openalex.org> → compte → API key) : sans clé, le quota quotidien d'OpenAlex est partagé par toute l'adresse IP et vite épuisé |
 | `SEMANTIC_SCHOLAR_API_KEY` | Optionnel (limite de débit plus élevée) |
 
 Placez `Membres FSBM.pdf` dans `data/input/` (ignoré par Git : document institutionnel).
@@ -130,6 +131,12 @@ python scripts/make_colab_bundle.py                   # puis notebook Colab (voi
 python scripts/05_build_index.py
 python scripts/06_demo_search.py
 ```
+
+**Repli OpenAlex (`scripts/02b_openalex_fallback.py`).** Google Scholar limite l'accès (HTTP 429) après un nombre restreint de requêtes ; le projet ne contourne jamais cette limite (ni proxy, ni changement d'IP). Pour ne pas rester bloqué, les chercheurs sans données Scholar sont complétés via l'**API officielle et ouverte d'OpenAlex** (publications, abstracts, DOI, revues, citations, h-index). Garde-fous :
+* un profil OpenAlex n'est retenu que si son nom est quasi identique **et** s'il est rattaché à l'Université Hassan II de Casablanca ; les homonymes importants sont écartés (`ambiguous`), les fragments d'un même auteur sont fusionnés, l'absence de profil reste une absence (`not_found`) ;
+* ces données sont étiquetées `data_source = "openalex"` (colonne `data_source` de `chercheurs_clean.csv`, champ `source_donnees` du JSON, `scrape_status = "openalex"` sur chaque publication) ;
+* **Scholar reprend la priorité** dès qu'il fournit des publications pour un chercheur (la consolidation choisit la source à chaque exécution) ;
+* validation sur les 5 chercheurs collectés depuis Scholar (`python scripts/02b_openalex_fallback.py --validate`, rapport `outputs/reports/openalex_vs_scholar_validation.json`) : le bon profil OpenAlex est retrouvé 5 fois sur 5 ; **74 % en moyenne des publications Scholar** figurent dans OpenAlex (100 %, 87 %, 81 %, 100 %, 0 %) ; les métriques OpenAlex sont un peu plus basses que celles de Scholar (couverture différente) et ne doivent **pas** être présentées comme des métriques Google Scholar.
 
 Options utiles de `02_scrape_scholar.py` : `--init-overrides`, `--limit-researchers N`, `--max-publications N`, `--only "Nom"` (chercheur précis), `--resume` / `--no-resume`, `--backend http|scholarly`, `--no-details`, `--skip-enrichment`, `--enrich-only`, `--allow-author-search`.
 

@@ -22,11 +22,11 @@ import pandas as pd
 from _bootstrap import ROOT
 
 from src.data.extract_fsbm_members import unique_researchers
-from src.data.publication_enricher import PublicationEnricher
+from src.data.collection_steps import run_enrichment
 from src.data.scholar_ids import write_overrides
 from src.data.scholar_scraper import ScholarCollector, make_backend
 from src.preprocessing.text_cleaner import normalize_for_matching
-from src.utils.config import get_env, load_settings, resolve_path
+from src.utils.config import load_settings, resolve_path
 from src.utils.logger import setup_logging
 
 
@@ -58,21 +58,6 @@ def select_researchers(records: list[dict], only: list[str] | None, limit: int |
         needles = [squash(o) for o in only]
         records = [r for r in records if any(n in squash(r["nom_complet"] + " " + r["chercheur_id"]) for n in needles)]
     return records[:limit] if limit else records
-
-
-def run_enrichment(collector: ScholarCollector, settings: dict, log) -> None:
-    """Enrichit les publications déjà collectées (états du collecteur) puis régénère les JSON consolidés."""
-    enricher = PublicationEnricher(settings, resolve_path(settings, "cache_dir") / "enrichment_cache.json",
-                                   contact_email=get_env("CONTACT_EMAIL"), s2_api_key=get_env("SEMANTIC_SCHOLAR_API_KEY"))
-    if not get_env("CONTACT_EMAIL"):
-        log.warning("CONTACT_EMAIL absent : Crossref/OpenAlex fonctionnent mais le « polite pool » est recommandé (.env).")
-    all_pubs = [p for state in collector.states.values() for p in state.get("publications", [])]
-    log.info("Enrichissement de %d publications (Crossref → OpenAlex → Semantic Scholar)…", len(all_pubs))
-    stats = enricher.enrich_all(all_pubs)
-    for state in collector.states.values():
-        collector.save_state(state)
-    collector.write_consolidated()
-    log.info("Enrichissement terminé : %s", stats)
 
 
 def main() -> int:

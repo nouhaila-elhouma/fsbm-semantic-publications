@@ -334,6 +334,13 @@ class ScholarCollector:
             state = read_json(path)
             if state and "chercheur_id" in state:
                 self.states[state["chercheur_id"]] = state
+        # données de repli OpenAlex (voir src/data/openalex_source.py) : jamais prioritaires sur Scholar
+        self.fallback_dir = Path(cache_dir) / "openalex"
+        self.fallback_states: dict[str, dict[str, Any]] = {}
+        for path in sorted(self.fallback_dir.glob("*.json")) if self.fallback_dir.exists() else []:
+            state = read_json(path)
+            if state and "chercheur_id" in state:
+                self.fallback_states[state["chercheur_id"]] = state
 
     # ------------------------------------------------------------------ persistance
     @staticmethod
@@ -352,10 +359,29 @@ class ScholarCollector:
         write_json(self._cache_path(state["chercheur_id"]), state)
         self.states[state["chercheur_id"]] = state
 
+    def effective_states(self) -> dict[str, dict[str, Any]]:
+        """États retenus : Scholar dès qu'il a fourni des publications, sinon le repli OpenAlex, sinon l'état Scholar."""
+        out = dict(self.states)
+        for cid, fallback in self.fallback_states.items():
+            scholar = self.states.get(cid)
+            scholar_ok = bool(scholar and scholar.get("scholar_profile_status") == "matched" and scholar.get("publications"))
+            if not scholar_ok and fallback.get("scholar_profile_status") == "matched":
+                out[cid] = fallback
+        return out
+
+    def save_any(self, state: dict[str, Any]) -> None:
+        """Sauvegarde un état Scholar OU un état de repli OpenAlex dans son propre fichier de cache."""
+        if state.get("data_source") == "openalex":
+            self.fallback_dir.mkdir(parents=True, exist_ok=True)
+            write_json(self.fallback_dir / f"{state['chercheur_id']}.json", state)
+            self.fallback_states[state["chercheur_id"]] = state
+        else:
+            self.save_state(state)
+
     def write_consolidated(self) -> None:
         """Régénère ``scholars_raw.json`` / ``publications_raw.json`` / CSV de vérification manuelle."""
         scholars, publications = [], []
-        for state in self.states.values():
+        for state in self.effective_states().values():
             scholars.append({k: v for k, v in state.items() if k != "publications"}
                             | {"n_publications_collected": len(state.get("publications", []))})
             publications.extend(state.get("publications", []))

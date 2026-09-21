@@ -286,7 +286,7 @@ RESEARCHER_COLUMNS = [
     "n_affectations", "scholar_id", "scholar_url", "affiliation", "email_domain", "interests", "citations_totales",
     "h_index", "i10_index", "since_year", "citations_since", "h_index_since", "i10_index_since", "citations_since_2021",
     "h_index_since_2021", "i10_index_since_2021", "scholar_profile_status", "profile_match_confidence", "match_method",
-    "collection_status", "status_detail"]
+    "collection_status", "status_detail", "data_source"]
 
 
 def _join_unique(values: pd.Series, sep: str = " | ") -> Optional[str]:
@@ -335,7 +335,8 @@ def clean_researchers(members: pd.DataFrame, scholars_raw: list[dict[str, Any]],
                      "profile_match_confidence": state.get("profile_match_confidence"),
                      "match_method": state.get("match_method"),
                      "collection_status": state.get("collection_status", "n/a"),
-                     "status_detail": state.get("status_detail")})
+                     "status_detail": state.get("status_detail"),
+                     "data_source": state.get("data_source", "google_scholar")})
     df = pd.DataFrame(rows, columns=RESEARCHER_COLUMNS)      # colonnes garanties même sans aucun chercheur
     for col in ("citations_totales", "h_index", "i10_index", "citations_since", "h_index_since", "i10_index_since",
                 "citations_since_2021", "h_index_since_2021", "i10_index_since_2021", "since_year"):
@@ -394,7 +395,7 @@ def validate_researchers(df: pd.DataFrame) -> list[dict[str, Any]]:
                 chercheur_id=row["chercheur_id"], nom_complet=row["nom_complet"],
                 scholar_id=_nn(row.get("scholar_id")) or None, scholar_url=_nn(row.get("scholar_url")) or None,
                 interests=_nn(row.get("interests")) or [], metriques=ScholarMetrics(**metrics),
-                scholar_profile_status=row["scholar_profile_status"],
+                scholar_profile_status=row["scholar_profile_status"], data_source=row.get("data_source") or "google_scholar",
                 profile_match_confidence=None if conf is None or pd.isna(conf) else float(conf))
         except ValidationError as exc:
             for err in exc.errors():
@@ -441,7 +442,7 @@ def build_dataset_final(researchers: pd.DataFrame, articles_df: pd.DataFrame, li
             "scholar_id": row["scholar_id"], "nom_complet": row["nom_complet"],
             "affiliation": row["affiliation"], "laboratoire": row["laboratoire"], "equipe": row["equipe"],
             "interests": list(row["interests"]), "scholar_profile_status": row["scholar_profile_status"],
-            "profile_match_confidence": row["profile_match_confidence"],
+            "source_donnees": row["data_source"], "profile_match_confidence": row["profile_match_confidence"],
             "metriques": {k: row[k] for k in ("citations_totales", "h_index", "i10_index",
                                               "citations_since_2021", "h_index_since_2021", "i10_index_since_2021")},
             "articles": articles})
@@ -463,6 +464,7 @@ def compute_quality_report(researchers: pd.DataFrame, articles_df: pd.DataFrame,
         "chercheurs_avec_scholar_id": clean_stats.get("researchers_with_scholar_id"),
         "chercheurs_fsbm": n_res,
         "chercheurs_par_statut_scholar": researchers["scholar_profile_status"].value_counts().to_dict(),
+        "chercheurs_par_source_de_donnees": researchers["data_source"].value_counts().to_dict(),
         "pct_chercheurs_sans_scholar": pct(int((researchers["scholar_profile_status"] != "matched").sum()), n_res),
         "publications_uniques": n_art,
         "liens_chercheur_publication": len(links),
