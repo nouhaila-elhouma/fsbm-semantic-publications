@@ -1,0 +1,4595 @@
+[
+  {
+    "chercheur_id": "fsbm_abdelhakim_alali",
+    "nom_complet": "Abdelhakim Alali",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Traitement de l'Information",
+    "equipe": "Systèmes Électroniques Intelligents",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "profil validé manuellement (scholar_overrides.csv)",
+    "profile_match_confidence": 1.0,
+    "match_method": "manual_override",
+    "candidates": [],
+    "scholar_id": "OcbnqJIAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=OcbnqJIAAAAJ&hl=en",
+    "profile": {
+      "name": "Abdelhakim Alali",
+      "affiliation": "enseignant-chercheur en génie électrique",
+      "email_domain": "etu.univh2c.ma",
+      "interests": [
+        "systèmes embarqués",
+        "IA",
+        "électronique",
+        "électronique de puissance"
+      ],
+      "metrics": {
+        "citations": 103,
+        "citations_since": 95,
+        "h_index": 5,
+        "h_index_since": 4,
+        "i10_index": 2,
+        "i10_index_since": 2
+      },
+      "since_year": 2021,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "http",
+    "updated_at": "2026-09-21T20:24:56+00:00",
+    "n_publications_collected": 22
+  },
+  {
+    "chercheur_id": "fsbm_abdellah_hamdaoui",
+    "nom_complet": "Abdellah Hamdaoui",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Physique de la Matière Condensée",
+    "equipe": "Mécanique, Ingénierie et Matériaux",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5040108340",
+        "name": "Abdellah Hamdaoui",
+        "works_count": 27
+      },
+      {
+        "openalex_id": "A5005069640",
+        "name": "Abdellah El Hamdaoui",
+        "works_count": 13
+      },
+      {
+        "openalex_id": "A5043970050",
+        "name": "El Hamdaoui Abdellah",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5135342401",
+        "name": "Abdellah El Hamdaoui",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "GcpkTJYAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=GcpkTJYAAAAJ&hl=en",
+    "profile": {
+      "name": "Abdellah Hamdaoui",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Composite Structure Analysis and Optimization",
+        "Numerical methods in engineering",
+        "Structural Analysis and Optimization",
+        "Composite Material Mechanics",
+        "Vibration and Dynamic Analysis"
+      ],
+      "metrics": {
+        "citations": 132,
+        "h_index": 8,
+        "i10_index": 4
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5040108340"
+    ],
+    "n_publications_collected": 27
+  },
+  {
+    "chercheur_id": "fsbm_abdellatif_slimani",
+    "nom_complet": "Abdellatif Slimani",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Traitement de l'Information",
+    "equipe": "Télécommunications et Systèmes Automatiques",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "profil validé manuellement (scholar_overrides.csv)",
+    "profile_match_confidence": 1.0,
+    "match_method": "manual_override",
+    "candidates": [],
+    "scholar_id": "PA70UmkAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=PA70UmkAAAAJ&hl=en",
+    "profile": {
+      "name": "Abdellatif Slimani",
+      "affiliation": "PhD at Sidi Mohamed Ben Abdellah University",
+      "email_domain": "usmba.ac.ma",
+      "interests": [
+        "Numerical methods simulation",
+        "Antennas & Propagation",
+        "Microwave components design",
+        "RFID & Radar systems",
+        "Instrumentation"
+      ],
+      "metrics": {
+        "citations": 141,
+        "citations_since": 79,
+        "h_index": 8,
+        "h_index_since": 6,
+        "i10_index": 7,
+        "i10_index_since": 2
+      },
+      "since_year": 2021,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "http",
+    "updated_at": "2026-09-21T20:24:56+00:00",
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_abdelmoghit_zaarane",
+    "nom_complet": "Abdelmoghit Zaarane",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Traitement de l'Information",
+    "equipe": "Systèmes Électroniques Intelligents",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "profil validé manuellement (scholar_overrides.csv)",
+    "profile_match_confidence": 1.0,
+    "match_method": "manual_override",
+    "candidates": [],
+    "scholar_id": "WyhosLcAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=WyhosLcAAAAJ&hl=en",
+    "profile": {
+      "name": "Abdelmoghit ZAARANE",
+      "affiliation": "Faculty of Sciences Ben M'sick, University Hassan II of Casablanca",
+      "email_domain": "univh2c.ma",
+      "interests": [
+        "Embedded Systems",
+        "Computer Vision",
+        "Advanced Driving Assistance Systems"
+      ],
+      "metrics": {
+        "citations": 412,
+        "citations_since": 367,
+        "h_index": 8,
+        "h_index_since": 8,
+        "i10_index": 8,
+        "i10_index_since": 7
+      },
+      "since_year": 2021,
+      "coauthors": [
+        "SLIMANI Ibtissam",
+        "issam Atouf"
+      ]
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "http",
+    "updated_at": "2026-09-21T20:24:56+00:00",
+    "n_publications_collected": 21
+  },
+  {
+    "chercheur_id": "fsbm_abdenbi_khouaja",
+    "nom_complet": "Abdenbi Khouaja",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Physique de la Matière Condensée",
+    "equipe": "Subatomique et Applications",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5105194327",
+        "name": "Abdenbi Khouaja",
+        "works_count": 4
+      }
+    ],
+    "scholar_id": "4GVCnygAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=4GVCnygAAAAJ&hl=en",
+    "profile": {
+      "name": "Abdenbi Khouaja",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Atomic and Molecular Physics",
+        "Particle accelerators and beam dynamics",
+        "Nuclear Physics and Applications",
+        "Hydrocarbon exploration and reservoir analysis",
+        "Radiation Therapy and Dosimetry"
+      ],
+      "metrics": {
+        "citations": 5,
+        "h_index": 1,
+        "i10_index": 0
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5105194327"
+    ],
+    "n_publications_collected": 4
+  },
+  {
+    "chercheur_id": "fsbm_ahmed_fekri",
+    "nom_complet": "Ahmed Fekri",
+    "etablissement": "FSBM",
+    "laboratoire": "Géosciences, Géomatique et Environnement",
+    "equipe": "Géologie Appliquée et Ressources en Eaux",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "ScholarParseError: Élément #gsc_prf_in introuvable : profil inexistant ou HTML modifié",
+    "profile_match_confidence": 1.0,
+    "match_method": "manual_override",
+    "candidates": [],
+    "scholar_id": "iVcGR4wAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=iVcGR4wAAAAJ&hl=en",
+    "profile": null,
+    "coauthor_hits": [],
+    "collection_status": "error",
+    "backend": "http",
+    "updated_at": "2026-09-21T20:24:56+00:00",
+    "n_publications_collected": 0
+  },
+  {
+    "chercheur_id": "fsbm_allal_labriki",
+    "nom_complet": "Allal Labriki",
+    "etablissement": "FSBM",
+    "laboratoire": "Géosciences, Géomatique et Environnement",
+    "equipe": "Géomatique Appliquée aux Géosciences et à l'Environnement",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5080118606",
+        "name": "Allal Labriki",
+        "works_count": 23
+      }
+    ],
+    "scholar_id": "5nrRDxAAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=5nrRDxAAAAAJ&hl=en",
+    "profile": {
+      "name": "Allal Labriki",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Geological and Geophysical Studies Worldwide",
+        "Landslides and related hazards",
+        "Geological and Geochemical Analysis",
+        "Soil erosion and sediment transport",
+        "Flood Risk Assessment and Management"
+      ],
+      "metrics": {
+        "citations": 64,
+        "h_index": 4,
+        "i10_index": 2
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5080118606"
+    ],
+    "n_publications_collected": 23
+  },
+  {
+    "chercheur_id": "fsbm_asmaa_benbiyi",
+    "nom_complet": "Asmaa Benbiyi",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Chimie Physique des Matériaux Appliqués",
+    "equipe": "Matériaux fonctionnels et applications",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5061744421",
+        "name": "Asmaa Benbiyi",
+        "works_count": 26
+      }
+    ],
+    "scholar_id": "tIzgYIoAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=tIzgYIoAAAAJ&hl=en",
+    "profile": {
+      "name": "Asmaa Benbiyi",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Chemical and Physical Properties in Aqueous Solutions",
+        "Thermodynamic properties of mixtures",
+        "Crystallization and Solubility Studies",
+        "Chemical Thermodynamics and Molecular Structure",
+        "Phytochemicals and Antioxidant Activities"
+      ],
+      "metrics": {
+        "citations": 342,
+        "h_index": 12,
+        "i10_index": 14
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5061744421"
+    ],
+    "n_publications_collected": 26
+  },
+  {
+    "chercheur_id": "fsbm_asmae_guennoun",
+    "nom_complet": "Asmae Guennoun",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Traitement de l'Information",
+    "equipe": "Matériaux, Energies Renouvelables et Smart Technologies",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "profil validé manuellement (scholar_overrides.csv)",
+    "profile_match_confidence": 1.0,
+    "match_method": "manual_override",
+    "candidates": [],
+    "scholar_id": "5S8wkxEAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=5S8wkxEAAAAJ&hl=en",
+    "profile": {
+      "name": "GUENNOUN Asmae",
+      "affiliation": "LTI lab, Faculty of Sciences Ben M'sick, University Hassan II of Casablanca",
+      "email_domain": "univh2c.ma",
+      "interests": [
+        "RÉSEAUX DE NEURONES INTELLIGENCE ARTIFICIELLE"
+      ],
+      "metrics": {
+        "citations": 16,
+        "citations_since": 16,
+        "h_index": 3,
+        "h_index_since": 3,
+        "i10_index": 0,
+        "i10_index_since": 0
+      },
+      "since_year": 2021,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "http",
+    "updated_at": "2026-09-21T20:24:56+00:00",
+    "n_publications_collected": 5
+  },
+  {
+    "chercheur_id": "fsbm_aziz_boutouil",
+    "nom_complet": "Aziz Boutouil",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Chimie Physique des Matériaux Appliqués",
+    "equipe": "Matériaux fonctionnels et applications",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5052858250",
+        "name": "Aziz Boutouil",
+        "works_count": 17
+      }
+    ],
+    "scholar_id": "8X0-WxsAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=8X0-WxsAAAAJ&hl=en",
+    "profile": {
+      "name": "Aziz Boutouil",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Corrosion Behavior and Inhibition",
+        "Concrete Corrosion and Durability",
+        "Hydrogen embrittlement and corrosion behaviors in metals",
+        "Adsorption and biosorption for pollutant removal",
+        "Electrodeposition and Electroless Coatings"
+      ],
+      "metrics": {
+        "citations": 391,
+        "h_index": 10,
+        "i10_index": 10
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5052858250"
+    ],
+    "n_publications_collected": 17
+  },
+  {
+    "chercheur_id": "fsbm_aziza_elbakali",
+    "nom_complet": "Aziza Elbakali",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Traitement de l'Information",
+    "equipe": "Systèmes Électroniques Intelligents",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "blocked: HTTP 429 — accès limité par Google Scholar",
+    "profile_match_confidence": 1.0,
+    "match_method": "manual_override",
+    "candidates": [],
+    "scholar_id": "ADagKpAAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=ADagKpAAAAAJ&hl=en",
+    "profile": {
+      "name": "Aziza Elbakali Kassimi",
+      "affiliation": "Maitre de Conférence. Université Hassan II Casa Maroc",
+      "email_domain": "etu.univh2c.ma",
+      "interests": [
+        "Electronique et traitement de l'information"
+      ],
+      "metrics": {
+        "citations": 7,
+        "citations_since": 7,
+        "h_index": 2,
+        "h_index_since": 2,
+        "i10_index": 0,
+        "i10_index_since": 0
+      },
+      "since_year": 2021,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "http",
+    "updated_at": "2026-09-21T20:24:56+00:00",
+    "n_publications_collected": 3
+  },
+  {
+    "chercheur_id": "fsbm_bouazza_braikat",
+    "nom_complet": "Bouazza Braikat",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Physique de la Matière Condensée",
+    "equipe": "Mécanique, Ingénierie et Matériaux",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5011648820",
+        "name": "Bouazza Braikat",
+        "works_count": 102
+      },
+      {
+        "openalex_id": "A5008122705",
+        "name": "Bouazza Braikat Noureddine Damil",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "M9BcVSUAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=M9BcVSUAAAAJ&hl=en",
+    "profile": {
+      "name": "Bouazza Braikat",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Composite Structure Analysis and Optimization",
+        "Numerical methods in engineering",
+        "Vibration and Dynamic Analysis",
+        "Advanced Numerical Methods in Computational Mathematics",
+        "Structural Analysis and Optimization"
+      ],
+      "metrics": {
+        "citations": 1195,
+        "h_index": 21,
+        "i10_index": 41
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5011648820"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_boubker_mehdaoui",
+    "nom_complet": "Boubker Mehdaoui",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Chimie Physique des Matériaux Appliqués",
+    "equipe": "Matériaux fonctionnels et applications",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "ScholarParseError: Élément #gsc_prf_in introuvable : profil inexistant ou HTML modifié",
+    "profile_match_confidence": 1.0,
+    "match_method": "manual_override",
+    "candidates": [],
+    "scholar_id": "SAAqKKsAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=SAAqKKsAAAAJ&hl=en",
+    "profile": null,
+    "coauthor_hits": [],
+    "collection_status": "error",
+    "backend": "http",
+    "updated_at": "2026-09-21T20:24:56+00:00",
+    "n_publications_collected": 0
+  },
+  {
+    "chercheur_id": "fsbm_chaouki_sadik",
+    "nom_complet": "Chaouki Sadik",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Chimie Physique des Matériaux Appliqués",
+    "equipe": "Géomatériaux, efficacité énergétique et environnement",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5034261710",
+        "name": "Chaouki Sadik",
+        "works_count": 45
+      }
+    ],
+    "scholar_id": "XytSkkwAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=XytSkkwAAAAJ&hl=en",
+    "profile": {
+      "name": "Chaouki Sadik",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Recycling and utilization of industrial and municipal waste in materials production",
+        "Concrete and Cement Materials Research",
+        "Advanced ceramic materials synthesis",
+        "Clay minerals and soil interactions",
+        "Building materials and conservation"
+      ],
+      "metrics": {
+        "citations": 1022,
+        "h_index": 17,
+        "i10_index": 23
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5034261710"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_faouziya_haissen",
+    "nom_complet": "Faouziya Haissen",
+    "etablissement": "FSBM",
+    "laboratoire": "Géosciences, Géomatique et Environnement",
+    "equipe": "Géologie Appliquée et Ressources en Eaux",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5001100002",
+        "name": "Faouziya Haissen",
+        "works_count": 56
+      }
+    ],
+    "scholar_id": "IOR7TaoAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=IOR7TaoAAAAJ&hl=en",
+    "profile": {
+      "name": "Faouziya Haissen",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Geological and Geophysical Studies Worldwide",
+        "Geological and Geochemical Analysis",
+        "earthquake and tectonic studies",
+        "Geochemistry and Geologic Mapping",
+        "Geology and Paleoclimatology Research"
+      ],
+      "metrics": {
+        "citations": 712,
+        "h_index": 16,
+        "i10_index": 21
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5001100002"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_fouad_alloun",
+    "nom_complet": "Fouad Alloun",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Chimie Physique des Matériaux Appliqués",
+    "equipe": "Matériaux fonctionnels et applications",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5064393839",
+        "name": "Fouad Alloun",
+        "works_count": 17
+      }
+    ],
+    "scholar_id": "zrGeAWgAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=zrGeAWgAAAAJ&hl=en",
+    "profile": {
+      "name": "Fouad Alloun",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "X-ray Diffraction in Crystallography",
+        "Crystal Structures and Properties",
+        "Chemical Synthesis and Characterization",
+        "Glass properties and applications",
+        "Luminescence Properties of Advanced Materials"
+      ],
+      "metrics": {
+        "citations": 30,
+        "h_index": 3,
+        "i10_index": 1
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5064393839"
+    ],
+    "n_publications_collected": 17
+  },
+  {
+    "chercheur_id": "fsbm_issam_atouf",
+    "nom_complet": "Issam Atouf",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Traitement de l'Information",
+    "equipe": "Systèmes Électroniques Intelligents",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5029728136",
+        "name": "Issam Atouf",
+        "works_count": 38
+      }
+    ],
+    "scholar_id": "4Rdvq2YAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=4Rdvq2YAAAAJ&hl=en",
+    "profile": {
+      "name": "Issam Atouf",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Video Surveillance and Tracking Methods",
+        "Neural Networks and Applications",
+        "Autonomous Vehicle Technology and Safety",
+        "Advanced Neural Network Applications",
+        "Vehicle License Plate Recognition"
+      ],
+      "metrics": {
+        "citations": 496,
+        "h_index": 11,
+        "i10_index": 12
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5029728136"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_mohamed_idiri",
+    "nom_complet": "Mohamed Idiri",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Physique de la Matière Condensée",
+    "equipe": "Mécanique, Ingénierie et Matériaux",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5017312857",
+        "name": "Mohamed Idiri",
+        "works_count": 44
+      },
+      {
+        "openalex_id": "A5134935185",
+        "name": "Mohamed Idiri",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5147371314",
+        "name": "Mohamed Idiri",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "oDDe4n4AAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=oDDe4n4AAAAJ&hl=en",
+    "profile": {
+      "name": "Mohamed Idiri",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Hydrogen Storage and Materials",
+        "Heusler alloys: electronic and magnetic properties",
+        "Metal and Thin Film Mechanics",
+        "Intermetallics and Advanced Alloy Properties",
+        "Advanced materials and composites"
+      ],
+      "metrics": {
+        "citations": 700,
+        "h_index": 12,
+        "i10_index": 16
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5017312857",
+      "A5134935185",
+      "A5147371314"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_mohamed_moumou",
+    "nom_complet": "Mohamed Moumou",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Chimie Analytique et Moléculaire",
+    "equipe": "Chimie Physique, Modélisation Moléculaire et Substances Naturelles",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5055271574",
+        "name": "Mohamed Moumou",
+        "works_count": 65
+      }
+    ],
+    "scholar_id": "0rekc_YAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=0rekc_YAAAAJ&hl=en",
+    "profile": {
+      "name": "Mohamed Moumou",
+      "affiliation": "Abdelmalek Essaâdi University, University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Crystallization and Solubility Studies",
+        "X-ray Diffraction in Crystallography",
+        "Sesquiterpenes and Asteraceae Studies",
+        "Traditional and Medicinal Uses of Annonaceae",
+        "Marine Sponges and Natural Products"
+      ],
+      "metrics": {
+        "citations": 119,
+        "h_index": 6,
+        "i10_index": 4
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5055271574"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_mohamed_radid",
+    "nom_complet": "Mohamed Radid",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Chimie Analytique et Moléculaire",
+    "equipe": "Chimie Physique, Modélisation Moléculaire et Substances Naturelles",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "ScholarParseError: Élément #gsc_prf_in introuvable : profil inexistant ou HTML modifié",
+    "profile_match_confidence": 1.0,
+    "match_method": "manual_override",
+    "candidates": [],
+    "scholar_id": "ZITQAJoAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=ZITQAJoAAAAJ&hl=en",
+    "profile": null,
+    "coauthor_hits": [],
+    "collection_status": "error",
+    "backend": "http",
+    "updated_at": "2026-09-21T20:24:57+00:00",
+    "n_publications_collected": 0
+  },
+  {
+    "chercheur_id": "fsbm_mohamed_talea",
+    "nom_complet": "Mohamed Talea",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Traitement de l'Information",
+    "equipe": "Intelligence artificielle et Géoinformatique appliquées",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5057080990",
+        "name": "Mohamed Talea",
+        "works_count": 252
+      },
+      {
+        "openalex_id": "A5113307942",
+        "name": "TALEA Mohamed",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5102275573",
+        "name": "Talea Mohamed",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5054879227",
+        "name": "Talea Mohamed",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "3ztbunUAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=3ztbunUAAAAJ&hl=en",
+    "profile": {
+      "name": "Mohamed Talea",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Multi-Criteria Decision Making",
+        "Optimization and Mathematical Programming",
+        "Fuzzy and Soft Set Theory",
+        "Cognitive Science and Mapping",
+        "Network Security and Intrusion Detection"
+      ],
+      "metrics": {
+        "citations": 2737,
+        "h_index": 27,
+        "i10_index": 74
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5057080990"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_mostafa_oukassou",
+    "nom_complet": "Mostafa Oukassou",
+    "etablissement": "FSBM",
+    "laboratoire": "Géosciences, Géomatique et Environnement",
+    "equipe": "Géologie Appliquée et Ressources en Eaux",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5062178575",
+        "name": "Mostafa Oukassou",
+        "works_count": 40
+      }
+    ],
+    "scholar_id": "AKNLvIEAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=AKNLvIEAAAAJ&hl=en",
+    "profile": {
+      "name": "Mostafa Oukassou",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Geological and Geophysical Studies Worldwide",
+        "Paleontology and Evolutionary Biology",
+        "Evolution and Paleontology Studies",
+        "Paleontology and Stratigraphy of Fossils",
+        "earthquake and tectonic studies"
+      ],
+      "metrics": {
+        "citations": 446,
+        "h_index": 13,
+        "i10_index": 16
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5062178575"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_mourad_benlattar",
+    "nom_complet": "Mourad Benlattar",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Physique de la Matière Condensée",
+    "equipe": "Matériaux Innovants et Matière Condensée",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "ScholarParseError: Élément #gsc_prf_in introuvable : profil inexistant ou HTML modifié",
+    "profile_match_confidence": 1.0,
+    "match_method": "manual_override",
+    "candidates": [],
+    "scholar_id": "xpxjPL4AAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=xpxjPL4AAAAJ&hl=en",
+    "profile": null,
+    "coauthor_hits": [],
+    "collection_status": "error",
+    "backend": "http",
+    "updated_at": "2026-09-21T20:24:57+00:00",
+    "n_publications_collected": 0
+  },
+  {
+    "chercheur_id": "fsbm_mustapha_mouflih",
+    "nom_complet": "Mustapha Mouflih",
+    "etablissement": "FSBM",
+    "laboratoire": "Géosciences, Géomatique et Environnement",
+    "equipe": "Dynamique, Stratigraphie et Valorisation des Bassins Sédimentaires",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5024604538",
+        "name": "Mustapha Mouflih",
+        "works_count": 38
+      }
+    ],
+    "scholar_id": "DCymGMEAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=DCymGMEAAAAJ&hl=en",
+    "profile": {
+      "name": "Mustapha Mouflih",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Geological and Geophysical Studies Worldwide",
+        "Paleontology and Stratigraphy of Fossils",
+        "Geology and Paleoclimatology Research",
+        "Geochemistry and Elemental Analysis",
+        "Adsorption and biosorption for pollutant removal"
+      ],
+      "metrics": {
+        "citations": 881,
+        "h_index": 11,
+        "i10_index": 13
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5024604538"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_nadia_barhoun",
+    "nom_complet": "Nadia Barhoun",
+    "etablissement": "FSBM",
+    "laboratoire": "Géosciences, Géomatique et Environnement",
+    "equipe": "Dynamique, Stratigraphie et Valorisation des Bassins Sédimentaires",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5089317462",
+        "name": "Nadia Barhoun",
+        "works_count": 37
+      }
+    ],
+    "scholar_id": "AvtWIt8AAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=AvtWIt8AAAAJ&hl=en",
+    "profile": {
+      "name": "Nadia Barhoun",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Geological and Geophysical Studies Worldwide",
+        "Geology and Paleoclimatology Research",
+        "Geological formations and processes",
+        "Mediterranean and Iberian flora and fauna",
+        "Paleontology and Stratigraphy of Fossils"
+      ],
+      "metrics": {
+        "citations": 625,
+        "h_index": 9,
+        "i10_index": 9
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5089317462"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_omar_tanane",
+    "nom_complet": "Omar Tanane",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Chimie Physique des Matériaux Appliqués",
+    "equipe": "Matériaux intelligents et transfert technologique",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5088755666",
+        "name": "Omar Tanane",
+        "works_count": 66
+      },
+      {
+        "openalex_id": "A5007997678",
+        "name": "Tanane Omar",
+        "works_count": 7
+      },
+      {
+        "openalex_id": "A5039414185",
+        "name": "Pr. Omar Tanane",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5139895647",
+        "name": "Pr Omar Tanane",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "0KSJLhAAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=0KSJLhAAAAAJ&hl=en",
+    "profile": {
+      "name": "Omar Tanane",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Corrosion Behavior and Inhibition",
+        "Concrete Corrosion and Durability",
+        "Natural Fiber Reinforced Composites",
+        "Adsorption and biosorption for pollutant removal",
+        "Concrete and Cement Materials Research"
+      ],
+      "metrics": {
+        "citations": 2008,
+        "h_index": 16,
+        "i10_index": 20
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5088755666",
+      "A5007997678"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_othmane_daoudi",
+    "nom_complet": "Othmane Daoudi",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Physique de la Matière Condensée",
+    "equipe": "Mécanique, Ingénierie et Matériaux",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5034614474",
+        "name": "Othmane Daoudi",
+        "works_count": 12
+      },
+      {
+        "openalex_id": "A5025489974",
+        "name": "Daoudi Othmane",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "1W-uvFYAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=1W-uvFYAAAAJ&hl=en",
+    "profile": {
+      "name": "Othmane Daoudi",
+      "affiliation": "Université Ibn-Tofail, University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Copper-based nanomaterials and applications",
+        "ZnO doping and properties",
+        "Chalcogenide Semiconductor Thin Films",
+        "Quantum Dots Synthesis And Properties",
+        "Advanced Photocatalysis Techniques"
+      ],
+      "metrics": {
+        "citations": 138,
+        "h_index": 6,
+        "i10_index": 3
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5034614474"
+    ],
+    "n_publications_collected": 12
+  },
+  {
+    "chercheur_id": "fsbm_rachid_essamoud",
+    "nom_complet": "Rachid Essamoud",
+    "etablissement": "FSBM",
+    "laboratoire": "Géosciences, Géomatique et Environnement",
+    "equipe": "Dynamique, Stratigraphie et Valorisation des Bassins Sédimentaires",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5023929200",
+        "name": "Rachid Essamoud",
+        "works_count": 23
+      },
+      {
+        "openalex_id": "A5114852903",
+        "name": "Rachid Essamoud",
+        "works_count": 3
+      },
+      {
+        "openalex_id": "A5139274507",
+        "name": "Rachid Essamoud",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5134520139",
+        "name": "Rachid Essamoud",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5146461578",
+        "name": "Rachid Essamoud",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5109625577",
+        "name": "Essamoud Rachid",
+        "works_count": 3
+      }
+    ],
+    "scholar_id": "pupxlJ0AAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=pupxlJ0AAAAJ&hl=en",
+    "profile": {
+      "name": "Rachid Essamoud",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Geological and Geophysical Studies Worldwide",
+        "Paleontology and Stratigraphy of Fossils",
+        "Geological formations and processes",
+        "Geology and Paleoclimatology Research",
+        "Archaeological and Historical Studies"
+      ],
+      "metrics": {
+        "citations": 125,
+        "h_index": 6,
+        "i10_index": 3
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5023929200",
+      "A5114852903",
+      "A5109625577",
+      "A5134520139",
+      "A5146461578"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_rachida_moultif",
+    "nom_complet": "Rachida Moultif",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Physique de la Matière Condensée",
+    "equipe": "Physique des nanosystèmes et nanocomposites",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5027841354",
+        "name": "Rachida Moultif",
+        "works_count": 22
+      }
+    ],
+    "scholar_id": "S26uLeQAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=S26uLeQAAAAJ&hl=en",
+    "profile": {
+      "name": "Rachida Moultif",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Membrane Separation Technologies",
+        "Advanced Battery Materials and Technologies",
+        "Advancements in Battery Materials",
+        "Fusion materials and technologies",
+        "Advanced Battery Technologies Research"
+      ],
+      "metrics": {
+        "citations": 63,
+        "h_index": 4,
+        "i10_index": 2
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5027841354"
+    ],
+    "n_publications_collected": 22
+  },
+  {
+    "chercheur_id": "fsbm_samia_yousfi",
+    "nom_complet": "Samia Yousfi",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Chimie Analytique et Moléculaire",
+    "equipe": "Matériaux, Analyse et Procédés",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5109795075",
+        "name": "Samia Yousfi",
+        "works_count": 16
+      },
+      {
+        "openalex_id": "A5124886361",
+        "name": "Yousfi Samia",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "BQ-SjWEAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=BQ-SjWEAAAAJ&hl=en",
+    "profile": {
+      "name": "Samia Yousfi",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Adsorption and biosorption for pollutant removal",
+        "Phosphorus and nutrient management",
+        "Coastal and Marine Dynamics",
+        "Minerals Flotation and Separation Techniques",
+        "Ocean Acidification Effects and Responses"
+      ],
+      "metrics": {
+        "citations": 50,
+        "h_index": 5,
+        "i10_index": 0
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5109795075"
+    ],
+    "n_publications_collected": 16
+  },
+  {
+    "chercheur_id": "fsbm_samir_chtita",
+    "nom_complet": "Samir Chtita",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Chimie Analytique et Moléculaire",
+    "equipe": "Chimie Physique, Modélisation Moléculaire et Substances Naturelles",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5058212683",
+        "name": "Samir Chtita",
+        "works_count": 324
+      },
+      {
+        "openalex_id": "A5125471167",
+        "name": "Samir Chtita",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5126026226",
+        "name": "Samir Chtita",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5128189808",
+        "name": "Samir Chtita",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5126495797",
+        "name": "Samir Chtita",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5115691640",
+        "name": "Samir Chtita",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5128710067",
+        "name": "Samir Chtita",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5135130950",
+        "name": "Samir Chtita",
+        "works_count": 2
+      }
+    ],
+    "scholar_id": "vdPyLoMAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=vdPyLoMAAAAJ&hl=en",
+    "profile": {
+      "name": "Samir Chtita",
+      "affiliation": "MRC Laboratory of Molecular Biology, University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Computational Drug Discovery Methods",
+        "Synthesis and biological activity",
+        "Cholinesterase and Neurodegenerative Diseases",
+        "Click Chemistry and Applications",
+        "Free Radicals and Antioxidants"
+      ],
+      "metrics": {
+        "citations": 4361,
+        "h_index": 38,
+        "i10_index": 120
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5058212683",
+      "A5126026226",
+      "A5135130950",
+      "A5135301304",
+      "A5125471167",
+      "A5128189808",
+      "A5126495797",
+      "A5128710067",
+      "A5136245799",
+      "A5123765706",
+      "A5136900419",
+      "A5135557058"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_soufiane_maimouni",
+    "nom_complet": "Soufiane Maimouni",
+    "etablissement": "FSBM",
+    "laboratoire": "Géosciences, Géomatique et Environnement",
+    "equipe": "Géomatique Appliquée aux Géosciences et à l'Environnement",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5086557452",
+        "name": "Soufiane Maimouni",
+        "works_count": 22
+      },
+      {
+        "openalex_id": "A5107677041",
+        "name": "Soufiane El Maimouni",
+        "works_count": 9
+      }
+    ],
+    "scholar_id": "TvMcd8oAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=TvMcd8oAAAAJ&hl=en",
+    "profile": {
+      "name": "Soufiane Maimouni",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Groundwater and Watershed Analysis",
+        "Remote-Sensing Image Classification",
+        "Geochemistry and Geologic Mapping",
+        "Soil erosion and sediment transport",
+        "Soil Geostatistics and Mapping"
+      ],
+      "metrics": {
+        "citations": 273,
+        "h_index": 10,
+        "i10_index": 10
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5086557452"
+    ],
+    "n_publications_collected": 22
+  },
+  {
+    "chercheur_id": "fsbm_tarik_chafiq",
+    "nom_complet": "Tarik Chafiq",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Traitement de l'Information",
+    "equipe": "Intelligence artificielle et Géoinformatique appliquées",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5018417387",
+        "name": "Tarik Chafiq",
+        "works_count": 33
+      },
+      {
+        "openalex_id": "A5147988948",
+        "name": "Tarik Chafiq",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5135296278",
+        "name": "Tarik Chafiq",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "J1rNqKQAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=J1rNqKQAAAAJ&hl=en",
+    "profile": {
+      "name": "Tarik Chafiq",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Blockchain Technology Applications and Security",
+        "Geological Modeling and Analysis",
+        "Online and Blended Learning",
+        "Land Use and Ecosystem Services",
+        "Geographic Information Systems Studies"
+      ],
+      "metrics": {
+        "citations": 218,
+        "h_index": 8,
+        "i10_index": 7
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5018417387",
+      "A5147988948",
+      "A5135296278"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_youssef_naimi",
+    "nom_complet": "Youssef Naimi",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Traitement de l'Information",
+    "equipe": "Matériaux, Energies Renouvelables et Smart Technologies",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5074224352",
+        "name": "Youssef Naimi",
+        "works_count": 65
+      },
+      {
+        "openalex_id": "A5112778743",
+        "name": "Benyoussef Naïmi",
+        "works_count": 14
+      },
+      {
+        "openalex_id": "A5111713115",
+        "name": "B. Naimi",
+        "works_count": 3
+      },
+      {
+        "openalex_id": "A5024655894",
+        "name": "Ben Youssef Naimi",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "22H8d4UAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=22H8d4UAAAAJ&hl=en",
+    "profile": {
+      "name": "Youssef Naimi",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Corrosion Behavior and Inhibition",
+        "Electrocatalysts for Energy Conversion",
+        "Fuel Cells and Related Materials",
+        "Concrete Corrosion and Durability",
+        "Hydrogen embrittlement and corrosion behaviors in metals"
+      ],
+      "metrics": {
+        "citations": 495,
+        "h_index": 11,
+        "i10_index": 12
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5074224352"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_abdelhafid_bassou",
+    "nom_complet": "Abdelhafid Bassou",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d'Analyse, Modélisation et Simulation",
+    "equipe": "Equipe Algèbre, Analyse et Géométrie",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5016596418",
+        "name": "Abdelhafid Bassou",
+        "works_count": 12
+      }
+    ],
+    "scholar_id": "FPo3tVoAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=FPo3tVoAAAAJ&hl=en",
+    "profile": {
+      "name": "Abdelhafid Bassou",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Fixed Point Theorems Analysis",
+        "Optimization and Variational Analysis",
+        "Control and Dynamics of Mobile Robots",
+        "Fractional Differential Equations Solutions",
+        "Mathematical and Theoretical Epidemiology and Ecology Models"
+      ],
+      "metrics": {
+        "citations": 35,
+        "h_index": 4,
+        "i10_index": 1
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5016596418"
+    ],
+    "n_publications_collected": 12
+  },
+  {
+    "chercheur_id": "fsbm_abdelilah_akouibaa",
+    "nom_complet": "Abdelilah Akouibaa",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d’Ingénierie et de Matériaux",
+    "equipe": "Sciences Mécanique et Matériaux",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5057702900",
+        "name": "Abdelilah Akouibaa",
+        "works_count": 32
+      },
+      {
+        "openalex_id": "A5111301784",
+        "name": "Abdelilah Akouibaa",
+        "works_count": 9
+      },
+      {
+        "openalex_id": "A5097902612",
+        "name": "Abdelilah Akouibaa",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5121536691",
+        "name": "Abdelilah Akouibaa",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5125721828",
+        "name": "A. Akouibaa",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5115615495",
+        "name": "akouibaa abdelilah",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5133334858",
+        "name": "Abdelilah Akouibaa",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5123105834",
+        "name": "A. Akouibaa",
+        "works_count": 2
+      }
+    ],
+    "scholar_id": "0Q-T8x4AAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=0Q-T8x4AAAAJ&hl=en",
+    "profile": {
+      "name": "Abdelilah Akouibaa",
+      "affiliation": "Sidi Mohamed Ben Abdellah University, University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Gold and Silver Nanoparticles Synthesis and Applications",
+        "Plasmonic and Surface Plasmon Research",
+        "Photoacoustic and Ultrasonic Imaging",
+        "Photonic and Optical Devices",
+        "Nonlinear Optical Materials Studies"
+      ],
+      "metrics": {
+        "citations": 286,
+        "h_index": 13,
+        "i10_index": 13
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5057702900",
+      "A5111301784",
+      "A5097902612",
+      "A5121536691",
+      "A5115615495",
+      "A5133334858"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_abdelmjid_abourriche",
+    "nom_complet": "Abdelmjid Abourriche",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire Biologie et Santé",
+    "equipe": "Biomolécules et Biomatériaux Polymères",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5111684444",
+        "name": "Abdelmjid Abourriche",
+        "works_count": 29
+      },
+      {
+        "openalex_id": "A5086608504",
+        "name": "Abdelmjid Abourriche",
+        "works_count": 3
+      },
+      {
+        "openalex_id": "A5147066378",
+        "name": "Abdelmjid Abourriche",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5138206018",
+        "name": "Abdelmjid Abourriche",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5126486136",
+        "name": "Abdelmjid Abourriche",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5130284655",
+        "name": "Abdelmjid Abourriche",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5135643916",
+        "name": "Abdelmjid Abourriche",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5135694881",
+        "name": "Abdelmjid Abourriche",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "iKIUSQIAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=iKIUSQIAAAAJ&hl=en",
+    "profile": {
+      "name": "Abdelmjid Abourriche",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Marine Sponges and Natural Products",
+        "Pesticide Residue Analysis and Safety",
+        "Seaweed-derived Bioactive Compounds",
+        "Adsorption and biosorption for pollutant removal",
+        "Toxic Organic Pollutants Impact"
+      ],
+      "metrics": {
+        "citations": 325,
+        "h_index": 7,
+        "i10_index": 6
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5111684444",
+      "A5086608504",
+      "A5147066378",
+      "A5138206018",
+      "A5135643916"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_abdelmottalib_nahli",
+    "nom_complet": "Abdelmottalib Nahli",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d'Ecologie et d'Environnement",
+    "equipe": "ECotoxicologie et Biomonitoring",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5035135781",
+        "name": "Abdelmottalib Nahli",
+        "works_count": 20
+      }
+    ],
+    "scholar_id": "FJUvtg8AAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=FJUvtg8AAAAJ&hl=en",
+    "profile": {
+      "name": "Abdelmottalib Nahli",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Water Quality and Pollution Assessment",
+        "Water management and technologies",
+        "Freshwater macroinvertebrate diversity and ecology",
+        "Wastewater Treatment and Reuse",
+        "Aquatic Invertebrate Ecology and Behavior"
+      ],
+      "metrics": {
+        "citations": 34,
+        "h_index": 3,
+        "i10_index": 0
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5035135781"
+    ],
+    "n_publications_collected": 20
+  },
+  {
+    "chercheur_id": "fsbm_abderrahim_eladraoui",
+    "nom_complet": "Abderrahim Eladraoui",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d'Analyse, Modélisation et Simulation",
+    "equipe": "Equipe Algèbre, Analyse et Géométrie",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5110681940",
+        "name": "Abderrahim Eladraoui",
+        "works_count": 9
+      }
+    ],
+    "scholar_id": "QTr_ct4AAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=QTr_ct4AAAAJ&hl=en",
+    "profile": {
+      "name": "Abderrahim Eladraoui",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Fixed Point Theorems Analysis",
+        "Optimization and Variational Analysis",
+        "Advanced Differential Geometry Research",
+        "Nonlinear Differential Equations Analysis",
+        "Advanced Differential Equations and Dynamical Systems"
+      ],
+      "metrics": {
+        "citations": 26,
+        "h_index": 3,
+        "i10_index": 0
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5110681940"
+    ],
+    "n_publications_collected": 9
+  },
+  {
+    "chercheur_id": "fsbm_abderrahmane_daif",
+    "nom_complet": "Abderrahmane Daif",
+    "etablissement": "FSBM",
+    "laboratoire": "Technologie de l'Information et Modélisation",
+    "equipe": "Big Data et Ingénierie des Systèmes d’Information",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5066878468",
+        "name": "Abderrahmane Daif",
+        "works_count": 11
+      },
+      {
+        "openalex_id": "A5111271216",
+        "name": "Abderrahmane Daif",
+        "works_count": 4
+      },
+      {
+        "openalex_id": "A5106203500",
+        "name": "Abderrahmane Daif",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5124795699",
+        "name": "Abderrahmane Daif",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5135164516",
+        "name": "Abderrahmane Daif",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "fCLesqQAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=fCLesqQAAAAJ&hl=en",
+    "profile": {
+      "name": "Abderrahmane Daif",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Blockchain Technology Applications and Security",
+        "Recommender Systems and Techniques",
+        "Video Surveillance and Tracking Methods",
+        "Digital Marketing and Social Media",
+        "Sentiment Analysis and Opinion Mining"
+      ],
+      "metrics": {
+        "citations": 87,
+        "h_index": 4,
+        "i10_index": 3
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5066878468",
+      "A5111271216"
+    ],
+    "n_publications_collected": 15
+  },
+  {
+    "chercheur_id": "fsbm_abdessamad_belangour",
+    "nom_complet": "Abdessamad Belangour",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d’Intelligence Artificielle et Systèmes",
+    "equipe": "Ingénierie Logicielle Intelligente et Analyse Stochastique",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5081874973",
+        "name": "Abdessamad Belangour",
+        "works_count": 107
+      },
+      {
+        "openalex_id": "A5047983012",
+        "name": "belangour Abdessamad",
+        "works_count": 3
+      }
+    ],
+    "scholar_id": "i8X0MgkAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=i8X0MgkAAAAJ&hl=en",
+    "profile": {
+      "name": "Abdessamad Belangour",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Cloud Computing and Resource Management",
+        "Big Data and Business Intelligence",
+        "IoT and Edge/Fog Computing",
+        "Natural Language Processing Techniques",
+        "Advanced Database Systems and Queries"
+      ],
+      "metrics": {
+        "citations": 918,
+        "h_index": 16,
+        "i10_index": 41
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5081874973",
+      "A5047983012"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_amal_elhamsaselyoubi",
+    "nom_complet": "Amal Elhamsaselyoubi",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire Biologie et Santé",
+    "equipe": "Pathologies Métaboliques, Immunitaires et Tumorales",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5091509323",
+        "name": "Amal El Hamsas El Youbi",
+        "works_count": 20
+      },
+      {
+        "openalex_id": "A5059488909",
+        "name": "Amal Hamsas El Youbi",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5018768095",
+        "name": "El Hamsas El Youbi Amal",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5050124270",
+        "name": "Amal El Youbi-El Hamsas",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5060432220",
+        "name": "Amal El Youbi-Hamsas",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5019829096",
+        "name": "Amal El youbi el Hamsas",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5068313342",
+        "name": "A. El Youbi El Hamsas",
+        "works_count": 3
+      },
+      {
+        "openalex_id": "A5093528847",
+        "name": "El Youbi Amal El Hamsas",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "6EGcmiAAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=6EGcmiAAAAAJ&hl=en",
+    "profile": {
+      "name": "Amal El Hamsas El Youbi",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Ethnobotanical and Medicinal Plants Studies",
+        "Berberine and alkaloids research",
+        "Chromatography in Natural Products",
+        "Phytochemical Studies and Bioactivities",
+        "Drug-Induced Hepatotoxicity and Protection"
+      ],
+      "metrics": {
+        "citations": 348,
+        "h_index": 9,
+        "i10_index": 9
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5091509323",
+      "A5018768095"
+    ],
+    "n_publications_collected": 22
+  },
+  {
+    "chercheur_id": "fsbm_anass_kettani",
+    "nom_complet": "Anass Kettani",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire Biologie et Santé",
+    "equipe": "Modélisation Moléculaire et Contrôle Qualité",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5051794670",
+        "name": "Anass Kettani",
+        "works_count": 97
+      },
+      {
+        "openalex_id": "A5015680938",
+        "name": "Anass Ech Cherif Kettani",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5111653226",
+        "name": "Mohammed Anass Ech‐Cherif El‐Kettani",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5114559750",
+        "name": "Kettani Anass",
+        "works_count": 3
+      },
+      {
+        "openalex_id": "A5140616080",
+        "name": "Anass El Kettani",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5140583270",
+        "name": "El Kettani Anass",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5003569354",
+        "name": "Mohammed Anass Ech-Cherif El Kettani",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "aKcwH1kAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=aKcwH1kAAAAJ&hl=en",
+    "profile": {
+      "name": "Anass Kettani",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Helicobacter pylori-related gastroenterology studies",
+        "Computational Drug Discovery Methods",
+        "vaccines and immunoinformatics approaches",
+        "Diabetes, Cardiovascular Risks, and Lipoproteins",
+        "HIV Research and Treatment"
+      ],
+      "metrics": {
+        "citations": 531,
+        "h_index": 13,
+        "i10_index": 19
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5051794670",
+      "A5114559750"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_bouchra_aharmim",
+    "nom_complet": "Bouchra Aharmim",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d'Analyse, Modélisation et Simulation",
+    "equipe": "Equipe Algèbre, Analyse et Géométrie",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5063670270",
+        "name": "Bouchra Aharmim",
+        "works_count": 10
+      }
+    ],
+    "scholar_id": "fEERQmoAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=fEERQmoAAAAJ&hl=en",
+    "profile": {
+      "name": "Bouchra Aharmim",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Advanced Topics in Algebra",
+        "Holomorphic and Operator Theory",
+        "Algebraic and Geometric Analysis",
+        "Algebraic structures and combinatorial models",
+        "Matrix Theory and Algorithms"
+      ],
+      "metrics": {
+        "citations": 15,
+        "h_index": 2,
+        "i10_index": 0
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5063670270"
+    ],
+    "n_publications_collected": 10
+  },
+  {
+    "chercheur_id": "fsbm_driss_bouggar",
+    "nom_complet": "Driss Bouggar",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d’Intelligence Artificielle et Systèmes",
+    "equipe": "Ingénierie Logicielle Intelligente et Analyse Stochastique",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5003528708",
+        "name": "Driss Bouggar",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5036554924",
+        "name": "Driss Bouggar",
+        "works_count": 8
+      },
+      {
+        "openalex_id": "A5133242056",
+        "name": "Driss Bouggar",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5141173129",
+        "name": "DRISS BOUGGAR",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "6TfW2X0AAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=6TfW2X0AAAAJ&hl=en",
+    "profile": {
+      "name": "Driss Bouggar",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Mathematical and Theoretical Epidemiology and Ecology Models",
+        "Mathematical Biology Tumor Growth",
+        "Stochastic processes and financial applications",
+        "COVID-19 epidemiological studies",
+        "Evolution and Genetic Dynamics"
+      ],
+      "metrics": {
+        "citations": 18,
+        "h_index": 3,
+        "i10_index": 0
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5036554924",
+      "A5133242056",
+      "A5141173129"
+    ],
+    "n_publications_collected": 10
+  },
+  {
+    "chercheur_id": "fsbm_driss_radallah",
+    "nom_complet": "Driss Radallah",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire Biologie et Santé",
+    "equipe": "Pathologies Métaboliques, Immunitaires et Tumorales",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5075206661",
+        "name": "Driss Radallah",
+        "works_count": 29
+      },
+      {
+        "openalex_id": "A5073968785",
+        "name": "Driss Radallah",
+        "works_count": 7
+      },
+      {
+        "openalex_id": "A5135359647",
+        "name": "Driss RADALLAH",
+        "works_count": 3
+      },
+      {
+        "openalex_id": "A5150535528",
+        "name": "Driss Radallah",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "ENJeQHAAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=ENJeQHAAAAAJ&hl=en",
+    "profile": {
+      "name": "Driss Radallah",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Global Cancer Incidence and Screening",
+        "Colorectal Cancer Screening and Detection",
+        "Cancer Risks and Factors",
+        "Multiple and Secondary Primary Cancers",
+        "Ethnobotanical and Medicinal Plants Studies"
+      ],
+      "metrics": {
+        "citations": 176,
+        "h_index": 8,
+        "i10_index": 6
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5075206661",
+      "A5135359647"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_elhabib_benlahmar",
+    "nom_complet": "Elhabib Benlahmar",
+    "etablissement": "FSBM",
+    "laboratoire": "Technologie de l'Information et Modélisation",
+    "equipe": "Modélisation dirigée par la donnée",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 0.97,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5023525580",
+        "name": "El Habib Benlahmar",
+        "works_count": 130
+      },
+      {
+        "openalex_id": "A5013387065",
+        "name": "Ben Lahmar El Habib",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5139621149",
+        "name": "El habib Ben lahmar",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5121679614",
+        "name": "El Habib Ben Lahmar",
+        "works_count": 2
+      }
+    ],
+    "scholar_id": "upOdTrEAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=upOdTrEAAAAJ&hl=en",
+    "profile": {
+      "name": "El Habib Benlahmar",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Topic Modeling",
+        "Advanced Text Analysis Techniques",
+        "Semantic Web and Ontologies",
+        "IoT and Edge/Fog Computing",
+        "Natural Language Processing Techniques"
+      ],
+      "metrics": {
+        "citations": 1264,
+        "h_index": 14,
+        "i10_index": 23
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5023525580",
+      "A5013387065",
+      "A5139621149",
+      "A5121679614"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_faouzia_benabbou",
+    "nom_complet": "Faouzia Benabbou",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d’Intelligence Artificielle et Systèmes",
+    "equipe": "Innovation en Science des Données, Intelligence Artificielle et Cloud",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5035687077",
+        "name": "Faouzia Benabbou",
+        "works_count": 103
+      }
+    ],
+    "scholar_id": "QOxPeEoAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=QOxPeEoAAAAJ&hl=en",
+    "profile": {
+      "name": "Faouzia Benabbou",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Topic Modeling",
+        "Spam and Phishing Detection",
+        "Sentiment Analysis and Opinion Mining",
+        "Cloud Computing and Resource Management",
+        "Imbalanced Data Classification Techniques"
+      ],
+      "metrics": {
+        "citations": 1117,
+        "h_index": 16,
+        "i10_index": 32
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5035687077"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_fouad_damiri",
+    "nom_complet": "Fouad Damiri",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire Biologie et Santé",
+    "equipe": "Biomolécules et Biomatériaux Polymères",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5055200056",
+        "name": "Fouad Damiri",
+        "works_count": 56
+      }
+    ],
+    "scholar_id": "1nFMkMcAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=1nFMkMcAAAAJ&hl=en",
+    "profile": {
+      "name": "Fouad Damiri",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Hydrogels: synthesis, properties, applications",
+        "Advancements in Transdermal Drug Delivery",
+        "Electrospun Nanofibers in Biomedical Applications",
+        "Wound Healing and Treatments",
+        "Advanced Drug Delivery Systems"
+      ],
+      "metrics": {
+        "citations": 2066,
+        "h_index": 25,
+        "i10_index": 34
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5055200056"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_halima_lebrazi",
+    "nom_complet": "Halima Lebrazi",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire Biologie et Santé",
+    "equipe": "Pathologies Chroniques et Nutrition Humaine",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5088009799",
+        "name": "Halima Lebrazi",
+        "works_count": 45
+      }
+    ],
+    "scholar_id": "y3H-SrEAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=y3H-SrEAAAAJ&hl=en",
+    "profile": {
+      "name": "Halima Lebrazi",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Helicobacter pylori-related gastroenterology studies",
+        "Dialysis and Renal Disease Management",
+        "Diabetes, Cardiovascular Risks, and Lipoproteins",
+        "Amyloidosis: Diagnosis, Treatment, Outcomes",
+        "Obesity, Physical Activity, Diet"
+      ],
+      "metrics": {
+        "citations": 314,
+        "h_index": 9,
+        "i10_index": 8
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5088009799"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_hassan_laarabi",
+    "nom_complet": "Hassan Laarabi",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d'Analyse, Modélisation et Simulation",
+    "equipe": "Equipe de Systèmes Dynamiques",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5023163663",
+        "name": "Hassan Laarabi",
+        "works_count": 23
+      }
+    ],
+    "scholar_id": "51svnvMAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=51svnvMAAAAJ&hl=en",
+    "profile": {
+      "name": "Hassan Laarabi",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Mathematical and Theoretical Epidemiology and Ecology Models",
+        "COVID-19 epidemiological studies",
+        "Evolution and Genetic Dynamics",
+        "Fractional Differential Equations Solutions",
+        "Stability and Control of Uncertain Systems"
+      ],
+      "metrics": {
+        "citations": 313,
+        "h_index": 8,
+        "i10_index": 7
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5023163663"
+    ],
+    "n_publications_collected": 23
+  },
+  {
+    "chercheur_id": "fsbm_imane_agmour",
+    "nom_complet": "Imane Agmour",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d'Analyse, Modélisation et Simulation",
+    "equipe": "Equipe de Systèmes Dynamiques",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5048792792",
+        "name": "Imane Agmour",
+        "works_count": 37
+      },
+      {
+        "openalex_id": "A5043747930",
+        "name": "Imane Agmour Nossaiba Baba",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "MneM6ocAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=MneM6ocAAAAJ&hl=en",
+    "profile": {
+      "name": "Imane Agmour",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Mathematical and Theoretical Epidemiology and Ecology Models",
+        "Marine and fisheries research",
+        "Evolution and Genetic Dynamics",
+        "Advanced Optimization Algorithms Research",
+        "Evolutionary Game Theory and Cooperation"
+      ],
+      "metrics": {
+        "citations": 488,
+        "h_index": 17,
+        "i10_index": 17
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5048792792"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_karima_mohtadi",
+    "nom_complet": "Karima Mohtadi",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire Biologie et Santé",
+    "equipe": "Pathologies Chroniques et Nutrition Humaine",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5062587781",
+        "name": "Karima Mohtadi",
+        "works_count": 30
+      },
+      {
+        "openalex_id": "A5143592497",
+        "name": "MOHTADI Karima",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "ExZwFJoAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=ExZwFJoAAAAJ&hl=en",
+    "profile": {
+      "name": "Karima Mohtadi",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Obesity, Physical Activity, Diet",
+        "Nutritional Studies and Diet",
+        "Diabetes, Cardiovascular Risks, and Lipoproteins",
+        "Sodium Intake and Health",
+        "Global Public Health Policies and Epidemiology"
+      ],
+      "metrics": {
+        "citations": 214,
+        "h_index": 7,
+        "i10_index": 6
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5062587781",
+      "A5143592497"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_khadija_achtaich",
+    "nom_complet": "Khadija Achtaich",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d’Intelligence Artificielle et Systèmes",
+    "equipe": "Systèmes Intelligents et Modélisation Avancée",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5039230215",
+        "name": "Khadija Achtaich",
+        "works_count": 17
+      },
+      {
+        "openalex_id": "A5073927660",
+        "name": "K. Achtaich",
+        "works_count": 5
+      },
+      {
+        "openalex_id": "A5095454783",
+        "name": "Merieme Kasour",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5095108276",
+        "name": "Habib Benlahmar Khadija Achtaich",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5120951525",
+        "name": "Achtaich Khadija",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "EhsD_L4AAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=EhsD_L4AAAAJ&hl=en",
+    "profile": {
+      "name": "Khadija Achtaich",
+      "affiliation": "Vinh University, Sidi Mohamed Ben Abdellah University, University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Teaching and Learning Programming",
+        "IoT and Edge/Fog Computing",
+        "Educational Games and Gamification",
+        "Online Learning and Analytics",
+        "Intelligent Tutoring Systems and Adaptive Learning"
+      ],
+      "metrics": {
+        "citations": 99,
+        "h_index": 4,
+        "i10_index": 3
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5039230215"
+    ],
+    "n_publications_collected": 17
+  },
+  {
+    "chercheur_id": "fsbm_khalid_adnaoui",
+    "nom_complet": "Khalid Adnaoui",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d'Analyse, Modélisation et Simulation",
+    "equipe": "Equipe Statistiques et Modélisation",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5003644176",
+        "name": "Khalid Adnaoui",
+        "works_count": 16
+      },
+      {
+        "openalex_id": "A5119012448",
+        "name": "Khalid Adnaoui",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5124714991",
+        "name": "Khalid Adnaoui",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5138806572",
+        "name": "Khalid Adnaoui",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5137227416",
+        "name": "Khalid Adnaoui",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5126310908",
+        "name": "Khalid Adnaoui",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "5ap2WIIAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=5ap2WIIAAAAJ&hl=en",
+    "profile": {
+      "name": "Khalid Adnaoui",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Mathematical and Theoretical Epidemiology and Ecology Models",
+        "Fractional Differential Equations Solutions",
+        "COVID-19 epidemiological studies",
+        "Particle Dynamics in Fluid Flows",
+        "Fluid Dynamics and Turbulent Flows"
+      ],
+      "metrics": {
+        "citations": 26,
+        "h_index": 3,
+        "i10_index": 1
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5003644176",
+      "A5119012448",
+      "A5126310908"
+    ],
+    "n_publications_collected": 19
+  },
+  {
+    "chercheur_id": "fsbm_khalid_kandali",
+    "nom_complet": "Khalid Kandali",
+    "etablissement": "FSBM",
+    "laboratoire": "Technologie de l'Information et Modélisation",
+    "equipe": "Technologies Cognitives et Applications",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5007337974",
+        "name": "Khalid Kandali",
+        "works_count": 16
+      }
+    ],
+    "scholar_id": "C_Gt_7IAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=C_Gt_7IAAAAJ&hl=en",
+    "profile": {
+      "name": "Khalid Kandali",
+      "affiliation": "Université Moulay Ismail de Meknes, University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Vehicular Ad Hoc Networks (VANETs)",
+        "Mobile Ad Hoc Networks",
+        "Opportunistic and Delay-Tolerant Networks",
+        "IoT and Edge/Fog Computing",
+        "Educational Games and Gamification"
+      ],
+      "metrics": {
+        "citations": 256,
+        "h_index": 8,
+        "i10_index": 7
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5007337974"
+    ],
+    "n_publications_collected": 16
+  },
+  {
+    "chercheur_id": "fsbm_laila_mouakkir",
+    "nom_complet": "Laila Mouakkir",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d’Ingénierie et de Matériaux",
+    "equipe": "Sciences Mécanique et Matériaux",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5038386391",
+        "name": "Laila Mouakkir",
+        "works_count": 20
+      },
+      {
+        "openalex_id": "A5106253619",
+        "name": "Laila Mouakkir",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5035534123",
+        "name": "Laila MOUAKKIR",
+        "works_count": 3
+      },
+      {
+        "openalex_id": "A5070315744",
+        "name": "Mouakkir Laila",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5151344315",
+        "name": "Laila Mouakkir",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "FJVaLHwAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=FJVaLHwAAAAJ&hl=en",
+    "profile": {
+      "name": "Laila Mouakkir",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Coastal and Marine Dynamics",
+        "Ocean Waves and Remote Sensing",
+        "Wave and Wind Energy Systems",
+        "Tropical and Extratropical Cyclones Research",
+        "Aeolian processes and effects"
+      ],
+      "metrics": {
+        "citations": 64,
+        "h_index": 5,
+        "i10_index": 3
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5038386391",
+      "A5035534123",
+      "A5106253619",
+      "A5070315744",
+      "A5151344315"
+    ],
+    "n_publications_collected": 28
+  },
+  {
+    "chercheur_id": "fsbm_loubna_benidire",
+    "nom_complet": "Loubna Benidire",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d'Ecologie et d'Environnement",
+    "equipe": "Microbiologie Appliquée",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5035248277",
+        "name": "Loubna Benidire",
+        "works_count": 25
+      },
+      {
+        "openalex_id": "A5143536771",
+        "name": "BENIDIRE Loubna",
+        "works_count": 2
+      }
+    ],
+    "scholar_id": "BhRwnEcAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=BhRwnEcAAAAJ&hl=en",
+    "profile": {
+      "name": "Loubna Benidire",
+      "affiliation": "Université Ibn Zohr, University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Legume Nitrogen Fixing Symbiosis",
+        "Agronomic Practices and Intercropping Systems",
+        "Plant-Microbe Interactions and Immunity",
+        "Nematode management and characterization studies",
+        "Magnetic and Electromagnetic Effects"
+      ],
+      "metrics": {
+        "citations": 392,
+        "h_index": 11,
+        "i10_index": 11
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5035248277"
+    ],
+    "n_publications_collected": 25
+  },
+  {
+    "chercheur_id": "fsbm_malika_izid",
+    "nom_complet": "Malika Izid",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d'Analyse, Modélisation et Simulation",
+    "equipe": "Equipe Algèbre, Analyse et Géométrie",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5074889080",
+        "name": "Malika Izid",
+        "works_count": 5
+      }
+    ],
+    "scholar_id": "AF7HTzkAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=AF7HTzkAAAAJ&hl=en",
+    "profile": {
+      "name": "Malika Izid",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Advanced Numerical Analysis Techniques",
+        "Advanced Differential Geometry Research",
+        "Geometric Analysis and Curvature Flows",
+        "Computer Graphics and Visualization Techniques",
+        "3D Shape Modeling and Analysis"
+      ],
+      "metrics": {
+        "citations": 6,
+        "h_index": 2,
+        "i10_index": 0
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5074889080"
+    ],
+    "n_publications_collected": 5
+  },
+  {
+    "chercheur_id": "fsbm_mohamed_ghazouani",
+    "nom_complet": "Mohamed Ghazouani",
+    "etablissement": "FSBM",
+    "laboratoire": "Technologie de l'Information et Modélisation",
+    "equipe": "Modélisation dirigée par la donnée",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 0.97,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5058585596",
+        "name": "Mohamed El Ghazouani",
+        "works_count": 47
+      },
+      {
+        "openalex_id": "A5101306743",
+        "name": "Ghazouani Mohamed",
+        "works_count": 5
+      },
+      {
+        "openalex_id": "A5117776723",
+        "name": "Mohamed Ghazouani",
+        "works_count": 3
+      },
+      {
+        "openalex_id": "A5063657777",
+        "name": "El Ghazouani Mohamed",
+        "works_count": 4
+      }
+    ],
+    "scholar_id": "6fywzcgAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=6fywzcgAAAAJ&hl=en",
+    "profile": {
+      "name": "Mohamed El Ghazouani",
+      "affiliation": "Chouaib Doukkali University, University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Blockchain Technology Applications and Security",
+        "IoT and Edge/Fog Computing",
+        "Cloud Data Security Solutions",
+        "Network Security and Intrusion Detection",
+        "Advanced Malware Detection Techniques"
+      ],
+      "metrics": {
+        "citations": 162,
+        "h_index": 7,
+        "i10_index": 4
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5058585596",
+      "A5101306743",
+      "A5117776723"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_mohammed_aitdaoud",
+    "nom_complet": "Mohammed Aitdaoud",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d’Intelligence Artificielle et Systèmes",
+    "equipe": "Systèmes Intelligents et Modélisation Avancée",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5084044135",
+        "name": "Mohammed Aitdaoud",
+        "works_count": 19
+      }
+    ],
+    "scholar_id": "xjxxn0cAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=xjxxn0cAAAAJ&hl=en",
+    "profile": {
+      "name": "Mohammed Aitdaoud",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Online Learning and Analytics",
+        "Technology Adoption and User Behaviour",
+        "Online and Blended Learning",
+        "Learning Styles and Cognitive Differences",
+        "E-Learning and Knowledge Management"
+      ],
+      "metrics": {
+        "citations": 78,
+        "h_index": 6,
+        "i10_index": 2
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5084044135"
+    ],
+    "n_publications_collected": 19
+  },
+  {
+    "chercheur_id": "fsbm_mohammed_berrada",
+    "nom_complet": "Mohammed Berrada",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire Biologie et Santé",
+    "equipe": "Biomolécules et Biomatériaux Polymères",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5014403727",
+        "name": "Mohammed Berrada",
+        "works_count": 78
+      },
+      {
+        "openalex_id": "A5084177530",
+        "name": "Mohammed Berrada",
+        "works_count": 170
+      },
+      {
+        "openalex_id": "A5033987790",
+        "name": "Mohamed Berrada",
+        "works_count": 54
+      },
+      {
+        "openalex_id": "A5103736882",
+        "name": "Mohamed Saleh Berrada",
+        "works_count": 173
+      },
+      {
+        "openalex_id": "A5103584764",
+        "name": "Mohammed Saleh Berrada",
+        "works_count": 25
+      },
+      {
+        "openalex_id": "A5106251120",
+        "name": "Mohammed Berrada Gouzi",
+        "works_count": 5
+      },
+      {
+        "openalex_id": "A5054719374",
+        "name": "Berrada Mohammed Saleh",
+        "works_count": 10
+      },
+      {
+        "openalex_id": "A5075343886",
+        "name": "Mohammed Salah Berrada",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "IcuHRngAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=IcuHRngAAAAJ&hl=en",
+    "profile": {
+      "name": "Mohammed Berrada",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Nuclear physics research studies",
+        "Nuclear Physics and Applications",
+        "Hydrogels: synthesis, properties, applications",
+        "Advanced Drug Delivery Systems",
+        "X-ray Spectroscopy and Fluorescence Analysis"
+      ],
+      "metrics": {
+        "citations": 5096,
+        "h_index": 38,
+        "i10_index": 67
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5084177530"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_mohssine_bentaib",
+    "nom_complet": "Mohssine Bentaib",
+    "etablissement": "FSBM",
+    "laboratoire": "Technologie de l'Information et Modélisation",
+    "equipe": "Modélisation dirigée par la donnée",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5057416103",
+        "name": "Mohssine Bentaib",
+        "works_count": 8
+      },
+      {
+        "openalex_id": "A5121755806",
+        "name": "Mohssine Bentaib",
+        "works_count": 2
+      }
+    ],
+    "scholar_id": "NC6PfXIAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=NC6PfXIAAAAJ&hl=en",
+    "profile": {
+      "name": "Mohssine Bentaib",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Online and Blended Learning",
+        "Anomaly Detection Techniques and Applications",
+        "Technology-Enhanced Education Studies",
+        "Educational Technology and E-Learning",
+        "Network Security and Intrusion Detection"
+      ],
+      "metrics": {
+        "citations": 45,
+        "h_index": 4,
+        "i10_index": 2
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5057416103",
+      "A5121755806"
+    ],
+    "n_publications_collected": 10
+  },
+  {
+    "chercheur_id": "fsbm_mounir_sadiq",
+    "nom_complet": "Mounir Sadiq",
+    "etablissement": "FSBM",
+    "laboratoire": "Technologie de l'Information et Modélisation",
+    "equipe": "Technologies Cognitives et Applications",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5017691992",
+        "name": "Mounir Sadiq",
+        "works_count": 24
+      }
+    ],
+    "scholar_id": "u_jsBCoAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=u_jsBCoAAAAJ&hl=en",
+    "profile": {
+      "name": "Mounir Sadiq",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Online and Blended Learning",
+        "Innovative Teaching and Learning Methods",
+        "Evaluation of Teaching Practices",
+        "Online Learning and Analytics",
+        "Big Data and Business Intelligence"
+      ],
+      "metrics": {
+        "citations": 77,
+        "h_index": 5,
+        "i10_index": 2
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5017691992"
+    ],
+    "n_publications_collected": 24
+  },
+  {
+    "chercheur_id": "fsbm_nadia_iounes",
+    "nom_complet": "Nadia Iounes",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d'Ecologie et d'Environnement",
+    "equipe": "ECotoxicologie et Biomonitoring",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5042775072",
+        "name": "Nadia Iounes",
+        "works_count": 8
+      },
+      {
+        "openalex_id": "A5021680501",
+        "name": "Iounes Nadia",
+        "works_count": 3
+      },
+      {
+        "openalex_id": "A5089411926",
+        "name": "Nadia Iounes",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5048585351",
+        "name": "Nadia Iounes",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5011884938",
+        "name": "Nadia Iounes",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "cWLIf40AAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=cWLIf40AAAAJ&hl=en",
+    "profile": {
+      "name": "Nadia Iounes",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "COVID-19 Clinical Research Studies",
+        "SARS-CoV-2 and COVID-19 Research",
+        "Obesity, Physical Activity, Diet",
+        "Corrosion Behavior and Inhibition",
+        "Groundwater and Isotope Geochemistry"
+      ],
+      "metrics": {
+        "citations": 50,
+        "h_index": 4,
+        "i10_index": 1
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5042775072",
+      "A5021680501",
+      "A5089411926",
+      "A5011884938"
+    ],
+    "n_publications_collected": 14
+  },
+  {
+    "chercheur_id": "fsbm_nawal_sael",
+    "nom_complet": "Nawal Sael",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d’Intelligence Artificielle et Systèmes",
+    "equipe": "Innovation en Science des Données, Intelligence Artificielle et Cloud",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5012997753",
+        "name": "Nawal Sael",
+        "works_count": 107
+      },
+      {
+        "openalex_id": "A5104025488",
+        "name": "Sael Nawal",
+        "works_count": 3
+      },
+      {
+        "openalex_id": "A5095039081",
+        "name": "SAEL Nawal",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "hfAJHyYAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=hfAJHyYAAAAJ&hl=en",
+    "profile": {
+      "name": "Nawal Sael",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "IoT and Edge/Fog Computing",
+        "Sentiment Analysis and Opinion Mining",
+        "Online Learning and Analytics",
+        "Autonomous Vehicle Technology and Safety",
+        "Imbalanced Data Classification Techniques"
+      ],
+      "metrics": {
+        "citations": 1117,
+        "h_index": 15,
+        "i10_index": 29
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5012997753",
+      "A5104025488",
+      "A5095039081"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_omar_zahour",
+    "nom_complet": "Omar Zahour",
+    "etablissement": "FSBM",
+    "laboratoire": "Technologie de l'Information et Modélisation",
+    "equipe": "Modélisation dirigée par la donnée",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5086997841",
+        "name": "Omar Zahour",
+        "works_count": 19
+      }
+    ],
+    "scholar_id": "wUlKz4UAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=wUlKz4UAAAAJ&hl=en",
+    "profile": {
+      "name": "Omar Zahour",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "AI in Service Interactions",
+        "Topic Modeling",
+        "scientometrics and bibliometrics research",
+        "Natural Language Processing Techniques",
+        "Meta-analysis and systematic reviews"
+      ],
+      "metrics": {
+        "citations": 122,
+        "h_index": 5,
+        "i10_index": 4
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5086997841"
+    ],
+    "n_publications_collected": 19
+  },
+  {
+    "chercheur_id": "fsbm_omar_zakary",
+    "nom_complet": "Omar Zakary",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d'Analyse, Modélisation et Simulation",
+    "equipe": "Equipe Statistiques et Modélisation",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5079331315",
+        "name": "Omar Zakary",
+        "works_count": 39
+      }
+    ],
+    "scholar_id": "J8JyWLYAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=J8JyWLYAAAAJ&hl=en",
+    "profile": {
+      "name": "Omar Zakary",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "COVID-19 epidemiological studies",
+        "Mathematical and Theoretical Epidemiology and Ecology Models",
+        "Adaptive Control of Nonlinear Systems",
+        "Stability and Control of Uncertain Systems",
+        "Opinion Dynamics and Social Influence"
+      ],
+      "metrics": {
+        "citations": 381,
+        "h_index": 10,
+        "i10_index": 11
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5079331315"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_rachid_saile",
+    "nom_complet": "Rachid Saile",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire Biologie et Santé",
+    "equipe": "Pathologies Chroniques et Nutrition Humaine",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5029033997",
+        "name": "Rachid Saı̈le",
+        "works_count": 166
+      },
+      {
+        "openalex_id": "A5103809221",
+        "name": "Saile Rachid",
+        "works_count": 4
+      },
+      {
+        "openalex_id": "A5139059938",
+        "name": "Rachid Saile",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5082179559",
+        "name": "R. Saile",
+        "works_count": 4
+      }
+    ],
+    "scholar_id": "QebcqNkAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=QebcqNkAAAAJ&hl=en",
+    "profile": {
+      "name": "Saile Rachid",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Diabetes, Cardiovascular Risks, and Lipoproteins",
+        "Antifungal resistance and susceptibility",
+        "Dialysis and Renal Disease Management",
+        "Management and Organizational Studies",
+        "Nutrition and Health in Aging"
+      ],
+      "metrics": {
+        "citations": 2,
+        "h_index": 1,
+        "i10_index": 0
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5103809221",
+      "A5139059938"
+    ],
+    "n_publications_collected": 5
+  },
+  {
+    "chercheur_id": "fsbm_rachida_aitabdelouahid",
+    "nom_complet": "Rachida Aitabdelouahid",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d’Intelligence Artificielle et Systèmes",
+    "equipe": "Sciences des Données, Technologies Intelligentes et Cybersécurité",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5028971845",
+        "name": "Rachida AITABDELOUAHID",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "w3Uyl9kAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=w3Uyl9kAAAAJ&hl=en",
+    "profile": {
+      "name": "Rachida AITABDELOUAHID",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Maritime Ports and Logistics",
+        "Maritime Navigation and Safety",
+        "Maritime Transport Emissions and Efficiency"
+      ],
+      "metrics": {
+        "citations": 17,
+        "h_index": 1,
+        "i10_index": 1
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5028971845"
+    ],
+    "n_publications_collected": 1
+  },
+  {
+    "chercheur_id": "fsbm_rhma_adhiri",
+    "nom_complet": "Rhma Adhiri",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d’Ingénierie et de Matériaux",
+    "equipe": "Nanomatériaux et Couches Minces",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5002971370",
+        "name": "Rhma Adhiri",
+        "works_count": 20
+      }
+    ],
+    "scholar_id": "8OVvchAAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=8OVvchAAAAAJ&hl=en",
+    "profile": {
+      "name": "Rhma Adhiri",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Ferroelectric and Piezoelectric Materials",
+        "Photovoltaic System Optimization Techniques",
+        "Solar Radiation and Photovoltaics",
+        "Microwave Dielectric Ceramics Synthesis",
+        "Electronic and Structural Properties of Oxides"
+      ],
+      "metrics": {
+        "citations": 56,
+        "h_index": 4,
+        "i10_index": 2
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5002971370"
+    ],
+    "n_publications_collected": 20
+  },
+  {
+    "chercheur_id": "fsbm_said_bakkali",
+    "nom_complet": "Said Bakkali",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Chimie Physique des Matériaux Appliqués",
+    "equipe": "Valorisation des matériaux et modélisation",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5081789945",
+        "name": "Said Bakkali",
+        "works_count": 15
+      },
+      {
+        "openalex_id": "A5000250253",
+        "name": "Mohammed Bakkali",
+        "works_count": 6
+      },
+      {
+        "openalex_id": "A5089456599",
+        "name": "Bakkali Said",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5047219854",
+        "name": "Najat Belhadj Said Zantar Mohammed Bakkali Abdelhay Arakrak",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "idesK9gAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=idesK9gAAAAJ&hl=en",
+    "profile": {
+      "name": "Said Bakkali",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Corrosion Behavior and Inhibition",
+        "Electrodeposition and Electroless Coatings",
+        "Molecular Junctions and Nanostructures",
+        "Electrochemical Analysis and Applications",
+        "Concrete Corrosion and Durability"
+      ],
+      "metrics": {
+        "citations": 107,
+        "h_index": 6,
+        "i10_index": 4
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5081789945"
+    ],
+    "n_publications_collected": 15
+  },
+  {
+    "chercheur_id": "fsbm_said_benkaddour",
+    "nom_complet": "Said Benkaddour",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d'Analyse, Modélisation et Simulation",
+    "equipe": "Equipe Algèbre, Analyse et Géométrie",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5037594044",
+        "name": "Said Benkaddour",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5053716784",
+        "name": "Saïd Benkaddour",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "rjrWg60AAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=rjrWg60AAAAJ&hl=en",
+    "profile": {
+      "name": "Said Benkaddour",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Nonlinear Differential Equations Analysis",
+        "Optimization and Variational Analysis",
+        "Advanced Numerical Analysis Techniques",
+        "Fixed Point Theorems Analysis",
+        "graph theory and CDMA systems"
+      ],
+      "metrics": {
+        "citations": 1,
+        "h_index": 1,
+        "i10_index": 0
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5037594044"
+    ],
+    "n_publications_collected": 2
+  },
+  {
+    "chercheur_id": "fsbm_said_gmouh",
+    "nom_complet": "Said Gmouh",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d’Ingénierie et de Matériaux",
+    "equipe": "Matériaux Innovants",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5076524673",
+        "name": "Saïd Gmouh",
+        "works_count": 147
+      },
+      {
+        "openalex_id": "A5109479664",
+        "name": "Said Gmοuh",
+        "works_count": 16
+      },
+      {
+        "openalex_id": "A5150311364",
+        "name": "B Said Gmouh",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "DesMDlAAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=DesMDlAAAAAJ&hl=en",
+    "profile": {
+      "name": "Saïd Gmouh",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Ionic liquids properties and applications",
+        "Advanced Cellulose Research Studies",
+        "Electrospun Nanofibers in Biomedical Applications",
+        "Flame retardant materials and properties",
+        "Natural Fiber Reinforced Composites"
+      ],
+      "metrics": {
+        "citations": 3167,
+        "h_index": 29,
+        "i10_index": 66
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5076524673"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_said_nouh",
+    "nom_complet": "Said Nouh",
+    "etablissement": "FSBM",
+    "laboratoire": "Technologie de l'Information et Modélisation",
+    "equipe": "Technologies Cognitives et Applications",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5034576268",
+        "name": "El Said A. Nouh",
+        "works_count": 23
+      },
+      {
+        "openalex_id": "A5028452033",
+        "name": "Saïd Nouh",
+        "works_count": 49
+      },
+      {
+        "openalex_id": "A5020375190",
+        "name": "Said Nouh",
+        "works_count": 17
+      },
+      {
+        "openalex_id": "A5124510008",
+        "name": "Said Nouh",
+        "works_count": 3
+      },
+      {
+        "openalex_id": "A5098070759",
+        "name": "El A. Said Nouh",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5126285012",
+        "name": "Said Nouh",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5126532005",
+        "name": "Said Nouh",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5146608835",
+        "name": "Said Nouh",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "2aKw_8kAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=2aKw_8kAAAAJ&hl=en",
+    "profile": {
+      "name": "Saïd Nouh",
+      "affiliation": "Centre Hospitalier Universitaire Hassan II, University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Coding theory and cryptography",
+        "Error Correcting Code Techniques",
+        "Advanced Wireless Communication Techniques",
+        "graph theory and CDMA systems",
+        "Cryptographic Implementations and Security"
+      ],
+      "metrics": {
+        "citations": 176,
+        "h_index": 7,
+        "i10_index": 6
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5028452033",
+      "A5020375190",
+      "A5124510008",
+      "A5126285012",
+      "A5146608835",
+      "A5124778706"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_sanaa_elfilali",
+    "nom_complet": "Sanaa Elfilali",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d’Intelligence Artificielle et Systèmes",
+    "equipe": "Sciences des Données, Technologies Intelligentes et Cybersécurité",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5073332285",
+        "name": "Sanaa Elfilali",
+        "works_count": 18
+      },
+      {
+        "openalex_id": "A5051338143",
+        "name": "Sanaa ELFILALI",
+        "works_count": 2
+      },
+      {
+        "openalex_id": "A5118246681",
+        "name": "ELFILALI Sanaa",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5055347872",
+        "name": "Sanaa Elfilali",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5140886736",
+        "name": "Sanaa Elfilali",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5148903348",
+        "name": "Sanaa Elfilali",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "peesMqoAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=peesMqoAAAAJ&hl=en",
+    "profile": {
+      "name": "Sanaa Elfilali",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Topic Modeling",
+        "Natural Language Processing Techniques",
+        "IoT and Edge/Fog Computing",
+        "Smart Agriculture and AI",
+        "Multimodal Machine Learning Applications"
+      ],
+      "metrics": {
+        "citations": 193,
+        "h_index": 4,
+        "i10_index": 1
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5073332285",
+      "A5051338143",
+      "A5118246681",
+      "A5140886736",
+      "A5148903348"
+    ],
+    "n_publications_collected": 23
+  },
+  {
+    "chercheur_id": "fsbm_siham_slassi",
+    "nom_complet": "Siham Slassi",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d’Ingénierie et de Matériaux",
+    "equipe": "Matériaux Innovants",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5080414577",
+        "name": "Siham Slassi",
+        "works_count": 37
+      },
+      {
+        "openalex_id": "A5116489642",
+        "name": "Siham Slassi-sennou",
+        "works_count": 3
+      },
+      {
+        "openalex_id": "A5139357823",
+        "name": "Siham SLASSI-SENNOUS",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "-1DLu7sAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=-1DLu7sAAAAJ&hl=en",
+    "profile": {
+      "name": "Siham Slassi",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Synthesis and biological activity",
+        "Synthesis and Characterization of Heterocyclic Compounds",
+        "Metal complexes synthesis and properties",
+        "Click Chemistry and Applications",
+        "Free Radicals and Antioxidants"
+      ],
+      "metrics": {
+        "citations": 603,
+        "h_index": 15,
+        "i10_index": 16
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5080414577"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_soufiane_zerraf",
+    "nom_complet": "Soufiane Zerraf",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Chimie Physique des Matériaux Appliqués",
+    "equipe": "Valorisation des matériaux et modélisation",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5002725791",
+        "name": "Soufiane Zerraf",
+        "works_count": 38
+      },
+      {
+        "openalex_id": "A5103309212",
+        "name": "Soufiane Zerraf",
+        "works_count": 5
+      },
+      {
+        "openalex_id": "A5098615282",
+        "name": "Soufiane Zerraf",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "R7b0F7cAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=R7b0F7cAAAAJ&hl=en",
+    "profile": {
+      "name": "Soufiane Zerraf",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Crystal structures of chemical compounds",
+        "Chemical Synthesis and Characterization",
+        "Crystal Structures and Properties",
+        "Organometallic Compounds Synthesis and Characterization",
+        "Crystallography and molecular interactions"
+      ],
+      "metrics": {
+        "citations": 187,
+        "h_index": 10,
+        "i10_index": 10
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5002725791",
+      "A5103309212"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_soumia_belouafa",
+    "nom_complet": "Soumia Belouafa",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire Biologie et Santé",
+    "equipe": "Biomolécules et Biomatériaux Polymères",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5011553066",
+        "name": "Soumia Belouafa",
+        "works_count": 26
+      },
+      {
+        "openalex_id": "A5045747278",
+        "name": "Soumia Belouafa",
+        "works_count": 5
+      },
+      {
+        "openalex_id": "A5133456642",
+        "name": "Soumia Belouafa",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5137259936",
+        "name": "Soumia Belouafa",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "PwCedNQAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=PwCedNQAAAAJ&hl=en",
+    "profile": {
+      "name": "Soumia Belouafa",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Bone Tissue Engineering Materials",
+        "Chemical Synthesis and Characterization",
+        "Thermal and Kinetic Analysis",
+        "Radioactive element chemistry and processing",
+        "Dental Implant Techniques and Outcomes"
+      ],
+      "metrics": {
+        "citations": 247,
+        "h_index": 8,
+        "i10_index": 4
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5011553066",
+      "A5045747278",
+      "A5133456642",
+      "A5137259936"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_soumia_mordane",
+    "nom_complet": "Soumia Mordane",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d’Ingénierie et de Matériaux",
+    "equipe": "Sciences Mécanique et Matériaux",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5058903879",
+        "name": "Soumia Mordane",
+        "works_count": 72
+      }
+    ],
+    "scholar_id": "hIN0ScAAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=hIN0ScAAAAAJ&hl=en",
+    "profile": {
+      "name": "Soumia Mordane",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Coastal and Marine Dynamics",
+        "Climate variability and models",
+        "Ocean Waves and Remote Sensing",
+        "Wave and Wind Energy Systems",
+        "Meteorological Phenomena and Simulations"
+      ],
+      "metrics": {
+        "citations": 508,
+        "h_index": 9,
+        "i10_index": 8
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5058903879"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_wadi_badri",
+    "nom_complet": "Wadi Badri",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d'Ecologie et d'Environnement",
+    "equipe": "Ecologie et Ecophysiologie Végétales",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5061613539",
+        "name": "Wadï Badri",
+        "works_count": 34
+      },
+      {
+        "openalex_id": "A5043419968",
+        "name": "Wadi BADRI",
+        "works_count": 4
+      }
+    ],
+    "scholar_id": "ntBEnvsAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=ntBEnvsAAAAJ&hl=en",
+    "profile": {
+      "name": "Wadï Badri",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Mediterranean and Iberian flora and fauna",
+        "Phytochemistry and Biological Activities",
+        "Plant Ecology and Soil Science",
+        "Essential Oils and Antimicrobial Activity",
+        "African Botany and Ecology Studies"
+      ],
+      "metrics": {
+        "citations": 664,
+        "h_index": 12,
+        "i10_index": 18
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5061613539",
+      "A5043419968"
+    ],
+    "n_publications_collected": 30
+  },
+  {
+    "chercheur_id": "fsbm_younes_abboud",
+    "nom_complet": "Younes Abboud",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire de Chimie Physique des Matériaux Appliqués",
+    "equipe": "Matériaux fonctionnels et applications",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5110487170",
+        "name": "Y. Abboud",
+        "works_count": 46
+      },
+      {
+        "openalex_id": "A5127692902",
+        "name": "Younes Abboud",
+        "works_count": 1
+      },
+      {
+        "openalex_id": "A5144239403",
+        "name": "Abboud Younes",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "G0zEVVUAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=G0zEVVUAAAAJ&hl=en",
+    "profile": {
+      "name": "Younes Abboud",
+      "affiliation": "University of Hassan II Casablanca",
+      "email_domain": null,
+      "interests": [
+        "Corrosion Behavior and Inhibition",
+        "Conducting polymers and applications",
+        "Concrete Corrosion and Durability"
+      ],
+      "metrics": {
+        "citations": 2,
+        "h_index": 1,
+        "i10_index": 0
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5127692902"
+    ],
+    "n_publications_collected": 1
+  },
+  {
+    "chercheur_id": "fsbm_youssef_sekhara",
+    "nom_complet": "Youssef Sekhara",
+    "etablissement": "FSBM",
+    "laboratoire": "Laboratoire d’Intelligence Artificielle et Systèmes",
+    "equipe": "Ingénierie Logicielle Intelligente et Analyse Stochastique",
+    "type_membre": "Membre Permanent(e)",
+    "scholar_profile_status": "matched",
+    "status_detail": "Google Scholar limite l'accès (HTTP 429) : données OpenAlex (profil rattaché à l'Université Hassan II)",
+    "profile_match_confidence": 1.0,
+    "match_method": "openalex_name_institution",
+    "candidates": [
+      {
+        "openalex_id": "A5007524406",
+        "name": "Youssef Sekhara",
+        "works_count": 3
+      },
+      {
+        "openalex_id": "A5075918329",
+        "name": "Aziza Chakir And Youssef Sekhara",
+        "works_count": 1
+      }
+    ],
+    "scholar_id": "ixCm7WYAAAAJ",
+    "scholar_url": "https://scholar.google.com/citations?user=ixCm7WYAAAAJ&hl=en",
+    "profile": {
+      "name": "Youssef Sekhara",
+      "affiliation": null,
+      "email_domain": null,
+      "interests": [
+        "Semantic Web and Ontologies",
+        "Multi-Agent Systems and Negotiation",
+        "Structural Health Monitoring Techniques",
+        "Business Process Modeling and Analysis",
+        "Infrastructure Maintenance and Monitoring"
+      ],
+      "metrics": {
+        "citations": 7,
+        "h_index": 2,
+        "i10_index": 0
+      },
+      "since_year": null,
+      "coauthors": []
+    },
+    "coauthor_hits": [],
+    "collection_status": "complete",
+    "backend": "openalex",
+    "data_source": "openalex",
+    "openalex_ids": [
+      "A5007524406"
+    ],
+    "n_publications_collected": 3
+  }
+]

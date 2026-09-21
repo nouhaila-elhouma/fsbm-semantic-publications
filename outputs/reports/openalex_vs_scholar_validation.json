@@ -1,0 +1,72 @@
+{
+  "chercheurs_compares": 5,
+  "profils_openalex_trouves": 5,
+  "recall_moyen": 0.74,
+  "detail": [
+    {
+      "chercheur": "Abdelhakim Alali",
+      "openalex": "matched",
+      "scholar_publications": 22,
+      "retrouvees_dans_openalex": 22,
+      "recall": 1.0,
+      "openalex_publications": 24,
+      "openalex_ids_fusionnes": 1,
+      "h_index_scholar": 5,
+      "h_index_openalex": 4,
+      "citations_scholar": 103,
+      "citations_openalex": 75
+    },
+    {
+      "chercheur": "Abdellatif Slimani",
+      "openalex": "matched",
+      "scholar_publications": 30,
+      "retrouvees_dans_openalex": 26,
+      "recall": 0.87,
+      "openalex_publications": 27,
+      "openalex_ids_fusionnes": 1,
+      "h_index_scholar": 8,
+      "h_index_openalex": 6,
+      "citations_scholar": 141,
+      "citations_openalex": 94
+    },
+    {
+      "chercheur": "Abdelmoghit Zaarane",
+      "openalex": "matched",
+      "scholar_publications": 21,
+      "retrouvees_dans_openalex": 17,
+      "recall": 0.81,
+      "openalex_publications": 16,
+      "openalex_ids_fusionnes": 1,
+      "h_index_scholar": 8,
+      "h_index_openalex": 7,
+      "citations_scholar": 412,
+      "citations_openalex": 278
+    },
+    {
+      "chercheur": "Asmae Guennoun",
+      "openalex": "matched",
+      "scholar_publications": 5,
+      "retrouvees_dans_openalex": 5,
+      "recall": 1.0,
+      "openalex_publications": 9,
+      "openalex_ids_fusionnes": 1,
+      "h_index_scholar": 3,
+      "h_index_openalex": 2,
+      "citations_scholar": 16,
+      "citations_openalex": 10
+    },
+    {
+      "chercheur": "Aziza Elbakali",
+      "openalex": "matched",
+      "scholar_publications": 3,
+      "retrouvees_dans_openalex": 0,
+      "recall": 0.0,
+      "openalex_publications": 1,
+      "openalex_ids_fusionnes": 1,
+      "h_index_scholar": 2,
+      "h_index_openalex": 0,
+      "citations_scholar": 7,
+      "citations_openalex": 0
+    }
+  ]
+}

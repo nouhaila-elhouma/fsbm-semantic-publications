@@ -1,0 +1,26 @@
+{
+  "model": "zembed-1",
+  "transport": "local",
+  "runtime": {
+    "weights": "zeroentropy/zembed-1-embedding",
+    "revision": "cf13c81f3274394053d166740294f7eea4586f7a",
+    "device": "cuda",
+    "dtype": "float16",
+    "max_seq_length": 512
+  },
+  "dimension": 2560,
+  "requested_dimensions": null,
+  "n_embedded": 1591,
+  "demo_queries_cached": true,
+  "embedding_source_counts": {
+    "title_abstract": 1113,
+    "title_only": 478
+  },
+  "client_stats": {
+    "api_calls": 101,
+    "texts_embedded": 1594,
+    "cache_hits": 0,
+    "retries": 0,
+    "total_tokens": 0
+  }
+}

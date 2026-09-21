@@ -240,7 +240,26 @@ Le client gère : lots (nombre **et** octets), retries avec backoff exponentiel 
 
 **Extraction du PDF « Membres FSBM » (vérifiée, `scripts/01`)** : 215 lignes extraites = 215 annoncées en pied de page, numérotation 1…215 sans trou, 0 doublon ; **207 membres FSBM**, 8 membres d'autres établissements conservés dans le fichier brut (FSJESAS 3, FLSHBM 2, ENCG 2, FMPC 1) ; **11 laboratoires** et **42 équipes** FSBM ; tous de type « Membre Permanent(e) ».
 
-Les autres résultats chiffrés (profils appariés, publications, taux d'abstracts, exemples de recherche, figures) dépendent de la collecte Scholar et de l'appel à zembed-1. Ils sont **générés dans `outputs/`** (rapports, figures, cartes interactives) et présentés dans le notebook ; ce README ne cite volontairement aucun chiffre non produit par le pipeline.
+**Jeu de données final (`scripts/03`, rapport `outputs/reports/data_quality_report.{json,md}`)** — chiffres mesurés sur l'exécution livrée :
+
+| Indicateur | Valeur |
+|---|---|
+| Chercheurs FSBM dans le PDF / avec un Scholar ID (périmètre du dataset) | 207 / 86 |
+| Chercheurs **avec publications** dans le dataset | **79** (les 11 laboratoires sont représentés) |
+| … dont source **Google Scholar** / **OpenAlex** (repli) | 5 / 74 |
+| Chercheurs sans données | 7 (2 profils OpenAlex ambigus, 2 introuvables, 3 sans profil rattaché à l'Université Hassan II) — laissés vides, jamais devinés |
+| Publications uniques (après fusion de 171 doublons entre co-auteurs FSBM) | **1 591** (1 728 liens chercheur↔publication) |
+| Avec DOI | 1 522 (95,7 %) |
+| Avec abstract | 1 122 (70,5 %) ; sans abstract 469 (29,5 %) → encodées par le titre seul (`embedding_source = title_only`) |
+| Sources des abstracts | OpenAlex 987, Semantic Scholar 74, Google Scholar 40, Crossref 21 |
+| Erreurs de validation Pydantic | 0 |
+| Embeddings zembed-1 | 1 591 × 2 560 (float32), aucun NaN ; calculés sur GPU T4 (float16) avec les poids officiels |
+
+**Pourquoi 74 chercheurs sur 79 viennent d'OpenAlex.** Google Scholar a limité l'accès (HTTP 429, puis un contrôle « not a robot ») après quelques dizaines de requêtes, malgré un rythme prudent ; le projet ne contourne jamais ces limites. Le repli OpenAlex (voir plus haut) a été validé sur les 5 chercheurs collectés depuis Scholar (bon profil 5/5, 74 % de recouvrement des publications). **Deux conséquences à connaître :** (1) les métriques (citations, h-index, i10-index) de ces 74 chercheurs sont celles d'OpenAlex, généralement plus basses que celles de Scholar, et ne doivent pas être présentées comme des métriques Google Scholar (`source_donnees` les distingue) ; (2) les publications sont plafonnées à **30 par chercheur** (les plus citées), donc les classements décrivent le dataset collecté, pas la production totale. Une reprise ultérieure de `scripts/02_scrape_scholar.py` remplacera automatiquement les données de repli par celles de Scholar dès que l'accès sera rétabli.
+
+**Recherche sémantique — exemples réels** (`outputs/reports/demo_search_results.md`) : « natural language processing » ramène des travaux sur BERT et l'analyse de sentiments, et classe parmi les chercheurs E. H. Benlahmar, O. Zahour, A. Daif et S. El Filali ; « renewable energy materials » ramène pérovskites et cellules solaires à base de ZnO/CuO ; « environmental pollution » ramène la qualité des eaux souterraines et l'acidification côtière.
+
+**Cartographie** : les silhouettes sont quasi identiques pour tout k (≈ 0,03-0,04) : les publications forment un continuum thématique plutôt que des groupes nets. k a donc été **fixé à 8** (`semantic_map.n_clusters`) pour obtenir une carte lisible, et non pas choisi par optimisation.
 
 Sorties : `outputs/figures/` (01…08 + `semantic_map_*`), `outputs/reports/` (qualité, résumé descriptif, résumé des clusters, résultats de recherche).
 

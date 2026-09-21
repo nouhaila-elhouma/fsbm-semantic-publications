@@ -1,0 +1,10 @@
+{
+  "backend": "faiss",
+  "dimension": 2560,
+  "n_vectors": 1591,
+  "metric": "cosine (inner product on L2-normalized vectors)",
+  "normalized": true,
+  "created_at": "2026-09-21T20:55:04+00:00",
+  "model": "zembed-1",
+  "source_manifest": "embedding_manifest.csv"
+}

@@ -47,7 +47,7 @@ def parse_args() -> argparse.Namespace:
     return p.parse_args()
 
 
-def attach_embeddings_to_dataset(dataset: list[dict], vectors_by_article: dict[str, np.ndarray], decimals: int = 6) -> int:
+def attach_embeddings_to_dataset(dataset: list[dict], vectors_by_article: dict[str, np.ndarray], decimals: int = 5) -> int:
     """Remplit ``embedding_zembed1`` de chaque article ; retourne le nombre d'articles renseignés."""
     n = 0
     for researcher in dataset:

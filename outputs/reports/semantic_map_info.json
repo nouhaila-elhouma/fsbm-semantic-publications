@@ -1,0 +1,8 @@
+{
+  "reduction_method_used": "umap",
+  "reduction_method_requested": "umap",
+  "n_clusters": 8,
+  "silhouette_by_k": {},
+  "random_state": 42,
+  "n_publications": 1591
+}

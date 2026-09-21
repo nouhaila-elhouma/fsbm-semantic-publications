@@ -90,7 +90,7 @@ search:
 
 semantic_map:
   reduction: "umap"                         # "umap" | "pca"
-  n_clusters: null                          # null = choix par silhouette dans k_range
+  n_clusters: 8                             # la silhouette est quasi plate (~0,03-0,04 pour tout k) : k fixé pour une carte lisible ; null = choix automatique dans k_range
   k_range: [4, 12]
   umap_n_neighbors: 15
   umap_min_dist: 0.1

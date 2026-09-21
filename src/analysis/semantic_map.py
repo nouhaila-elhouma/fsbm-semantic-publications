@@ -27,7 +27,10 @@ RANDOM_STATE = 42
 FRENCH_STOP_WORDS = {"le", "la", "les", "un", "une", "des", "du", "de", "et", "en", "au", "aux", "dans", "pour",
                      "par", "sur", "avec", "est", "sont", "que", "qui", "ce", "cette", "ces", "se", "sa", "son",
                      "ses", "ou", "plus", "nous", "cet", "ainsi", "comme", "entre", "leur", "leurs"}
-STOP_WORDS = list(ENGLISH_STOP_WORDS | FRENCH_STOP_WORDS)  # utilisés UNIQUEMENT pour étiqueter les clusters
+# mots génériques des titres/abstracts scientifiques : écartés de l'ÉTIQUETAGE des clusters uniquement (jamais des embeddings)
+ACADEMIC_GENERIC = {"study", "studies", "using", "based", "analysis", "approach", "paper", "results", "method", "methods", "new",
+                    "use", "used", "case", "effect", "effects", "review", "towards", "toward", "novel", "et", "al", "de", "des", "en"}
+STOP_WORDS = list(ENGLISH_STOP_WORDS | FRENCH_STOP_WORDS | ACADEMIC_GENERIC)  # utilisés UNIQUEMENT pour étiqueter les clusters
 
 
 # --------------------------------------------------------------------------- réduction & clustering

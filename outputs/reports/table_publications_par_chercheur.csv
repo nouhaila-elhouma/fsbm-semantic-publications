@@ -1,0 +1,87 @@
+chercheur_id,nom_complet,laboratoire,n_publications
+fsbm_faouziya_haissen,Faouziya Haissen,"Géosciences, Géomatique et Environnement",30
+fsbm_nadia_barhoun,Nadia Barhoun,"Géosciences, Géomatique et Environnement",30
+fsbm_bouazza_braikat,Bouazza Braikat,Laboratoire de Physique de la Matière Condensée,30
+fsbm_youssef_naimi,Youssef Naimi,Laboratoire de Traitement de l'Information,30
+fsbm_tarik_chafiq,Tarik Chafiq,Laboratoire de Traitement de l'Information,30
+fsbm_mohamed_talea,Mohamed Talea,Laboratoire de Traitement de l'Information,30
+fsbm_mustapha_mouflih,Mustapha Mouflih,"Géosciences, Géomatique et Environnement",30
+fsbm_soumia_mordane,Soumia Mordane,Laboratoire d’Ingénierie et de Matériaux,30
+fsbm_siham_slassi,Siham Slassi,Laboratoire d’Ingénierie et de Matériaux,30
+fsbm_said_gmouh,Said Gmouh,Laboratoire d’Ingénierie et de Matériaux,30
+fsbm_halima_lebrazi,Halima Lebrazi,Laboratoire Biologie et Santé,30
+fsbm_fouad_damiri,Fouad Damiri,Laboratoire Biologie et Santé,30
+fsbm_driss_radallah,Driss Radallah,Laboratoire Biologie et Santé,30
+fsbm_mohamed_ghazouani,Mohamed Ghazouani,Technologie de l'Information et Modélisation,30
+fsbm_abdessamad_belangour,Abdessamad Belangour,Laboratoire d’Intelligence Artificielle et Systèmes,30
+fsbm_faouzia_benabbou,Faouzia Benabbou,Laboratoire d’Intelligence Artificielle et Systèmes,30
+fsbm_nawal_sael,Nawal Sael,Laboratoire d’Intelligence Artificielle et Systèmes,30
+fsbm_omar_tanane,Omar Tanane,Laboratoire de Chimie Physique des Matériaux Appliqués,30
+fsbm_chaouki_sadik,Chaouki Sadik,Laboratoire de Chimie Physique des Matériaux Appliqués,30
+fsbm_samir_chtita,Samir Chtita,Laboratoire de Chimie Analytique et Moléculaire,30
+fsbm_mohamed_moumou,Mohamed Moumou,Laboratoire de Chimie Analytique et Moléculaire,30
+fsbm_rachid_essamoud,Rachid Essamoud,"Géosciences, Géomatique et Environnement",30
+fsbm_karima_mohtadi,Karima Mohtadi,Laboratoire Biologie et Santé,30
+fsbm_mohammed_berrada,Mohammed Berrada,Laboratoire Biologie et Santé,30
+fsbm_soumia_belouafa,Soumia Belouafa,Laboratoire Biologie et Santé,30
+fsbm_anass_kettani,Anass Kettani,Laboratoire Biologie et Santé,30
+fsbm_elhabib_benlahmar,Elhabib Benlahmar,Technologie de l'Information et Modélisation,30
+fsbm_abdelilah_akouibaa,Abdelilah Akouibaa,Laboratoire d’Ingénierie et de Matériaux,30
+fsbm_said_nouh,Said Nouh,Technologie de l'Information et Modélisation,29
+fsbm_soufiane_zerraf,Soufiane Zerraf,Laboratoire de Chimie Physique des Matériaux Appliqués,29
+fsbm_mohamed_idiri,Mohamed Idiri,Laboratoire de Physique de la Matière Condensée,29
+fsbm_issam_atouf,Issam Atouf,Laboratoire de Traitement de l'Information,29
+fsbm_abdellatif_slimani,Abdellatif Slimani,Laboratoire de Traitement de l'Information,29
+fsbm_mostafa_oukassou,Mostafa Oukassou,"Géosciences, Géomatique et Environnement",28
+fsbm_imane_agmour,Imane Agmour,"Laboratoire d'Analyse, Modélisation et Simulation",28
+fsbm_laila_mouakkir,Laila Mouakkir,Laboratoire d’Ingénierie et de Matériaux,28
+fsbm_omar_zakary,Omar Zakary,"Laboratoire d'Analyse, Modélisation et Simulation",28
+fsbm_abdelmjid_abourriche,Abdelmjid Abourriche,Laboratoire Biologie et Santé,28
+fsbm_wadi_badri,Wadi Badri,Laboratoire d'Ecologie et d'Environnement,27
+fsbm_asmaa_benbiyi,Asmaa Benbiyi,Laboratoire de Chimie Physique des Matériaux Appliqués,26
+fsbm_abdellah_hamdaoui,Abdellah Hamdaoui,Laboratoire de Physique de la Matière Condensée,26
+fsbm_mounir_sadiq,Mounir Sadiq,Technologie de l'Information et Modélisation,24
+fsbm_hassan_laarabi,Hassan Laarabi,"Laboratoire d'Analyse, Modélisation et Simulation",23
+fsbm_loubna_benidire,Loubna Benidire,Laboratoire d'Ecologie et d'Environnement,22
+fsbm_amal_elhamsaselyoubi,Amal Elhamsaselyoubi,Laboratoire Biologie et Santé,22
+fsbm_sanaa_elfilali,Sanaa Elfilali,Laboratoire d’Intelligence Artificielle et Systèmes,22
+fsbm_rachida_moultif,Rachida Moultif,Laboratoire de Physique de la Matière Condensée,22
+fsbm_allal_labriki,Allal Labriki,"Géosciences, Géomatique et Environnement",22
+fsbm_soufiane_maimouni,Soufiane Maimouni,"Géosciences, Géomatique et Environnement",22
+fsbm_abdelhakim_alali,Abdelhakim Alali,Laboratoire de Traitement de l'Information,21
+fsbm_abdelmottalib_nahli,Abdelmottalib Nahli,Laboratoire d'Ecologie et d'Environnement,20
+fsbm_omar_zahour,Omar Zahour,Technologie de l'Information et Modélisation,19
+fsbm_abdelmoghit_zaarane,Abdelmoghit Zaarane,Laboratoire de Traitement de l'Information,19
+fsbm_rhma_adhiri,Rhma Adhiri,Laboratoire d’Ingénierie et de Matériaux,19
+fsbm_mohammed_aitdaoud,Mohammed Aitdaoud,Laboratoire d’Intelligence Artificielle et Systèmes,18
+fsbm_khalid_adnaoui,Khalid Adnaoui,"Laboratoire d'Analyse, Modélisation et Simulation",18
+fsbm_khadija_achtaich,Khadija Achtaich,Laboratoire d’Intelligence Artificielle et Systèmes,17
+fsbm_aziz_boutouil,Aziz Boutouil,Laboratoire de Chimie Physique des Matériaux Appliqués,17
+fsbm_samia_yousfi,Samia Yousfi,Laboratoire de Chimie Analytique et Moléculaire,16
+fsbm_khalid_kandali,Khalid Kandali,Technologie de l'Information et Modélisation,15
+fsbm_abderrahmane_daif,Abderrahmane Daif,Technologie de l'Information et Modélisation,15
+fsbm_nadia_iounes,Nadia Iounes,Laboratoire d'Ecologie et d'Environnement,14
+fsbm_fouad_alloun,Fouad Alloun,Laboratoire de Chimie Physique des Matériaux Appliqués,14
+fsbm_said_bakkali,Said Bakkali,Laboratoire de Chimie Physique des Matériaux Appliqués,13
+fsbm_abdelhafid_bassou,Abdelhafid Bassou,"Laboratoire d'Analyse, Modélisation et Simulation",12
+fsbm_othmane_daoudi,Othmane Daoudi,Laboratoire de Physique de la Matière Condensée,12
+fsbm_bouchra_aharmim,Bouchra Aharmim,"Laboratoire d'Analyse, Modélisation et Simulation",10
+fsbm_driss_bouggar,Driss Bouggar,Laboratoire d’Intelligence Artificielle et Systèmes,10
+fsbm_abderrahim_eladraoui,Abderrahim Eladraoui,"Laboratoire d'Analyse, Modélisation et Simulation",9
+fsbm_mohssine_bentaib,Mohssine Bentaib,Technologie de l'Information et Modélisation,9
+fsbm_asmae_guennoun,Asmae Guennoun,Laboratoire de Traitement de l'Information,5
+fsbm_malika_izid,Malika Izid,"Laboratoire d'Analyse, Modélisation et Simulation",5
+fsbm_rachid_saile,Rachid Saile,Laboratoire Biologie et Santé,5
+fsbm_aziza_elbakali,Aziza Elbakali,Laboratoire de Traitement de l'Information,3
+fsbm_abdenbi_khouaja,Abdenbi Khouaja,Laboratoire de Physique de la Matière Condensée,3
+fsbm_youssef_sekhara,Youssef Sekhara,Laboratoire d’Intelligence Artificielle et Systèmes,3
+fsbm_said_benkaddour,Said Benkaddour,"Laboratoire d'Analyse, Modélisation et Simulation",2
+fsbm_younes_abboud,Younes Abboud,Laboratoire de Chimie Physique des Matériaux Appliqués,1
+fsbm_rachida_aitabdelouahid,Rachida Aitabdelouahid,Laboratoire d’Intelligence Artificielle et Systèmes,1
+fsbm_mourad_benlattar,Mourad Benlattar,Laboratoire de Physique de la Matière Condensée,0
+fsbm_ahmed_fekri,Ahmed Fekri,"Géosciences, Géomatique et Environnement",0
+fsbm_mohamed_radid,Mohamed Radid,Laboratoire de Chimie Analytique et Moléculaire,0
+fsbm_elmehdi_lotfi,Elmehdi Lotfi,"Laboratoire d'Analyse, Modélisation et Simulation",0
+fsbm_boubker_mehdaoui,Boubker Mehdaoui,Laboratoire de Chimie Physique des Matériaux Appliqués,0
+fsbm_mina_oumam,Mina Oumam,Laboratoire d’Ingénierie et de Matériaux,0
+fsbm_mbarka_mourabit,Mbarka Mourabit,Laboratoire d’Ingénierie et de Matériaux,0

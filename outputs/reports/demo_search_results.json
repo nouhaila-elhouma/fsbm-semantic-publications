@@ -1,0 +1,1340 @@
+[
+  {
+    "query": "deep learning for medical imaging",
+    "publications": [
+      {
+        "rank": 1,
+        "score": 0.4499,
+        "article_id": "art_00405",
+        "titre": "Correction to: Systematic Review of Physical, Chemical, and Biological Approaches for Exosome Isolation Towards Optimizing Methods in Clinical Diagnostics",
+        "chercheurs": [
+          "Abdelmjid Abourriche"
+        ],
+        "chercheur_ids": [
+          "fsbm_abdelmjid_abourriche"
+        ],
+        "annee": 2025,
+        "journal": "Sustainable civil infrastructures",
+        "laboratoires": [
+          "Laboratoire Biologie et Santé"
+        ],
+        "equipes": [
+          "Biomolécules et Biomatériaux Polymères"
+        ],
+        "citations": 0,
+        "abstract_court": null,
+        "doi": "10.1007/978-3-031-86705-7_54",
+        "url": "https://doi.org/10.1007/978-3-031-86705-7_54",
+        "embedding_source": "title_only"
+      },
+      {
+        "rank": 2,
+        "score": 0.3943,
+        "article_id": "art_00048",
+        "titre": "A deep neural network for detecting the severity level of diabetic retinopathy from retinography images",
+        "chercheurs": [
+          "Aziza Elbakali"
+        ],
+        "chercheur_ids": [
+          "fsbm_aziza_elbakali"
+        ],
+        "annee": 2022,
+        "journal": "2022 2nd International Conference on Innovative Research in Applied Science, Engineering and Technology (IRASET)",
+        "laboratoires": [
+          "Laboratoire de Traitement de l'Information"
+        ],
+        "equipes": [
+          "Systèmes Électroniques Intelligents"
+        ],
+        "citations": 5,
+        "abstract_court": "We propose a deep neural network for detecting the severity levels of diabetic retinopathy disease by analyzing high-resolution retinography images. The architecture of this network is heuristically constructed starting with the simplest possible structure with no hidden layers, and progressively…",
+        "doi": "10.1109/iraset52964.2022.9738202",
+        "url": "https://doi.org/10.1109/iraset52964.2022.9738202",
+        "embedding_source": "title_abstract"
+      },
+      {
+        "rank": 3,
+        "score": 0.3864,
+        "article_id": "art_01359",
+        "titre": "Study of optical properties of gold nanoparticles embedded in normal, benign, and malignant breast tissues",
+        "chercheurs": [
+          "Abdelilah Akouibaa"
+        ],
+        "chercheur_ids": [
+          "fsbm_abdelilah_akouibaa"
+        ],
+        "annee": 2021,
+        "journal": "Journal of Molecular Structure",
+        "laboratoires": [
+          "Laboratoire d’Ingénierie et de Matériaux"
+        ],
+        "equipes": [
+          "Sciences Mécanique et Matériaux"
+        ],
+        "citations": 15,
+        "abstract_court": null,
+        "doi": "10.1016/j.molstruc.2021.130979",
+        "url": "https://doi.org/10.1016/j.molstruc.2021.130979",
+        "embedding_source": "title_only"
+      },
+      {
+        "rank": 4,
+        "score": 0.3602,
+        "article_id": "art_01553",
+        "titre": "V-net performances for 2D ultrasound image segmentation",
+        "chercheurs": [
+          "Abdelhakim Alali"
+        ],
+        "chercheur_ids": [
+          "fsbm_abdelhakim_alali"
+        ],
+        "annee": 2022,
+        "journal": "2022 IEEE 18th International Colloquium on Signal Processing & Applications (CSPA)",
+        "laboratoires": [
+          "Laboratoire de Traitement de l'Information"
+        ],
+        "equipes": [
+          "Systèmes Électroniques Intelligents"
+        ],
+        "citations": 8,
+        "abstract_court": "Artificial intelligence (AI) has conquered all areas of human being life through its performance when it is adapted to a particular domain. Nowadays, different research papers are interested in the application of AI in medical area for ultrasound imaging. Hence, the most important task in medical…",
+        "doi": "10.1109/cspa55076.2022.9781973",
+        "url": "https://doi.org/10.1109/cspa55076.2022.9781973",
+        "embedding_source": "title_abstract"
+      },
+      {
+        "rank": 5,
+        "score": 0.3474,
+        "article_id": "art_00998",
+        "titre": "Near-optimal stochastic control for radiotherapy treatment in a random cancer model",
+        "chercheurs": [
+          "Driss Bouggar"
+        ],
+        "chercheur_ids": [
+          "fsbm_driss_bouggar"
+        ],
+        "annee": 2022,
+        "journal": "Systems & Control Letters",
+        "laboratoires": [
+          "Laboratoire d’Intelligence Artificielle et Systèmes"
+        ],
+        "equipes": [
+          "Ingénierie Logicielle Intelligente et Analyse Stochastique"
+        ],
+        "citations": 4,
+        "abstract_court": null,
+        "doi": "10.1016/j.sysconle.2022.105400",
+        "url": "https://doi.org/10.1016/j.sysconle.2022.105400",
+        "embedding_source": "title_only"
+      }
+    ],
+    "chercheurs": [
+      {
+        "rank": 1,
+        "chercheur_id": "fsbm_abdelmjid_abourriche",
+        "nom_complet": "Abdelmjid Abourriche",
+        "score": 0.3543,
+        "best_score": 0.4499,
+        "n_matching_publications": 3,
+        "laboratoire": "Laboratoire Biologie et Santé",
+        "equipe": "Biomolécules et Biomatériaux Polymères",
+        "top_publications": [
+          {
+            "article_id": "art_00405",
+            "titre": "Correction to: Systematic Review of Physical, Chemical, and Biological Approaches for Exosome Isolation Towards Optimizing Methods in Clinical Diagnostics",
+            "score": 0.4499
+          },
+          {
+            "article_id": "art_01412",
+            "titre": "Systematic Review of Prostate Cancer Diagnostic Techniques and the Role of Urinary Biomarkers and Artificial Intelligence in Enhancing Diagnostic Precision and Efficiency",
+            "score": 0.3435
+          },
+          {
+            "article_id": "art_00435",
+            "titre": "Cynthichlorine Extracted from Ascidian Cynthia savignyi from Djibouti: Optimization of Extraction, In Vitro Anticancer Profiling, and In Silico Approach",
+            "score": 0.2695
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "chercheur_id": "fsbm_abdelilah_akouibaa",
+        "nom_complet": "Abdelilah Akouibaa",
+        "score": 0.3249,
+        "best_score": 0.3864,
+        "n_matching_publications": 3,
+        "laboratoire": "Laboratoire d’Ingénierie et de Matériaux",
+        "equipe": "Sciences Mécanique et Matériaux",
+        "top_publications": [
+          {
+            "article_id": "art_01359",
+            "titre": "Study of optical properties of gold nanoparticles embedded in normal, benign, and malignant breast tissues",
+            "score": 0.3864
+          },
+          {
+            "article_id": "art_01152",
+            "titre": "Plasmonic heating and optical response of Au nanorods and spheroids in the NIR window for photothermal applications",
+            "score": 0.3129
+          },
+          {
+            "article_id": "art_01358",
+            "titre": "Study of Optical and Thermoplasmonic Properties of Silica‐Core/Gold‐Shell Nanoparticles Integrated within Cell Organelles: A Finite Element Method",
+            "score": 0.2754
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "chercheur_id": "fsbm_fouad_damiri",
+        "nom_complet": "Fouad Damiri",
+        "score": 0.3005,
+        "best_score": 0.313,
+        "n_matching_publications": 4,
+        "laboratoire": "Laboratoire Biologie et Santé",
+        "equipe": "Biomolécules et Biomatériaux Polymères",
+        "top_publications": [
+          {
+            "article_id": "art_01286",
+            "titre": "Size-Dependent Antibacterial, Antidiabetic, and Toxicity of Silver Nanoparticles Synthesized Using Solvent Extraction of Rosa indica L. Petals",
+            "score": 0.313
+          },
+          {
+            "article_id": "art_00996",
+            "titre": "Nano-hydroxyapatite (nHAp) scaffolds for bone regeneration: Preparation, characterization and biological applications",
+            "score": 0.3045
+          },
+          {
+            "article_id": "art_00324",
+            "titre": "Chitosan Nanocomposites as Scaffolds for Bone Tissue Regeneration",
+            "score": 0.284
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "chercheur_id": "fsbm_halima_lebrazi",
+        "nom_complet": "Halima Lebrazi",
+        "score": 0.2971,
+        "best_score": 0.3189,
+        "n_matching_publications": 6,
+        "laboratoire": "Laboratoire Biologie et Santé",
+        "equipe": "Pathologies Chroniques et Nutrition Humaine",
+        "top_publications": [
+          {
+            "article_id": "art_00244",
+            "titre": "Association of Tumor Necrosis Factor Receptor 1 Promoter Gene Polymorphisms (‐580 A/G and ‐609 G/T) and TNFR1 Serum Levels with the Susceptibility to Gastric Precancerous Lesions and Gastric Cancer Related to H. pylori Infection in a Moroccan Population",
+            "score": 0.3189
+          },
+          {
+            "article_id": "art_00234",
+            "titre": "Assessing the prevalence of protein-energy wasting in haemodialysis patients: A cross-sectional monocentric study",
+            "score": 0.2927
+          },
+          {
+            "article_id": "art_00700",
+            "titre": "GENOTYPING OF HELICOBACTER PYLORI CAGA EPIYA MOTIF AS A RISK FACTOR OF GASTRIC LESIONS SEVERITY IN A MOROCCAN POPULATION",
+            "score": 0.2797
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "chercheur_id": "fsbm_issam_atouf",
+        "nom_complet": "Issam Atouf",
+        "score": 0.2951,
+        "best_score": 0.3017,
+        "n_matching_publications": 5,
+        "laboratoire": "Laboratoire de Traitement de l'Information",
+        "equipe": "Systèmes Électroniques Intelligents",
+        "top_publications": [
+          {
+            "article_id": "art_00509",
+            "titre": "ECG signals classification using MFCC coefficients and ANN classifier",
+            "score": 0.3017
+          },
+          {
+            "article_id": "art_00508",
+            "titre": "ECG Image Classification in Real time based on the Haar-like Features and Artificial Neural Networks",
+            "score": 0.2921
+          },
+          {
+            "article_id": "art_00545",
+            "titre": "Electricity Theft Detection: Experimental Comparison of Ensemble and Traditional Machine Learning Methods",
+            "score": 0.2914
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "natural language processing",
+    "publications": [
+      {
+        "rank": 1,
+        "score": 0.541,
+        "article_id": "art_01503",
+        "titre": "Towards a System that Predicts the Category of Educational and Vocational Guidance Questions, Utilizing Bidirectional Encoder Representations of Transformers (BERT)",
+        "chercheurs": [
+          "Omar Zahour"
+        ],
+        "chercheur_ids": [
+          "fsbm_omar_zahour"
+        ],
+        "annee": 2024,
+        "journal": "Synthesis lectures on engineering, science, and technology",
+        "laboratoires": [
+          "Technologie de l'Information et Modélisation"
+        ],
+        "equipes": [
+          "Modélisation dirigée par la donnée"
+        ],
+        "citations": 0,
+        "abstract_court": null,
+        "doi": "10.1007/978-3-031-50300-9_5",
+        "url": "https://doi.org/10.1007/978-3-031-50300-9_5",
+        "embedding_source": "title_only"
+      },
+      {
+        "rank": 2,
+        "score": 0.5238,
+        "article_id": "art_00570",
+        "titre": "Enhancing Hotel Services Through Sentiment Analysis",
+        "chercheurs": [
+          "Abderrahmane Daif",
+          "Mohamed Ghazouani"
+        ],
+        "chercheur_ids": [
+          "fsbm_abderrahmane_daif",
+          "fsbm_mohamed_ghazouani"
+        ],
+        "annee": 2024,
+        "journal": "Synthesis lectures on engineering, science, and technology",
+        "laboratoires": [
+          "Technologie de l'Information et Modélisation"
+        ],
+        "equipes": [
+          "Big Data et Ingénierie des Systèmes d’Information",
+          "Modélisation dirigée par la donnée"
+        ],
+        "citations": 3,
+        "abstract_court": null,
+        "doi": "10.1007/978-3-031-50300-9_24",
+        "url": "https://doi.org/10.1007/978-3-031-50300-9_24",
+        "embedding_source": "title_only"
+      },
+      {
+        "rank": 3,
+        "score": 0.4687,
+        "article_id": "art_00327",
+        "titre": "Classifying Figurative Styles in Arabic Using Advanced mT5 Pre-trained Models",
+        "chercheurs": [
+          "Sanaa Elfilali"
+        ],
+        "chercheur_ids": [
+          "fsbm_sanaa_elfilali"
+        ],
+        "annee": 2025,
+        "journal": "Lecture notes in networks and systems",
+        "laboratoires": [
+          "Laboratoire d’Intelligence Artificielle et Systèmes"
+        ],
+        "equipes": [
+          "Sciences des Données, Technologies Intelligentes et Cybersécurité"
+        ],
+        "citations": 0,
+        "abstract_court": null,
+        "doi": "10.1007/978-3-032-02312-4_1",
+        "url": "https://doi.org/10.1007/978-3-032-02312-4_1",
+        "embedding_source": "title_only"
+      },
+      {
+        "rank": 4,
+        "score": 0.4434,
+        "article_id": "art_00805",
+        "titre": "Intelligent Automated Resume Analysis and Ranking System for Profile Recruitment Based on Computer Vision and LLMs",
+        "chercheurs": [
+          "Omar Zahour"
+        ],
+        "chercheur_ids": [
+          "fsbm_omar_zahour"
+        ],
+        "annee": 2026,
+        "journal": "Communications in computer and information science",
+        "laboratoires": [
+          "Technologie de l'Information et Modélisation"
+        ],
+        "equipes": [
+          "Modélisation dirigée par la donnée"
+        ],
+        "citations": 0,
+        "abstract_court": null,
+        "doi": "10.1007/978-3-032-15147-6_27",
+        "url": "https://doi.org/10.1007/978-3-032-15147-6_27",
+        "embedding_source": "title_only"
+      },
+      {
+        "rank": 5,
+        "score": 0.4312,
+        "article_id": "art_00432",
+        "titre": "Customer Sentiment Analysis in Hotel Reviews Through Natural Language Processing Techniques",
+        "chercheurs": [
+          "Abderrahmane Daif"
+        ],
+        "chercheur_ids": [
+          "fsbm_abderrahmane_daif"
+        ],
+        "annee": 2023,
+        "journal": "International Journal of Advanced Computer Science and Applications",
+        "laboratoires": [
+          "Technologie de l'Information et Modélisation"
+        ],
+        "equipes": [
+          "Big Data et Ingénierie des Systèmes d’Information"
+        ],
+        "citations": 31,
+        "abstract_court": "Customer reviews of products and services play a key role in the customers' decision to buy a product or use a service. Customers' preferences and choices are influenced by the opinions of others online; on blogs or social networks. New customers are faced with many views on the web, but they can't…",
+        "doi": "10.14569/ijacsa.2023.0140162",
+        "url": "https://doi.org/10.14569/ijacsa.2023.0140162",
+        "embedding_source": "title_abstract"
+      }
+    ],
+    "chercheurs": [
+      {
+        "rank": 1,
+        "chercheur_id": "fsbm_omar_zahour",
+        "nom_complet": "Omar Zahour",
+        "score": 0.4378,
+        "best_score": 0.541,
+        "n_matching_publications": 12,
+        "laboratoire": "Technologie de l'Information et Modélisation",
+        "equipe": "Modélisation dirigée par la donnée",
+        "top_publications": [
+          {
+            "article_id": "art_01503",
+            "titre": "Towards a System that Predicts the Category of Educational and Vocational Guidance Questions, Utilizing Bidirectional Encoder Representations of Transformers (BERT)",
+            "score": 0.541
+          },
+          {
+            "article_id": "art_00805",
+            "titre": "Intelligent Automated Resume Analysis and Ranking System for Profile Recruitment Based on Computer Vision and LLMs",
+            "score": 0.4434
+          },
+          {
+            "article_id": "art_00250",
+            "titre": "Automatic Classification of Academic and Vocational Guidance Questions using Multiclass Neural Network",
+            "score": 0.329
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "chercheur_id": "fsbm_abderrahmane_daif",
+        "nom_complet": "Abderrahmane Daif",
+        "score": 0.4358,
+        "best_score": 0.5238,
+        "n_matching_publications": 5,
+        "laboratoire": "Technologie de l'Information et Modélisation",
+        "equipe": "Big Data et Ingénierie des Systèmes d’Information",
+        "top_publications": [
+          {
+            "article_id": "art_00570",
+            "titre": "Enhancing Hotel Services Through Sentiment Analysis",
+            "score": 0.5238
+          },
+          {
+            "article_id": "art_00432",
+            "titre": "Customer Sentiment Analysis in Hotel Reviews Through Natural Language Processing Techniques",
+            "score": 0.4312
+          },
+          {
+            "article_id": "art_01338",
+            "titre": "Streamlining Student Support: Enhancing Administrative Assistance and Interaction Through a Chatbot Solution",
+            "score": 0.3523
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "chercheur_id": "fsbm_mohamed_ghazouani",
+        "nom_complet": "Mohamed Ghazouani",
+        "score": 0.4263,
+        "best_score": 0.5238,
+        "n_matching_publications": 8,
+        "laboratoire": "Technologie de l'Information et Modélisation",
+        "equipe": "Modélisation dirigée par la donnée",
+        "top_publications": [
+          {
+            "article_id": "art_00570",
+            "titre": "Enhancing Hotel Services Through Sentiment Analysis",
+            "score": 0.5238
+          },
+          {
+            "article_id": "art_00683",
+            "titre": "From Manual Review to AI Automation: An NLP-Powered System for Efficient CV Processing in Academic Admissions",
+            "score": 0.403
+          },
+          {
+            "article_id": "art_01338",
+            "titre": "Streamlining Student Support: Enhancing Administrative Assistance and Interaction Through a Chatbot Solution",
+            "score": 0.3523
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "chercheur_id": "fsbm_sanaa_elfilali",
+        "nom_complet": "Sanaa Elfilali",
+        "score": 0.406,
+        "best_score": 0.4687,
+        "n_matching_publications": 11,
+        "laboratoire": "Laboratoire d’Intelligence Artificielle et Systèmes",
+        "equipe": "Sciences des Données, Technologies Intelligentes et Cybersécurité",
+        "top_publications": [
+          {
+            "article_id": "art_00327",
+            "titre": "Classifying Figurative Styles in Arabic Using Advanced mT5 Pre-trained Models",
+            "score": 0.4687
+          },
+          {
+            "article_id": "art_01264",
+            "titre": "Sentiment Analysis in Moroccan Dialect via Arabic Transcoding: Evaluating Different Machine Learning Strategies",
+            "score": 0.3826
+          },
+          {
+            "article_id": "art_00139",
+            "titre": "A systematic review of figurative language detection: Methods, challenges, and multilingual perspectives",
+            "score": 0.3668
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "chercheur_id": "fsbm_elhabib_benlahmar",
+        "nom_complet": "Elhabib Benlahmar",
+        "score": 0.4027,
+        "best_score": 0.4302,
+        "n_matching_publications": 10,
+        "laboratoire": "Technologie de l'Information et Modélisation",
+        "equipe": "Modélisation dirigée par la donnée",
+        "top_publications": [
+          {
+            "article_id": "art_01377",
+            "titre": "Survey of Plagiarism Detection Approaches and Big data Techniques related to Plagiarism Candidate Retrieval",
+            "score": 0.4302
+          },
+          {
+            "article_id": "art_00125",
+            "titre": "A review paper on artificial intelligence at the service of human resources management",
+            "score": 0.4071
+          },
+          {
+            "article_id": "art_00258",
+            "titre": "Bert for Question Answering applied on Covid-19",
+            "score": 0.3708
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "machine learning for cancer diagnosis",
+    "publications": [
+      {
+        "rank": 1,
+        "score": 0.5739,
+        "article_id": "art_00405",
+        "titre": "Correction to: Systematic Review of Physical, Chemical, and Biological Approaches for Exosome Isolation Towards Optimizing Methods in Clinical Diagnostics",
+        "chercheurs": [
+          "Abdelmjid Abourriche"
+        ],
+        "chercheur_ids": [
+          "fsbm_abdelmjid_abourriche"
+        ],
+        "annee": 2025,
+        "journal": "Sustainable civil infrastructures",
+        "laboratoires": [
+          "Laboratoire Biologie et Santé"
+        ],
+        "equipes": [
+          "Biomolécules et Biomatériaux Polymères"
+        ],
+        "citations": 0,
+        "abstract_court": null,
+        "doi": "10.1007/978-3-031-86705-7_54",
+        "url": "https://doi.org/10.1007/978-3-031-86705-7_54",
+        "embedding_source": "title_only"
+      },
+      {
+        "rank": 2,
+        "score": 0.4936,
+        "article_id": "art_01359",
+        "titre": "Study of optical properties of gold nanoparticles embedded in normal, benign, and malignant breast tissues",
+        "chercheurs": [
+          "Abdelilah Akouibaa"
+        ],
+        "chercheur_ids": [
+          "fsbm_abdelilah_akouibaa"
+        ],
+        "annee": 2021,
+        "journal": "Journal of Molecular Structure",
+        "laboratoires": [
+          "Laboratoire d’Ingénierie et de Matériaux"
+        ],
+        "equipes": [
+          "Sciences Mécanique et Matériaux"
+        ],
+        "citations": 15,
+        "abstract_court": null,
+        "doi": "10.1016/j.molstruc.2021.130979",
+        "url": "https://doi.org/10.1016/j.molstruc.2021.130979",
+        "embedding_source": "title_only"
+      },
+      {
+        "rank": 3,
+        "score": 0.4527,
+        "article_id": "art_00244",
+        "titre": "Association of Tumor Necrosis Factor Receptor 1 Promoter Gene Polymorphisms (‐580 A/G and ‐609 G/T) and TNFR1 Serum Levels with the Susceptibility to Gastric Precancerous Lesions and Gastric Cancer Related to H. pylori Infection in a Moroccan Population",
+        "chercheurs": [
+          "Halima Lebrazi"
+        ],
+        "chercheur_ids": [
+          "fsbm_halima_lebrazi"
+        ],
+        "annee": 2020,
+        "journal": "BioMed Research International",
+        "laboratoires": [
+          "Laboratoire Biologie et Santé"
+        ],
+        "equipes": [
+          "Pathologies Chroniques et Nutrition Humaine"
+        ],
+        "citations": 2,
+        "abstract_court": "Chronic inflammation due to H. pylori infection is the risk factor of gastric cancer (GC). Through its receptor (TNFR1), TNF‐α plays a fundamental role in inflammatory, infectious, and tumor processes. Dysregulation of TNFR1 gene expression could impact many biological processes that can lead to…",
+        "doi": "10.1155/2020/2451854",
+        "url": "https://doi.org/10.1155/2020/2451854",
+        "embedding_source": "title_abstract"
+      },
+      {
+        "rank": 4,
+        "score": 0.4522,
+        "article_id": "art_00998",
+        "titre": "Near-optimal stochastic control for radiotherapy treatment in a random cancer model",
+        "chercheurs": [
+          "Driss Bouggar"
+        ],
+        "chercheur_ids": [
+          "fsbm_driss_bouggar"
+        ],
+        "annee": 2022,
+        "journal": "Systems & Control Letters",
+        "laboratoires": [
+          "Laboratoire d’Intelligence Artificielle et Systèmes"
+        ],
+        "equipes": [
+          "Ingénierie Logicielle Intelligente et Analyse Stochastique"
+        ],
+        "citations": 4,
+        "abstract_court": null,
+        "doi": "10.1016/j.sysconle.2022.105400",
+        "url": "https://doi.org/10.1016/j.sysconle.2022.105400",
+        "embedding_source": "title_only"
+      },
+      {
+        "rank": 5,
+        "score": 0.4417,
+        "article_id": "art_00048",
+        "titre": "A deep neural network for detecting the severity level of diabetic retinopathy from retinography images",
+        "chercheurs": [
+          "Aziza Elbakali"
+        ],
+        "chercheur_ids": [
+          "fsbm_aziza_elbakali"
+        ],
+        "annee": 2022,
+        "journal": "2022 2nd International Conference on Innovative Research in Applied Science, Engineering and Technology (IRASET)",
+        "laboratoires": [
+          "Laboratoire de Traitement de l'Information"
+        ],
+        "equipes": [
+          "Systèmes Électroniques Intelligents"
+        ],
+        "citations": 5,
+        "abstract_court": "We propose a deep neural network for detecting the severity levels of diabetic retinopathy disease by analyzing high-resolution retinography images. The architecture of this network is heuristically constructed starting with the simplest possible structure with no hidden layers, and progressively…",
+        "doi": "10.1109/iraset52964.2022.9738202",
+        "url": "https://doi.org/10.1109/iraset52964.2022.9738202",
+        "embedding_source": "title_abstract"
+      }
+    ],
+    "chercheurs": [
+      {
+        "rank": 1,
+        "chercheur_id": "fsbm_abdelmjid_abourriche",
+        "nom_complet": "Abdelmjid Abourriche",
+        "score": 0.4264,
+        "best_score": 0.5739,
+        "n_matching_publications": 4,
+        "laboratoire": "Laboratoire Biologie et Santé",
+        "equipe": "Biomolécules et Biomatériaux Polymères",
+        "top_publications": [
+          {
+            "article_id": "art_00405",
+            "titre": "Correction to: Systematic Review of Physical, Chemical, and Biological Approaches for Exosome Isolation Towards Optimizing Methods in Clinical Diagnostics",
+            "score": 0.5739
+          },
+          {
+            "article_id": "art_01412",
+            "titre": "Systematic Review of Prostate Cancer Diagnostic Techniques and the Role of Urinary Biomarkers and Artificial Intelligence in Enhancing Diagnostic Precision and Efficiency",
+            "score": 0.3824
+          },
+          {
+            "article_id": "art_00435",
+            "titre": "Cynthichlorine Extracted from Ascidian Cynthia savignyi from Djibouti: Optimization of Extraction, In Vitro Anticancer Profiling, and In Silico Approach",
+            "score": 0.3228
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "chercheur_id": "fsbm_halima_lebrazi",
+        "nom_complet": "Halima Lebrazi",
+        "score": 0.3964,
+        "best_score": 0.4527,
+        "n_matching_publications": 10,
+        "laboratoire": "Laboratoire Biologie et Santé",
+        "equipe": "Pathologies Chroniques et Nutrition Humaine",
+        "top_publications": [
+          {
+            "article_id": "art_00244",
+            "titre": "Association of Tumor Necrosis Factor Receptor 1 Promoter Gene Polymorphisms (‐580 A/G and ‐609 G/T) and TNFR1 Serum Levels with the Susceptibility to Gastric Precancerous Lesions and Gastric Cancer Related to H. pylori Infection in a Moroccan Population",
+            "score": 0.4527
+          },
+          {
+            "article_id": "art_00700",
+            "titre": "GENOTYPING OF HELICOBACTER PYLORI CAGA EPIYA MOTIF AS A RISK FACTOR OF GASTRIC LESIONS SEVERITY IN A MOROCCAN POPULATION",
+            "score": 0.3799
+          },
+          {
+            "article_id": "art_00234",
+            "titre": "Assessing the prevalence of protein-energy wasting in haemodialysis patients: A cross-sectional monocentric study",
+            "score": 0.3566
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "chercheur_id": "fsbm_abdelilah_akouibaa",
+        "nom_complet": "Abdelilah Akouibaa",
+        "score": 0.389,
+        "best_score": 0.4936,
+        "n_matching_publications": 3,
+        "laboratoire": "Laboratoire d’Ingénierie et de Matériaux",
+        "equipe": "Sciences Mécanique et Matériaux",
+        "top_publications": [
+          {
+            "article_id": "art_01359",
+            "titre": "Study of optical properties of gold nanoparticles embedded in normal, benign, and malignant breast tissues",
+            "score": 0.4936
+          },
+          {
+            "article_id": "art_01152",
+            "titre": "Plasmonic heating and optical response of Au nanorods and spheroids in the NIR window for photothermal applications",
+            "score": 0.3788
+          },
+          {
+            "article_id": "art_01358",
+            "titre": "Study of Optical and Thermoplasmonic Properties of Silica‐Core/Gold‐Shell Nanoparticles Integrated within Cell Organelles: A Finite Element Method",
+            "score": 0.2945
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "chercheur_id": "fsbm_issam_atouf",
+        "nom_complet": "Issam Atouf",
+        "score": 0.3569,
+        "best_score": 0.3663,
+        "n_matching_publications": 6,
+        "laboratoire": "Laboratoire de Traitement de l'Information",
+        "equipe": "Systèmes Électroniques Intelligents",
+        "top_publications": [
+          {
+            "article_id": "art_00509",
+            "titre": "ECG signals classification using MFCC coefficients and ANN classifier",
+            "score": 0.3663
+          },
+          {
+            "article_id": "art_00508",
+            "titre": "ECG Image Classification in Real time based on the Haar-like Features and Artificial Neural Networks",
+            "score": 0.3543
+          },
+          {
+            "article_id": "art_00545",
+            "titre": "Electricity Theft Detection: Experimental Comparison of Ensemble and Traditional Machine Learning Methods",
+            "score": 0.3501
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "chercheur_id": "fsbm_driss_radallah",
+        "nom_complet": "Driss Radallah",
+        "score": 0.3481,
+        "best_score": 0.3639,
+        "n_matching_publications": 5,
+        "laboratoire": "Laboratoire Biologie et Santé",
+        "equipe": "Pathologies Métaboliques, Immunitaires et Tumorales",
+        "top_publications": [
+          {
+            "article_id": "art_01191",
+            "titre": "Profils épidémiologique et anatomoclinique d’une population marocaine atteinte de cancer colorectal",
+            "score": 0.3639
+          },
+          {
+            "article_id": "art_00651",
+            "titre": "Facteurs de risque nutritionnels et cancer du sein - Etude Cas-Témoin du centre Mohammed VI pour les traitements des cancers",
+            "score": 0.357
+          },
+          {
+            "article_id": "art_00352",
+            "titre": "Comparative Study of Breast Cancer in Women Under 40 Compared to Older Women: The Experience of the Mohammed VI Center",
+            "score": 0.3235
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "renewable energy materials",
+    "publications": [
+      {
+        "rank": 1,
+        "score": 0.5415,
+        "article_id": "art_00665",
+        "titre": "First-Principles Study of Mn-Doped Basno3: Toward High-Performance Perovskite Materials for Optoelectronic Applications",
+        "chercheurs": [
+          "Rhma Adhiri"
+        ],
+        "chercheur_ids": [
+          "fsbm_rhma_adhiri"
+        ],
+        "annee": 2025,
+        "journal": "SSRN Electronic Journal",
+        "laboratoires": [
+          "Laboratoire d’Ingénierie et de Matériaux"
+        ],
+        "equipes": [
+          "Nanomatériaux et Couches Minces"
+        ],
+        "citations": 0,
+        "abstract_court": null,
+        "doi": "10.2139/ssrn.5385403",
+        "url": "https://doi.org/10.2139/ssrn.5385403",
+        "embedding_source": "title_only"
+      },
+      {
+        "rank": 2,
+        "score": 0.518,
+        "article_id": "art_01539",
+        "titre": "Unravelling the role of nickel incorporation on the physical properties of CuO thin films deposited by spray pyrolysis and theoretical analysis of nanostructured ZnO/Ni:CuO-based heterojunction solar cells",
+        "chercheurs": [
+          "Othmane Daoudi"
+        ],
+        "chercheur_ids": [
+          "fsbm_othmane_daoudi"
+        ],
+        "annee": 2023,
+        "journal": "Journal of Materials Science Materials in Electronics",
+        "laboratoires": [
+          "Laboratoire de Physique de la Matière Condensée"
+        ],
+        "equipes": [
+          "Mécanique, Ingénierie et Matériaux"
+        ],
+        "citations": 6,
+        "abstract_court": null,
+        "doi": "10.1007/s10854-023-10167-6",
+        "url": "https://doi.org/10.1007/s10854-023-10167-6",
+        "embedding_source": "title_only"
+      },
+      {
+        "rank": 3,
+        "score": 0.5081,
+        "article_id": "art_00549",
+        "titre": "Electrodeposition of ZnO thin films at low temperature: effects of deposition potential on properties for ZnO/CuO heterojunction solar cells",
+        "chercheurs": [
+          "Youssef Naimi"
+        ],
+        "chercheur_ids": [
+          "fsbm_youssef_naimi"
+        ],
+        "annee": 2024,
+        "journal": "Journal of Materials Science Materials in Electronics",
+        "laboratoires": [
+          "Laboratoire de Traitement de l'Information"
+        ],
+        "equipes": [
+          "Matériaux, Energies Renouvelables et Smart Technologies"
+        ],
+        "citations": 4,
+        "abstract_court": null,
+        "doi": "10.1007/s10854-024-13623-z",
+        "url": "https://doi.org/10.1007/s10854-024-13623-z",
+        "embedding_source": "title_only"
+      },
+      {
+        "rank": 4,
+        "score": 0.5081,
+        "article_id": "art_00373",
+        "titre": "Comprehensive Study of the Structural Properties and Dielectric Responses of Ba(2-X)Sr(X)Gdfenb4o15 Materials",
+        "chercheurs": [
+          "Rhma Adhiri"
+        ],
+        "chercheur_ids": [
+          "fsbm_rhma_adhiri"
+        ],
+        "annee": 2023,
+        "journal": "SSRN Electronic Journal",
+        "laboratoires": [
+          "Laboratoire d’Ingénierie et de Matériaux"
+        ],
+        "equipes": [
+          "Nanomatériaux et Couches Minces"
+        ],
+        "citations": 0,
+        "abstract_court": null,
+        "doi": "10.2139/ssrn.4524636",
+        "url": "https://doi.org/10.2139/ssrn.4524636",
+        "embedding_source": "title_only"
+      },
+      {
+        "rank": 5,
+        "score": 0.5032,
+        "article_id": "art_01035",
+        "titre": "Numerical investigation of electronic, dielectric and optical properties of CdO, SnO2/CdO and SnO2/CdO/PVP nanocomposites",
+        "chercheurs": [
+          "Abdelilah Akouibaa"
+        ],
+        "chercheur_ids": [
+          "fsbm_abdelilah_akouibaa"
+        ],
+        "annee": 2021,
+        "journal": "Optical and Quantum Electronics",
+        "laboratoires": [
+          "Laboratoire d’Ingénierie et de Matériaux"
+        ],
+        "equipes": [
+          "Sciences Mécanique et Matériaux"
+        ],
+        "citations": 14,
+        "abstract_court": null,
+        "doi": "10.1007/s11082-021-03305-z",
+        "url": "https://doi.org/10.1007/s11082-021-03305-z",
+        "embedding_source": "title_only"
+      }
+    ],
+    "chercheurs": [
+      {
+        "rank": 1,
+        "chercheur_id": "fsbm_rhma_adhiri",
+        "nom_complet": "Rhma Adhiri",
+        "score": 0.4932,
+        "best_score": 0.5415,
+        "n_matching_publications": 5,
+        "laboratoire": "Laboratoire d’Ingénierie et de Matériaux",
+        "equipe": "Nanomatériaux et Couches Minces",
+        "top_publications": [
+          {
+            "article_id": "art_00665",
+            "titre": "First-Principles Study of Mn-Doped Basno3: Toward High-Performance Perovskite Materials for Optoelectronic Applications",
+            "score": 0.5415
+          },
+          {
+            "article_id": "art_00373",
+            "titre": "Comprehensive Study of the Structural Properties and Dielectric Responses of Ba(2-X)Sr(X)Gdfenb4o15 Materials",
+            "score": 0.5081
+          },
+          {
+            "article_id": "art_00664",
+            "titre": "First-Principles Investigation of Mn-Doped BaSnO 3 Perovskites for Enhanced Optoelectronic Performance",
+            "score": 0.4301
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "chercheur_id": "fsbm_othmane_daoudi",
+        "nom_complet": "Othmane Daoudi",
+        "score": 0.4843,
+        "best_score": 0.518,
+        "n_matching_publications": 8,
+        "laboratoire": "Laboratoire de Physique de la Matière Condensée",
+        "equipe": "Mécanique, Ingénierie et Matériaux",
+        "top_publications": [
+          {
+            "article_id": "art_01539",
+            "titre": "Unravelling the role of nickel incorporation on the physical properties of CuO thin films deposited by spray pyrolysis and theoretical analysis of nanostructured ZnO/Ni:CuO-based heterojunction solar cells",
+            "score": 0.518
+          },
+          {
+            "article_id": "art_01538",
+            "titre": "Unravelling the role of nickel doping on the physical properties of CuO thin films deposited by Spray Pyrolysis and theoretical analysis of nanostructured ZnO/Ni:CuO-based heterojunction solar cells",
+            "score": 0.4778
+          },
+          {
+            "article_id": "art_01453",
+            "titre": "The outcomes of Zn doping on the properties of CuO thin films prepared via modified SILAR method and its impact on the performance of CuO-based solar cells using Cd0.4Zn0.6S-ETL and Spiro-OMeTAD-HTL",
+            "score": 0.4572
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "chercheur_id": "fsbm_mohamed_idiri",
+        "nom_complet": "Mohamed Idiri",
+        "score": 0.4636,
+        "best_score": 0.4705,
+        "n_matching_publications": 17,
+        "laboratoire": "Laboratoire de Physique de la Matière Condensée",
+        "equipe": "Mécanique, Ingénierie et Matériaux",
+        "top_publications": [
+          {
+            "article_id": "art_00484",
+            "titre": "DFT+U screening of the physical properties of XWO3 (X=Sr, Cd) perovskite oxides",
+            "score": 0.4705
+          },
+          {
+            "article_id": "art_00765",
+            "titre": "Impact of pressure on quaternary Heusler alloy LiScNiGe for optoelectronic application",
+            "score": 0.4631
+          },
+          {
+            "article_id": "art_01453",
+            "titre": "The outcomes of Zn doping on the properties of CuO thin films prepared via modified SILAR method and its impact on the performance of CuO-based solar cells using Cd0.4Zn0.6S-ETL and Spiro-OMeTAD-HTL",
+            "score": 0.4572
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "chercheur_id": "fsbm_abdelilah_akouibaa",
+        "nom_complet": "Abdelilah Akouibaa",
+        "score": 0.4559,
+        "best_score": 0.5032,
+        "n_matching_publications": 13,
+        "laboratoire": "Laboratoire d’Ingénierie et de Matériaux",
+        "equipe": "Sciences Mécanique et Matériaux",
+        "top_publications": [
+          {
+            "article_id": "art_01035",
+            "titre": "Numerical investigation of electronic, dielectric and optical properties of CdO, SnO2/CdO and SnO2/CdO/PVP nanocomposites",
+            "score": 0.5032
+          },
+          {
+            "article_id": "art_01048",
+            "titre": "Numerical study of the plasmonic resonance of multi-phases nanoparticles",
+            "score": 0.4412
+          },
+          {
+            "article_id": "art_00406",
+            "titre": "Correlation between crystallinity index, skin depth, and optical phonon vibration for enhancing Ni2⁺ removal using AC/CaCO3–clay composite",
+            "score": 0.4233
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "chercheur_id": "fsbm_chaouki_sadik",
+        "nom_complet": "Chaouki Sadik",
+        "score": 0.3995,
+        "best_score": 0.4328,
+        "n_matching_publications": 3,
+        "laboratoire": "Laboratoire de Chimie Physique des Matériaux Appliqués",
+        "equipe": "Géomatériaux, efficacité énergétique et environnement",
+        "top_publications": [
+          {
+            "article_id": "art_00062",
+            "titre": "A holistic approach towards characterizing the El-Oued siliceous sand (eastern Algeria) for potential industrial applications",
+            "score": 0.4328
+          },
+          {
+            "article_id": "art_00403",
+            "titre": "Cordierite-based refractory ceramics from natural halloysite and peridotite: Insights on technological properties",
+            "score": 0.395
+          },
+          {
+            "article_id": "art_00708",
+            "titre": "Geology and Mineralogy of Clays for Nanocomposites: State of Knowledge and Methodology",
+            "score": 0.3706
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "environmental pollution",
+    "publications": [
+      {
+        "rank": 1,
+        "score": 0.4075,
+        "article_id": "art_01256",
+        "titre": "Seasonal upwelling drives surface water biogeochemistry with implication for ocean acidification along the Northwest African coast",
+        "chercheurs": [
+          "Samia Yousfi"
+        ],
+        "chercheur_ids": [
+          "fsbm_samia_yousfi"
+        ],
+        "annee": 2025,
+        "journal": "Frontiers in Marine Science",
+        "laboratoires": [
+          "Laboratoire de Chimie Analytique et Moléculaire"
+        ],
+        "equipes": [
+          "Matériaux, Analyse et Procédés"
+        ],
+        "citations": 7,
+        "abstract_court": "This study assesses the impact of intensified upwelling on the marine carbonate system along the Northwest African coast, from Cape Blanc (21°N) to Cape Cantin (33°N), a region where ocean acidification observations remain limited. We analyze surface water variability using data from two…",
+        "doi": "10.3389/fmars.2025.1579941",
+        "url": "https://doi.org/10.3389/fmars.2025.1579941",
+        "embedding_source": "title_abstract"
+      },
+      {
+        "rank": 2,
+        "score": 0.4045,
+        "article_id": "art_01516",
+        "titre": "Traitement Expérimental Par Coagulation Floculation Des Effluents Brutes D’une Industrie Aéronautique À Casablanca (Maroc)",
+        "chercheurs": [
+          "Abdelmottalib Nahli"
+        ],
+        "chercheur_ids": [
+          "fsbm_abdelmottalib_nahli"
+        ],
+        "annee": 2019,
+        "journal": "European Scientific Journal ESJ",
+        "laboratoires": [
+          "Laboratoire d'Ecologie et d'Environnement"
+        ],
+        "equipes": [
+          "ECotoxicologie et Biomonitoring"
+        ],
+        "citations": 0,
+        "abstract_court": "Les effluents de l’industrie de traitement de surface présentent souvent une forte charge en produits chimiques très toxiques qui doivent être traités conformément à une réglementation de plus en plus stricte. Dans ce travail, nous avons effectué une caractérisation des effluents liquides d’une…",
+        "doi": "10.19044/esj.2019.v15n36p402",
+        "url": "https://doi.org/10.19044/esj.2019.v15n36p402",
+        "embedding_source": "title_abstract"
+      },
+      {
+        "rank": 3,
+        "score": 0.3833,
+        "article_id": "art_00440",
+        "titre": "Dates Sector in Morocco: Current Situation, Innovations, and Future Challenges",
+        "chercheurs": [
+          "Soumia Belouafa"
+        ],
+        "chercheur_ids": [
+          "fsbm_soumia_belouafa"
+        ],
+        "annee": 2025,
+        "journal": "Sustainable landscape planning and natural resources management",
+        "laboratoires": [
+          "Laboratoire Biologie et Santé"
+        ],
+        "equipes": [
+          "Biomolécules et Biomatériaux Polymères"
+        ],
+        "citations": 0,
+        "abstract_court": null,
+        "doi": "10.1007/978-3-031-97666-7_8",
+        "url": "https://doi.org/10.1007/978-3-031-97666-7_8",
+        "embedding_source": "title_only"
+      },
+      {
+        "rank": 4,
+        "score": 0.374,
+        "article_id": "art_01286",
+        "titre": "Size-Dependent Antibacterial, Antidiabetic, and Toxicity of Silver Nanoparticles Synthesized Using Solvent Extraction of Rosa indica L. Petals",
+        "chercheurs": [
+          "Fouad Damiri"
+        ],
+        "chercheur_ids": [
+          "fsbm_fouad_damiri"
+        ],
+        "annee": 2022,
+        "journal": "Pharmaceuticals",
+        "laboratoires": [
+          "Laboratoire Biologie et Santé"
+        ],
+        "equipes": [
+          "Biomolécules et Biomatériaux Polymères"
+        ],
+        "citations": 23,
+        "abstract_court": "In this study, silver nanoparticles (AgNPs) are synthesized through a green approach by employing Rosa indica L. petal (RE) extracts as reducing and stabilizing agents, which are extracted using three different solvents: ethanol (Et), acetone (Ac), and water (Aq). The phase formation of the AgNPs…",
+        "doi": "10.3390/ph15060689",
+        "url": "https://doi.org/10.3390/ph15060689",
+        "embedding_source": "title_abstract"
+      },
+      {
+        "rank": 5,
+        "score": 0.3688,
+        "article_id": "art_00609",
+        "titre": "Evaluation De La Qualité Physico-Chimique Des Eaux Souterraines Au Voisinage De La Décharge Contrôlée Mohammedia-Benslimane : (Étude Préliminaire)",
+        "chercheurs": [
+          "Nadia Iounes"
+        ],
+        "chercheur_ids": [
+          "fsbm_nadia_iounes"
+        ],
+        "annee": 2020,
+        "journal": "European Scientific Journal ESJ",
+        "laboratoires": [
+          "Laboratoire d'Ecologie et d'Environnement"
+        ],
+        "equipes": [
+          "ECotoxicologie et Biomonitoring"
+        ],
+        "citations": 4,
+        "abstract_court": "L’intérêt de la présente étude est de déterminer la qualité des eaux souterraines au voisinage de la décharge contrôlée de Mohammedia- Benslimane installée dans la région depuis 2012. Il s’agit des eaux de 7 puits destinées à l’irrigation et/ou à la consommation. Les résultats obtenus sont comparés…",
+        "doi": "10.19044/esj.2020.v16n6p455",
+        "url": "https://doi.org/10.19044/esj.2020.v16n6p455",
+        "embedding_source": "title_abstract"
+      }
+    ],
+    "chercheurs": [
+      {
+        "rank": 1,
+        "chercheur_id": "fsbm_nadia_iounes",
+        "nom_complet": "Nadia Iounes",
+        "score": 0.3561,
+        "best_score": 0.3688,
+        "n_matching_publications": 8,
+        "laboratoire": "Laboratoire d'Ecologie et d'Environnement",
+        "equipe": "ECotoxicologie et Biomonitoring",
+        "top_publications": [
+          {
+            "article_id": "art_00609",
+            "titre": "Evaluation De La Qualité Physico-Chimique Des Eaux Souterraines Au Voisinage De La Décharge Contrôlée Mohammedia-Benslimane : (Étude Préliminaire)",
+            "score": 0.3688
+          },
+          {
+            "article_id": "art_00620",
+            "titre": "Evidence of zoonotic MERS-COV infection among a high-risk population in Morocco",
+            "score": 0.3551
+          },
+          {
+            "article_id": "art_01143",
+            "titre": "PHYSICAL-CHEMICAL CHARACTERIZATION AND HEAVY METALS ASSESSMENT OF WATERS AND SEDIMENTS OF SEBOU WATERSHED (TOP SEBOU, MOROCCO)",
+            "score": 0.3445
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "chercheur_id": "fsbm_samia_yousfi",
+        "nom_complet": "Samia Yousfi",
+        "score": 0.3557,
+        "best_score": 0.4075,
+        "n_matching_publications": 4,
+        "laboratoire": "Laboratoire de Chimie Analytique et Moléculaire",
+        "equipe": "Matériaux, Analyse et Procédés",
+        "top_publications": [
+          {
+            "article_id": "art_01256",
+            "titre": "Seasonal upwelling drives surface water biogeochemistry with implication for ocean acidification along the Northwest African coast",
+            "score": 0.4075
+          },
+          {
+            "article_id": "art_01255",
+            "titre": "Seasonal and Spatial Variability of Coastal Upwelling Activity in Northwest Africa: A Climatological Analysis and Interpretation",
+            "score": 0.3559
+          },
+          {
+            "article_id": "art_01429",
+            "titre": "The development of a standard qualification protocol for all climatic and thermostatic chambers according to the requirements of the Good Manufacturing Practices (GMP) and the standards of characterization: NF X 15-140 and NF EN 60068-3.",
+            "score": 0.3038
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "chercheur_id": "fsbm_mohamed_ghazouani",
+        "nom_complet": "Mohamed Ghazouani",
+        "score": 0.3494,
+        "best_score": 0.3607,
+        "n_matching_publications": 3,
+        "laboratoire": "Technologie de l'Information et Modélisation",
+        "equipe": "Modélisation dirigée par la donnée",
+        "top_publications": [
+          {
+            "article_id": "art_00802",
+            "titre": "Integrating Security into Industry 5.0: Challenges, Solutions, and Impacts",
+            "score": 0.3607
+          },
+          {
+            "article_id": "art_00162",
+            "titre": "AI-Driven Cyberattack Detection and Prevention: A Systematic Review of Emerging Trends and Future Challenges",
+            "score": 0.3482
+          },
+          {
+            "article_id": "art_01151",
+            "titre": "Plant Health—Detecting Leaf Diseases: A Systematic Review of the Literature",
+            "score": 0.3392
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "chercheur_id": "fsbm_soumia_belouafa",
+        "nom_complet": "Soumia Belouafa",
+        "score": 0.3429,
+        "best_score": 0.3833,
+        "n_matching_publications": 3,
+        "laboratoire": "Laboratoire Biologie et Santé",
+        "equipe": "Biomolécules et Biomatériaux Polymères",
+        "top_publications": [
+          {
+            "article_id": "art_00440",
+            "titre": "Dates Sector in Morocco: Current Situation, Innovations, and Future Challenges",
+            "score": 0.3833
+          },
+          {
+            "article_id": "art_01575",
+            "titre": "Wastewater remediation using multi-soil layering (MSL) eco-technology: A comprehensive and critical review",
+            "score": 0.3447
+          },
+          {
+            "article_id": "art_01497",
+            "titre": "Toward ISO/IEC 17025 compliance: challenges and strategies for a university research laboratory",
+            "score": 0.3005
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "chercheur_id": "fsbm_abdelmottalib_nahli",
+        "nom_complet": "Abdelmottalib Nahli",
+        "score": 0.3394,
+        "best_score": 0.4045,
+        "n_matching_publications": 5,
+        "laboratoire": "Laboratoire d'Ecologie et d'Environnement",
+        "equipe": "ECotoxicologie et Biomonitoring",
+        "top_publications": [
+          {
+            "article_id": "art_01516",
+            "titre": "Traitement Expérimental Par Coagulation Floculation Des Effluents Brutes D’une Industrie Aéronautique À Casablanca (Maroc)",
+            "score": 0.4045
+          },
+          {
+            "article_id": "art_00394",
+            "titre": "Contribution A La Caractérisation Physico-Chimique Des Effluents De La Cosumar (Casablanca, Maroc) En Vue De Leur Traitement Approprié",
+            "score": 0.3193
+          },
+          {
+            "article_id": "art_01145",
+            "titre": "Physicochemical Characterization and Metallic Contamination of the Waters of Oued Nfifikh (Morocco)",
+            "score": 0.2943
+          }
+        ]
+      }
+    ]
+  }
+]
