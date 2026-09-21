@@ -468,6 +468,10 @@ class ScholarCollector:
                     self.save_state(state)
                 if self.cfg.get("fetch_publication_details", True):
                     self._fetch_details(state)
+                else:                                     # mode « profil seul » : les détails restent « skipped », jamais « pending »
+                    for pub in state["publications"]:
+                        if pub["detail_status"] == "pending":
+                            pub["detail_status"] = "skipped"
                 all_ok = all(p["detail_status"] in {"done", "skipped"} for p in state["publications"])
                 # "partial" : une reprise retentera uniquement les détails manquants ou en erreur
                 state["collection_status"] = "complete" if all_ok else "partial"

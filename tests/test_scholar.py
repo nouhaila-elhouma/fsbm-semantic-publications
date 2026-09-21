@@ -307,6 +307,7 @@ def test_scholarly_backend_is_refused_while_robots_are_respected():
 def settings():
     cfg = load_settings()
     cfg["scraping"]["checkpoint_every"] = 1
+    cfg["scraping"]["fetch_publication_details"] = True        # les tests couvrent le mode complet ; le défaut réel est « profil seul »
     return cfg
 
 
@@ -445,6 +446,21 @@ def test_collector_only_processes_known_scholar_ids_when_search_is_disabled(sett
     scholars = read_json(tmp_path / "raw" / "scholars_raw.json")
     assert [s["chercheur_id"] for s in scholars] == ["fsbm_alice_martin"]
     assert scholars[0]["match_method"] == "manual_override" and scholars[0]["collection_status"] == "complete"
+
+
+def test_switching_to_profile_only_mode_after_a_block_finishes_the_researcher(settings, tmp_path):
+    """Un chercheur bloqué en plein détail (pubs « pending ») est terminé proprement en mode « profil seul »."""
+    blocking = FakeBackend(block_on_detail_after=1)
+    first = make_collector(blocking, settings, tmp_path).run(ROSTER[:1], 3)
+    assert first["blocked"] is True
+    cfg = copy.deepcopy(settings)
+    cfg["scraping"]["fetch_publication_details"] = False
+    healthy = FakeBackend()
+    second = make_collector(healthy, cfg, tmp_path).run(ROSTER[:1], 3, resume=True)
+    state = read_json(tmp_path / "raw" / "scholars_raw.json")[0]
+    assert second["blocked"] is False and healthy.calls["detail"] == 0 and state["collection_status"] == "complete"
+    pubs = read_json(tmp_path / "raw" / "publications_raw.json")
+    assert {p["detail_status"] for p in pubs} == {"done", "skipped"}
 
 
 def test_no_details_mode_skips_publication_pages(settings, tmp_path):

@@ -27,14 +27,15 @@ data:
 
 scraping:
   backend: "http"                           # "http" (requests + BeautifulSoup) | "scholarly"
-  min_delay: 4                              # secondes, délai aléatoire entre deux requêtes
-  max_delay: 9
+  min_delay: 10                             # secondes, délai aléatoire entre deux requêtes Scholar (rythme prudent :
+  max_delay: 20                             # un premier essai à 4-9 s a provoqué un HTTP 429 après ~120 requêtes)
   retries: 3
   backoff_base: 5                           # secondes ; backoff exponentiel : base * 2^tentative
   timeout: 30
   max_publications_per_researcher: 50
   checkpoint_every: 1                       # sauvegarde après chaque chercheur
-  fetch_publication_details: true           # 1 requête / publication pour l'abstract Scholar (lent mais complet)
+  fetch_publication_details: false          # true = 1 requête Scholar / publication (précis mais déclenche des HTTP 429) ;
+                                            # false = 1 requête / chercheur, abstracts et DOI via Crossref/OpenAlex
   # Conformité robots.txt de Google Scholar : « Disallow: /citations? », « Allow: /citations?user= »,
   # « Disallow: /citations?*cstart= ». => profils/publications OK (URL « user= »), pagination et recherche
   # d'auteurs par nom INTERDITES. Par défaut, la recherche est désactivée : renseignez les Scholar ID dans
