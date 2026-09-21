@@ -1,0 +1,216 @@
+chercheur_id,chercheur_source_name,nom_complet,etablissement,laboratoire,equipe,type_membre,is_duplicate_row,row_number,source_page
+fsbm_abdelhak_chakli,ABDELHAK.CHAKLI,Abdelhak Chakli,FSBM,Laboratoire de Traitement de l'Information,Télécommunications et Systèmes Automatiques,Membre Permanent(e),False,1,1
+fsbm_abdelhakim_alali,ABDELHAKIM.ALALI,Abdelhakim Alali,FSBM,Laboratoire de Traitement de l'Information,Systèmes Électroniques Intelligents,Membre Permanent(e),False,2,1
+fsbm_abdellatif_slimani,ABDELLATIF.SLIMANI,Abdellatif Slimani,FSBM,Laboratoire de Traitement de l'Information,Télécommunications et Systèmes Automatiques,Membre Permanent(e),False,3,1
+fsbm_abdelmoghit_zaarane,Abdelmoghit.ZAARANE,Abdelmoghit Zaarane,FSBM,Laboratoire de Traitement de l'Information,Systèmes Électroniques Intelligents,Membre Permanent(e),False,4,1
+fsjesas_ahmed_eddaoui,AHMED.EDDAOUI,Ahmed Eddaoui,FSJESAS,Laboratoire de Traitement de l'Information,Intelligence artificielle et Géoinformatique appliquées,Membre Permanent(e),False,5,1
+flshbm_amal_yalid,AMAL.YALID,Amal Yalid,FLSHBM,Laboratoire de Traitement de l'Information,Intelligence artificielle et Géoinformatique appliquées,Membre Permanent(e),False,6,1
+fsbm_asmaa_drighil,ASMAA.DRIGHIL,Asmaa Drighil,FSBM,Laboratoire de Traitement de l'Information,"Matériaux, Energies Renouvelables et Smart Technologies",Membre Permanent(e),False,7,1
+fsbm_asmae_guennoun,ASMAE.GUENNOUN,Asmae Guennoun,FSBM,Laboratoire de Traitement de l'Information,"Matériaux, Energies Renouvelables et Smart Technologies",Membre Permanent(e),False,8,1
+fsbm_aziza_elbakali,AZIZA.ELBAKALI,Aziza Elbakali,FSBM,Laboratoire de Traitement de l'Information,Systèmes Électroniques Intelligents,Membre Permanent(e),False,9,1
+fsbm_elmostafa_tace,ELMOSTAFA.TACE,Elmostafa Tace,FSBM,Laboratoire de Traitement de l'Information,"Matériaux, Energies Renouvelables et Smart Technologies",Membre Permanent(e),False,10,1
+fsbm_hicham_bahri,HICHAM.BAHRI,Hicham Bahri,FSBM,Laboratoire de Traitement de l'Information,Télécommunications et Systèmes Automatiques,Membre Permanent(e),False,11,1
+fsbm_issam_atouf,ISSAM.ATOUF,Issam Atouf,FSBM,Laboratoire de Traitement de l'Information,Systèmes Électroniques Intelligents,Membre Permanent(e),False,12,1
+fsbm_mohamed_bour,MOHAMED.BOUR,Mohamed Bour,FSBM,Laboratoire de Traitement de l'Information,Télécommunications et Systèmes Automatiques,Membre Permanent(e),False,13,1
+fsbm_mohamed_talea,MOHAMED.TALEA,Mohamed Talea,FSBM,Laboratoire de Traitement de l'Information,Intelligence artificielle et Géoinformatique appliquées,Membre Permanent(e),False,14,1
+fsbm_mourad_elhabchi,Mourad.ELHABCHI,Mourad Elhabchi,FSBM,Laboratoire de Traitement de l'Information,Télécommunications et Systèmes Automatiques,Membre Permanent(e),False,15,1
+fsbm_tarik_chafiq,TARIK.CHAFIQ,Tarik Chafiq,FSBM,Laboratoire de Traitement de l'Information,Intelligence artificielle et Géoinformatique appliquées,Membre Permanent(e),False,16,1
+fsbm_youssef_naimi,YOUSSEF.NAIMI,Youssef Naimi,FSBM,Laboratoire de Traitement de l'Information,"Matériaux, Energies Renouvelables et Smart Technologies",Membre Permanent(e),False,17,1
+flshbm_youssef_sefri,YOUSSEF.SEFRI,Youssef Sefri,FLSHBM,Laboratoire de Traitement de l'Information,Intelligence artificielle et Géoinformatique appliquées,Membre Permanent(e),False,18,1
+fsbm_abdelkrim_kartouni,ABDELKRIM.KARTOUNI,Abdelkrim Kartouni,FSBM,Laboratoire de Physique de la Matière Condensée,Subatomique et Applications,Membre Permanent(e),False,19,1
+fsbm_abdellah_hamdaoui,ABDELLAH.HAMDAOUI,Abdellah Hamdaoui,FSBM,Laboratoire de Physique de la Matière Condensée,"Mécanique, Ingénierie et Matériaux",Membre Permanent(e),False,20,1
+fsbm_abdeltif_morsad,ABDELTIF.MORSAD,Abdeltif Morsad,FSBM,Laboratoire de Physique de la Matière Condensée,Subatomique et Applications,Membre Permanent(e),False,21,1
+fsbm_abdenbi_khouaja,ABDENBI.KHOUAJA,Abdenbi Khouaja,FSBM,Laboratoire de Physique de la Matière Condensée,Subatomique et Applications,Membre Permanent(e),False,22,1
+fsbm_abderrahim_aithssi,ABDERRAHIM.AITHSSI,Abderrahim Aithssi,FSBM,Laboratoire de Physique de la Matière Condensée,Physique des nanosystèmes et nanocomposites,Membre Permanent(e),False,23,2
+fsbm_adil_eddiai,ADIL.EDDIAI,Adil Eddiai,FSBM,Laboratoire de Physique de la Matière Condensée,Matériaux Innovants et Matière Condensée,Membre Permanent(e),False,24,2
+fsbm_aouatif_dezairi,AOUATIF.DEZAIRI,Aouatif Dezairi,FSBM,Laboratoire de Physique de la Matière Condensée,Physique des nanosystèmes et nanocomposites,Membre Permanent(e),False,25,2
+fsbm_bouazza_braikat,BOUAZZA.BRAIKAT,Bouazza Braikat,FSBM,Laboratoire de Physique de la Matière Condensée,"Mécanique, Ingénierie et Matériaux",Membre Permanent(e),False,26,2
+fsbm_brahim_elouardi,BRAHIM.ELOUARDI,Brahim Elouardi,FSBM,Laboratoire de Physique de la Matière Condensée,Subatomique et Applications,Membre Permanent(e),False,27,2
+fsbm_fatna_benzouine,FATNA.BENZOUINE,Fatna Benzouine,FSBM,Laboratoire de Physique de la Matière Condensée,Subatomique et Applications,Membre Permanent(e),False,28,2
+fsbm_imad_achik,IMAD.ACHIK,Imad Achik,FSBM,Laboratoire de Physique de la Matière Condensée,Matériaux Innovants et Matière Condensée,Membre Permanent(e),False,29,2
+fsbm_mhammed_mazroui,MHAMMED.MAZROUI,Mhammed Mazroui,FSBM,Laboratoire de Physique de la Matière Condensée,Matériaux Innovants et Matière Condensée,Membre Permanent(e),False,30,2
+fsbm_mohamed_bennai,MOHAMED.BENNAI,Mohamed Bennai,FSBM,Laboratoire de Physique de la Matière Condensée,Physique Quantique et Spintronique,Membre Permanent(e),False,31,2
+fsbm_mohamed_idiri,MOHAMED.IDIRI,Mohamed Idiri,FSBM,Laboratoire de Physique de la Matière Condensée,"Mécanique, Ingénierie et Matériaux",Membre Permanent(e),False,32,2
+fsbm_mourad_benlattar,MOURAD.BENLATTAR,Mourad Benlattar,FSBM,Laboratoire de Physique de la Matière Condensée,Matériaux Innovants et Matière Condensée,Membre Permanent(e),False,33,2
+fsbm_mustapha_chahid,MUSTAPHA.CHAHID,Mustapha Chahid,FSBM,Laboratoire de Physique de la Matière Condensée,Matériaux Innovants et Matière Condensée,Membre Permanent(e),False,34,2
+fsbm_othmane_daoudi,OTHMANE.DAOUDI,Othmane Daoudi,FSBM,Laboratoire de Physique de la Matière Condensée,"Mécanique, Ingénierie et Matériaux",Membre Permanent(e),False,35,2
+fsbm_ouafae_elhaitamy,OUAFAE.ELHAITAMY,Ouafae Elhaitamy,FSBM,Laboratoire de Physique de la Matière Condensée,Physique des nanosystèmes et nanocomposites,Membre Permanent(e),False,36,2
+fsbm_rachida_moultif,RACHIDA.MOULTIF,Rachida Moultif,FSBM,Laboratoire de Physique de la Matière Condensée,Physique des nanosystèmes et nanocomposites,Membre Permanent(e),False,37,2
+fsbm_said_ouaskit,SAID.OUASKIT,Said Ouaskit,FSBM,Laboratoire de Physique de la Matière Condensée,Physique des nanosystèmes et nanocomposites,Membre Permanent(e),False,38,2
+fsbm_taoufik_said,TAOUFIK.SAID,Taoufik Said,FSBM,Laboratoire de Physique de la Matière Condensée,Physique Quantique et Spintronique,Membre Permanent(e),False,39,2
+fsbm_youssef_elhafidi,YOUSSEF.ELHAFIDI,Youssef Elhafidi,FSBM,Laboratoire de Physique de la Matière Condensée,Physique Quantique et Spintronique,Membre Permanent(e),False,40,2
+fsbm_zoubida_sakhi,ZOUBIDA.SAKHI,Zoubida Sakhi,FSBM,Laboratoire de Physique de la Matière Condensée,Physique Quantique et Spintronique,Membre Permanent(e),False,41,2
+fsbm_abdessamad_ghafiri,ABDESSAMAD.GHAFIRI,Abdessamad Ghafiri,FSBM,"Géosciences, Géomatique et Environnement",Géomatique Appliquée aux Géosciences et à l'Environnement,Membre Permanent(e),False,42,2
+fsbm_ahmed_fekri,AHMED.FEKRI,Ahmed Fekri,FSBM,"Géosciences, Géomatique et Environnement",Géologie Appliquée et Ressources en Eaux,Membre Permanent(e),False,43,2
+fsbm_allal_labriki,Allal.LABRIKI,Allal Labriki,FSBM,"Géosciences, Géomatique et Environnement",Géomatique Appliquée aux Géosciences et à l'Environnement,Membre Permanent(e),False,44,2
+fsbm_faouziya_haissen,FAOUZIYA.HAISSEN,Faouziya Haissen,FSBM,"Géosciences, Géomatique et Environnement",Géologie Appliquée et Ressources en Eaux,Membre Permanent(e),False,45,2
+fsbm_ghalem_zahour,GHALEM.ZAHOUR,Ghalem Zahour,FSBM,"Géosciences, Géomatique et Environnement",Géoressources et Environnement,Membre Permanent(e),False,46,2
+fsbm_lallamalika_aadjour,LALLAMALIKA.AADJOUR,Lallamalika Aadjour,FSBM,"Géosciences, Géomatique et Environnement",Géoressources et Environnement,Membre Permanent(e),False,47,2
+fsbm_mohamed_elhilali,MOHAMED.ELHILALI,Mohamed Elhilali,FSBM,"Géosciences, Géomatique et Environnement",Géomatique Appliquée aux Géosciences et à l'Environnement,Membre Permanent(e),False,48,2
+fsbm_mohamed_samir,MOHAMED.SAMIR,Mohamed Samir,FSBM,"Géosciences, Géomatique et Environnement",Géoressources et Environnement,Membre Permanent(e),False,49,2
+fsbm_mostafa_oukassou,MOSTAFA.OUKASSOU,Mostafa Oukassou,FSBM,"Géosciences, Géomatique et Environnement",Géologie Appliquée et Ressources en Eaux,Membre Permanent(e),False,50,3
+fsbm_mustapha_mouflih,MUSTAPHA.MOUFLIH,Mustapha Mouflih,FSBM,"Géosciences, Géomatique et Environnement","Dynamique, Stratigraphie et Valorisation des Bassins Sédimentaires",Membre Permanent(e),False,51,3
+fsbm_nadia_barhoun,NADIA.BARHOUN,Nadia Barhoun,FSBM,"Géosciences, Géomatique et Environnement","Dynamique, Stratigraphie et Valorisation des Bassins Sédimentaires",Membre Permanent(e),False,52,3
+fsbm_ouafa_elhammoumi,OUAFA.ELHAMMOUMI,Ouafa Elhammoumi,FSBM,"Géosciences, Géomatique et Environnement",Géologie Appliquée et Ressources en Eaux,Membre Permanent(e),False,53,3
+fsbm_rachid_essamoud,RACHID.ESSAMOUD,Rachid Essamoud,FSBM,"Géosciences, Géomatique et Environnement","Dynamique, Stratigraphie et Valorisation des Bassins Sédimentaires",Membre Permanent(e),False,54,3
+fsbm_saida_alikouss,SAIDA.ALIKOUSS,Saida Alikouss,FSBM,"Géosciences, Géomatique et Environnement",Géoressources et Environnement,Membre Permanent(e),False,55,3
+fsbm_saida_elmoutaki,SAIDA.ELMOUTAKI,Saida Elmoutaki,FSBM,"Géosciences, Géomatique et Environnement",Géomatique Appliquée aux Géosciences et à l'Environnement,Membre Permanent(e),False,56,3
+fsbm_salem_elouariti,SALEM.ELOUARITI,Salem Elouariti,FSBM,"Géosciences, Géomatique et Environnement","Dynamique, Stratigraphie et Valorisation des Bassins Sédimentaires",Membre Permanent(e),False,57,3
+fsbm_soufiane_maimouni,SOUFIANE.MAIMOUNI,Soufiane Maimouni,FSBM,"Géosciences, Géomatique et Environnement",Géomatique Appliquée aux Géosciences et à l'Environnement,Membre Permanent(e),False,58,3
+fsbm_taoufiqnaima_bachiri,TAOUFIQNAIMA.BACHIRI,Taoufiqnaima Bachiri,FSBM,"Géosciences, Géomatique et Environnement","Dynamique, Stratigraphie et Valorisation des Bassins Sédimentaires",Membre Permanent(e),False,59,3
+fsbm_yousra_morsli,YOUSRA.MORSLI,Yousra Morsli,FSBM,"Géosciences, Géomatique et Environnement",Géoressources et Environnement,Membre Permanent(e),False,60,3
+fsbm_zouhir_baroudi,ZOUHIR.BAROUDI,Zouhir Baroudi,FSBM,"Géosciences, Géomatique et Environnement",Géoressources et Environnement,Membre Permanent(e),False,61,3
+fsbm_abdelkbir_errougui,ABDELKBIR.ERROUGUI,Abdelkbir Errougui,FSBM,Laboratoire de Chimie Analytique et Moléculaire,"Chimie Physique, Modélisation Moléculaire et Substances Naturelles",Membre Permanent(e),False,62,3
+fsbm_abdelkebir_kenz,ABDELKEBIR.KENZ,Abdelkebir Kenz,FSBM,Laboratoire de Chimie Analytique et Moléculaire,Catalyse et Environnement,Membre Permanent(e),False,63,3
+fsbm_bahija_mounir,BAHIJA.MOUNIR,Bahija Mounir,FSBM,Laboratoire de Chimie Analytique et Moléculaire,Catalyse et Environnement,Membre Permanent(e),False,64,3
+fsbm_driss_boriky,DRISS.BORIKY,Driss Boriky,FSBM,Laboratoire de Chimie Analytique et Moléculaire,"Chimie Physique, Modélisation Moléculaire et Substances Naturelles",Membre Permanent(e),False,65,3
+fsbm_fathallaah_bazi,FATHALLAAH.BAZI,Fathallaah Bazi,FSBM,Laboratoire de Chimie Analytique et Moléculaire,Catalyse et Environnement,Membre Permanent(e),False,66,3
+fsbm_fatiha_amegrissi,FATIHA.AMEGRISSI,Fatiha Amegrissi,FSBM,Laboratoire de Chimie Analytique et Moléculaire,Catalyse et Environnement,Membre Permanent(e),False,67,3
+fsbm_fatna_eddaqaq,FATNA.EDDAQAQ,Fatna Eddaqaq,FSBM,Laboratoire de Chimie Analytique et Moléculaire,Catalyse et Environnement,Membre Permanent(e),False,68,3
+fsbm_imane_yamari,IMANE.YAMARI,Imane Yamari,FSBM,Laboratoire de Chimie Analytique et Moléculaire,"Chimie Physique, Modélisation Moléculaire et Substances Naturelles",Membre Permanent(e),False,69,3
+fsbm_laila_bennani,LAILA.BENNANI,Laila Bennani,FSBM,Laboratoire de Chimie Analytique et Moléculaire,"Matériaux, Analyse et Procédés",Membre Permanent(e),False,70,3
+fsbm_lamia_bourja,LAMIA.BOURJA,Lamia Bourja,FSBM,Laboratoire de Chimie Analytique et Moléculaire,"Matériaux, Analyse et Procédés",Membre Permanent(e),False,71,3
+fsbm_mhammed_elkouali,MHAMMED.ELKOUALI,Mhammed Elkouali,FSBM,Laboratoire de Chimie Analytique et Moléculaire,"Chimie Physique, Modélisation Moléculaire et Substances Naturelles",Membre Permanent(e),False,72,3
+fsbm_mohamed_moumou,MOHAMED.MOUMOU,Mohamed Moumou,FSBM,Laboratoire de Chimie Analytique et Moléculaire,"Chimie Physique, Modélisation Moléculaire et Substances Naturelles",Membre Permanent(e),False,73,4
+fsbm_mohamed_radid,MOHAMED.RADID,Mohamed Radid,FSBM,Laboratoire de Chimie Analytique et Moléculaire,"Chimie Physique, Modélisation Moléculaire et Substances Naturelles",Membre Permanent(e),False,74,4
+fsbm_mouna_bouamrani,MOUNA.BOUAMRANI,Mouna Bouamrani,FSBM,Laboratoire de Chimie Analytique et Moléculaire,"Matériaux, Analyse et Procédés",Membre Permanent(e),False,75,4
+fsbm_omar_aitsidiahmed,OMAR.AITSIDIAHMED,Omar Aitsidiahmed,FSBM,Laboratoire de Chimie Analytique et Moléculaire,"Matériaux, Analyse et Procédés",Membre Permanent(e),False,76,4
+fsbm_samia_yousfi,SAMIA.YOUSFI,Samia Yousfi,FSBM,Laboratoire de Chimie Analytique et Moléculaire,"Matériaux, Analyse et Procédés",Membre Permanent(e),False,77,4
+fsbm_samir_chtita,SAMIR.CHTITA,Samir Chtita,FSBM,Laboratoire de Chimie Analytique et Moléculaire,"Chimie Physique, Modélisation Moléculaire et Substances Naturelles",Membre Permanent(e),False,78,4
+fsbm_abdeslam_elbouari,ABDESLAM.ELBOUARI,Abdeslam Elbouari,FSBM,Laboratoire de Chimie Physique des Matériaux Appliqués,Matériaux intelligents et transfert technologique,Membre Permanent(e),False,79,4
+fsbm_asmaa_benbiyi,ASMAA.BENBIYI,Asmaa Benbiyi,FSBM,Laboratoire de Chimie Physique des Matériaux Appliqués,Matériaux fonctionnels et applications,Membre Permanent(e),False,80,4
+fsbm_aziz_boutouil,AZIZ.BOUTOUIL,Aziz Boutouil,FSBM,Laboratoire de Chimie Physique des Matériaux Appliqués,Matériaux fonctionnels et applications,Membre Permanent(e),False,81,4
+fsbm_boubker_mehdaoui,BOUBKER.MEHDAOUI,Boubker Mehdaoui,FSBM,Laboratoire de Chimie Physique des Matériaux Appliqués,Matériaux fonctionnels et applications,Membre Permanent(e),False,82,4
+fsbm_chaouki_sadik,CHAOUKI.SADIK,Chaouki Sadik,FSBM,Laboratoire de Chimie Physique des Matériaux Appliqués,"Géomatériaux, efficacité énergétique et environnement",Membre Permanent(e),False,83,4
+fsbm_fouad_alloun,FOUAD.ALLOUN,Fouad Alloun,FSBM,Laboratoire de Chimie Physique des Matériaux Appliqués,Matériaux fonctionnels et applications,Membre Permanent(e),False,84,4
+fsbm_imane_boumanchar,Imane.BOUMANCHAR,Imane Boumanchar,FSBM,Laboratoire de Chimie Physique des Matériaux Appliqués,Matériaux intelligents et transfert technologique,Membre Permanent(e),False,85,4
+fsbm_laila_laasri,LAILA.LAASRI,Laila Laasri,FSBM,Laboratoire de Chimie Physique des Matériaux Appliqués,"Géomatériaux, efficacité énergétique et environnement",Membre Permanent(e),False,86,4
+fsbm_mohammed_belghiti,MOHAMMED.BELGHITI,Mohammed Belghiti,FSBM,Laboratoire de Chimie Physique des Matériaux Appliqués,Valorisation des matériaux et modélisation,Membre Permanent(e),False,87,4
+fsbm_mohammed_benniss,MOHAMMED.BENNISS,Mohammed Benniss,FSBM,Laboratoire de Chimie Physique des Matériaux Appliqués,Matériaux intelligents et transfert technologique,Membre Permanent(e),False,88,4
+fsbm_mohammed_ezzine,MOHAMMED.EZZINE,Mohammed Ezzine,FSBM,Laboratoire de Chimie Physique des Matériaux Appliqués,"Géomatériaux, efficacité énergétique et environnement",Membre Permanent(e),False,89,4
+fsbm_omar_tanane,OMAR.TANANE,Omar Tanane,FSBM,Laboratoire de Chimie Physique des Matériaux Appliqués,Matériaux intelligents et transfert technologique,Membre Permanent(e),False,90,4
+fsbm_said_bakkali,SAID.BAKKALI,Said Bakkali,FSBM,Laboratoire de Chimie Physique des Matériaux Appliqués,Valorisation des matériaux et modélisation,Membre Permanent(e),False,91,4
+fsbm_said_belaaouad,SAID.BELAAOUAD,Said Belaaouad,FSBM,Laboratoire de Chimie Physique des Matériaux Appliqués,Valorisation des matériaux et modélisation,Membre Permanent(e),False,92,4
+fsbm_soufiane_zerraf,Soufiane.ZERRAF,Soufiane Zerraf,FSBM,Laboratoire de Chimie Physique des Matériaux Appliqués,Valorisation des matériaux et modélisation,Membre Permanent(e),False,93,5
+fsbm_younes_abboud,YOUNES.ABBOUD,Younes Abboud,FSBM,Laboratoire de Chimie Physique des Matériaux Appliqués,Matériaux fonctionnels et applications,Membre Permanent(e),False,94,5
+fsbm_abdelmottalib_nahli,ABDELMOTTALIB.NAHLI,Abdelmottalib Nahli,FSBM,Laboratoire d'Ecologie et d'Environnement,ECotoxicologie et Biomonitoring,Membre Permanent(e),False,95,5
+fsbm_ahmed_elmoukhtari,AHMED.ELMOUKHTARI,Ahmed Elmoukhtari,FSBM,Laboratoire d'Ecologie et d'Environnement,Ecologie et Ecophysiologie Végétales,Membre Permanent(e),False,96,5
+fsbm_assia_mouslim,ASSIA.MOUSLIM,Assia Mouslim,FSBM,Laboratoire d'Ecologie et d'Environnement,Microbiologie Appliquée,Membre Permanent(e),False,97,5
+fsbm_ayoub_belghiti,Ayoub.BELGHITI,Ayoub Belghiti,FSBM,Laboratoire d'Ecologie et d'Environnement,Microbiologie Appliquée,Membre Permanent(e),False,98,5
+fsbm_bouchra_rachdi,BOUCHRA.RACHDI,Bouchra Rachdi,FSBM,Laboratoire d'Ecologie et d'Environnement,Ecologie et Ecophysiologie Végétales,Membre Permanent(e),False,99,5
+fsbm_hanan_elaououad,HANAN.ELAOUOUAD,Hanan Elaououad,FSBM,Laboratoire d'Ecologie et d'Environnement,Ecologie et Ecophysiologie Végétales,Membre Permanent(e),False,100,5
+fsbm_hassan_fougrach,HASSAN.FOUGRACH,Hassan Fougrach,FSBM,Laboratoire d'Ecologie et d'Environnement,Ecologie et Ecophysiologie Végétales,Membre Permanent(e),False,101,5
+fsbm_houda_elhajjouji,HOUDA.ELHAJJOUJI,Houda Elhajjouji,FSBM,Laboratoire d'Ecologie et d'Environnement,Ecologie et Ecophysiologie Végétales,Membre Permanent(e),False,102,5
+fsbm_ilham_zerdani,ILHAM.ZERDANI,Ilham Zerdani,FSBM,Laboratoire d'Ecologie et d'Environnement,Microbiologie Appliquée,Membre Permanent(e),False,103,5
+fsbm_jamal_mouslim,JAMAL.MOUSLIM,Jamal Mouslim,FSBM,Laboratoire d'Ecologie et d'Environnement,Microbiologie Appliquée,Membre Permanent(e),False,104,5
+fsbm_karima_samir,KARIMA.SAMIR,Karima Samir,FSBM,Laboratoire d'Ecologie et d'Environnement,Ecologie et Ecophysiologie Végétales,Membre Permanent(e),False,105,5
+fsbm_keltoum_elbouhmadi,KELTOUM.ELBOUHMADI,Keltoum Elbouhmadi,FSBM,Laboratoire d'Ecologie et d'Environnement,Ecologie et Ecophysiologie Végétales,Membre Permanent(e),False,106,5
+fsbm_latifa_rohi,LATIFA.ROHI,Latifa Rohi,FSBM,Laboratoire d'Ecologie et d'Environnement,"Hydrobiologie, Ecologie et Ecophysiologie Animales",Membre Permanent(e),False,107,5
+fsbm_loubna_benidire,LOUBNA.BENIDIRE,Loubna Benidire,FSBM,Laboratoire d'Ecologie et d'Environnement,Microbiologie Appliquée,Membre Permanent(e),False,108,5
+fsbm_mohamed_farh,MOHAMED.FARH,Mohamed Farh,FSBM,Laboratoire d'Ecologie et d'Environnement,"Hydrobiologie, Ecologie et Ecophysiologie Animales",Membre Permanent(e),False,109,5
+fsbm_mohammed_elkhasmi,MOHAMMED.ELKHASMI,Mohammed Elkhasmi,FSBM,Laboratoire d'Ecologie et d'Environnement,"Hydrobiologie, Ecologie et Ecophysiologie Animales",Membre Permanent(e),False,110,5
+fsbm_mohammed_menggad,MOHAMMED.MENGGAD,Mohammed Menggad,FSBM,Laboratoire d'Ecologie et d'Environnement,Microbiologie Appliquée,Membre Permanent(e),False,111,5
+fsbm_nadia_iounes,NADIA.IOUNES,Nadia Iounes,FSBM,Laboratoire d'Ecologie et d'Environnement,ECotoxicologie et Biomonitoring,Membre Permanent(e),False,112,5
+fsbm_rabab_tabite,Rabab.TABITE,Rabab Tabite,FSBM,Laboratoire d'Ecologie et d'Environnement,"Hydrobiologie, Ecologie et Ecophysiologie Animales",Membre Permanent(e),False,113,5
+fsbm_rhimou_elhamoumi,RHIMOU.ELHAMOUMI,Rhimou Elhamoumi,FSBM,Laboratoire d'Ecologie et d'Environnement,"Hydrobiologie, Ecologie et Ecophysiologie Animales",Membre Permanent(e),False,114,5
+fsbm_sanaa_aithamou,SANAA.AITHAMOU,Sanaa Aithamou,FSBM,Laboratoire d'Ecologie et d'Environnement,ECotoxicologie et Biomonitoring,Membre Permanent(e),False,115,5
+fsbm_souad_elamrani,SOUAD.ELAMRANI,Souad Elamrani,FSBM,Laboratoire d'Ecologie et d'Environnement,ECotoxicologie et Biomonitoring,Membre Permanent(e),False,116,5
+fsbm_wadi_badri,WADI.BADRI,Wadi Badri,FSBM,Laboratoire d'Ecologie et d'Environnement,Ecologie et Ecophysiologie Végétales,Membre Permanent(e),False,117,5
+fsbm_abdelaziz_ettaoufik,ABDELAZIZ.ETTAOUFIK,Abdelaziz Ettaoufik,FSBM,Laboratoire d’Intelligence Artificielle et Systèmes,Ingénierie Logicielle Intelligente et Analyse Stochastique,Membre Permanent(e),False,118,5
+fsbm_abdessamad_belangour,ABDESSAMAD.BELANGOUR,Abdessamad Belangour,FSBM,Laboratoire d’Intelligence Artificielle et Systèmes,Ingénierie Logicielle Intelligente et Analyse Stochastique,Membre Permanent(e),False,119,6
+encg_amal_zaouch,AMAL.ZAOUCH,Amal Zaouch,ENCG,Laboratoire d’Intelligence Artificielle et Systèmes,"Innovation en Science des Données, Intelligence Artificielle et Cloud",Membre Permanent(e),False,120,6
+fsbm_driss_bouggar,DRISS.BOUGGAR,Driss Bouggar,FSBM,Laboratoire d’Intelligence Artificielle et Systèmes,Ingénierie Logicielle Intelligente et Analyse Stochastique,Membre Permanent(e),False,121,6
+fsbm_faouzia_benabbou,FAOUZIA.BENABBOU,Faouzia Benabbou,FSBM,Laboratoire d’Intelligence Artificielle et Systèmes,"Innovation en Science des Données, Intelligence Artificielle et Cloud",Membre Permanent(e),False,122,6
+fsbm_fouzia_elazzaby,FOUZIA.ELAZZABY,Fouzia Elazzaby,FSBM,Laboratoire d’Intelligence Artificielle et Systèmes,"Innovation en Science des Données, Intelligence Artificielle et Cloud",Membre Permanent(e),False,123,6
+fsbm_khadija_achtaich,KHADIJA.ACHTAICH,Khadija Achtaich,FSBM,Laboratoire d’Intelligence Artificielle et Systèmes,Systèmes Intelligents et Modélisation Avancée,Membre Permanent(e),False,124,6
+fsbm_mohammed_aitdaoud,MOHAMMED.AITDAOUD,Mohammed Aitdaoud,FSBM,Laboratoire d’Intelligence Artificielle et Systèmes,Systèmes Intelligents et Modélisation Avancée,Membre Permanent(e),False,125,6
+fsbm_mostafa_hanoune,MOSTAFA.HANOUNE,Mostafa Hanoune,FSBM,Laboratoire d’Intelligence Artificielle et Systèmes,Systèmes Intelligents et Modélisation Avancée,Membre Permanent(e),False,126,6
+fsbm_nabil_aharrane,NABIL.AHARRANE,Nabil Aharrane,FSBM,Laboratoire d’Intelligence Artificielle et Systèmes,Systèmes Intelligents et Modélisation Avancée,Membre Permanent(e),False,127,6
+fsbm_naceur_achtaich,NACEUR.ACHTAICH,Naceur Achtaich,FSBM,Laboratoire d’Intelligence Artificielle et Systèmes,"Sciences des Données, Technologies Intelligentes et Cybersécurité",Membre Permanent(e),False,128,6
+fsbm_nawal_sael,NAWAL.SAEL,Nawal Sael,FSBM,Laboratoire d’Intelligence Artificielle et Systèmes,"Innovation en Science des Données, Intelligence Artificielle et Cloud",Membre Permanent(e),False,129,6
+fsbm_rachida_aitabdelouahid,RACHIDA.AITABDELOUAHID,Rachida Aitabdelouahid,FSBM,Laboratoire d’Intelligence Artificielle et Systèmes,"Sciences des Données, Technologies Intelligentes et Cybersécurité",Membre Permanent(e),False,130,6
+fsbm_sanaa_elfilali,SANAA.ELFILALI,Sanaa Elfilali,FSBM,Laboratoire d’Intelligence Artificielle et Systèmes,"Sciences des Données, Technologies Intelligentes et Cybersécurité",Membre Permanent(e),False,131,6
+fsbm_sara_ouahabi,SARA.OUAHABI,Sara Ouahabi,FSBM,Laboratoire d’Intelligence Artificielle et Systèmes,"Sciences des Données, Technologies Intelligentes et Cybersécurité",Membre Permanent(e),False,132,6
+fsbm_youssef_sekhara,YOUSSEF.SEKHARA,Youssef Sekhara,FSBM,Laboratoire d’Intelligence Artificielle et Systèmes,Ingénierie Logicielle Intelligente et Analyse Stochastique,Membre Permanent(e),False,133,6
+fsbm_abdelhafid_bassou,ABDELHAFID.BASSOU,Abdelhafid Bassou,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation","Equipe Algèbre, Analyse et Géométrie",Membre Permanent(e),False,134,6
+fsbm_abdelmalek_aboussoror,Abdelmalek.ABOUSSOROR,Abdelmalek Aboussoror,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation","Equipe Algèbre, Analyse et Géométrie",Membre Permanent(e),False,135,6
+fsbm_abderrahim_eladraoui,ABDERRAHIM.ELADRAOUI,Abderrahim Eladraoui,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation","Equipe Algèbre, Analyse et Géométrie",Membre Permanent(e),False,136,6
+fsjesas_adnane_boukhouima,ADNANE.BOUKHOUIMA,Adnane Boukhouima,FSJESAS,"Laboratoire d'Analyse, Modélisation et Simulation",Equipe de Systèmes Dynamiques,Membre Permanent(e),False,137,6
+fsbm_bouchra_aharmim,BOUCHRA.AHARMIM,Bouchra Aharmim,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation","Equipe Algèbre, Analyse et Géométrie",Membre Permanent(e),False,138,6
+fsbm_elmehdi_lotfi,ELMEHDI.LOTFI,Elmehdi Lotfi,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation",Equipe de Systèmes Dynamiques,Membre Permanent(e),False,139,6
+fsbm_fouad_lahmidi,FOUAD.LAHMIDI,Fouad Lahmidi,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation",Equipe de Systèmes Dynamiques,Membre Permanent(e),False,140,6
+fsbm_hamza_boutayeb,HAMZA.BOUTAYEB,Hamza Boutayeb,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation",Equipe Statistiques et Modélisation,Membre Permanent(e),False,141,6
+fsbm_hanane_ferjouchia,HANANE.FERJOUCHIA,Hanane Ferjouchia,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation",Equipe Statistiques et Modélisation,Membre Permanent(e),False,142,6
+fsbm_hassan_laarabi,HASSAN.LAARABI,Hassan Laarabi,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation",Equipe de Systèmes Dynamiques,Membre Permanent(e),False,143,7
+fsbm_imane_agmour,Imane.AGMOUR,Imane Agmour,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation",Equipe de Systèmes Dynamiques,Membre Permanent(e),False,144,7
+fsbm_imane_elberrai,IMANE.ELBERRAI,Imane Elberrai,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation",Equipe de Systèmes Dynamiques,Membre Permanent(e),False,145,7
+fsbm_jamal_bouyaghroumni,JAMAL.BOUYAGHROUMNI,Jamal Bouyaghroumni,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation",Equipe de Systèmes Dynamiques,Membre Permanent(e),False,146,7
+fsbm_jamal_mouline,JAMAL.MOULINE,Jamal Mouline,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation","Equipe Algèbre, Analyse et Géométrie",Membre Permanent(e),False,147,7
+fsbm_khadija_bouzkoura,KHADIJA.BOUZKOURA,Khadija Bouzkoura,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation","Equipe Algèbre, Analyse et Géométrie",Membre Permanent(e),False,148,7
+fsbm_khalid_adnaoui,KHALID.ADNAOUI,Khalid Adnaoui,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation",Equipe Statistiques et Modélisation,Membre Permanent(e),False,149,7
+fsbm_malika_izid,Malika.IZID,Malika Izid,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation","Equipe Algèbre, Analyse et Géométrie",Membre Permanent(e),False,150,7
+fsbm_mohamed_berghout,MOHAMED.BERGHOUT,Mohamed Berghout,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation","Equipe Algèbre, Analyse et Géométrie",Membre Permanent(e),False,151,7
+fsbm_mohamed_guessous,MOHAMED.GUESSOUS,Mohamed Guessous,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation","Equipe Algèbre, Analyse et Géométrie",Membre Permanent(e),False,152,7
+fsjesas_mostafa_elhaffari,MOSTAFA.ELHAFFARI,Mostafa Elhaffari,FSJESAS,"Laboratoire d'Analyse, Modélisation et Simulation","Equipe Algèbre, Analyse et Géométrie",Membre Permanent(e),False,153,7
+fsbm_mounir_elouarrachi,MOUNIR.ELOUARRACHI,Mounir Elouarrachi,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation","Equipe Algèbre, Analyse et Géométrie",Membre Permanent(e),False,154,7
+fsbm_moussa_bachraoui,MOUSSA.BACHRAOUI,Moussa Bachraoui,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation",Equipe Statistiques et Modélisation,Membre Permanent(e),False,155,7
+fsbm_omar_zakary,OMAR.ZAKARY,Omar Zakary,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation",Equipe Statistiques et Modélisation,Membre Permanent(e),False,156,7
+fsbm_said_benkaddour,SAID.BENKADDOUR,Said Benkaddour,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation","Equipe Algèbre, Analyse et Géométrie",Membre Permanent(e),False,157,7
+fsbm_samia_bennani,SAMIA.BENNANI,Samia Bennani,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation","Equipe Algèbre, Analyse et Géométrie",Membre Permanent(e),False,158,7
+fsbm_sara_bidah,Sara.BIDAH,Sara Bidah,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation",Equipe Statistiques et Modélisation,Membre Permanent(e),False,159,7
+fsbm_smahane_saadi,SMAHANE.SAADI,Smahane Saadi,FSBM,"Laboratoire d'Analyse, Modélisation et Simulation",Equipe Statistiques et Modélisation,Membre Permanent(e),False,160,7
+fsbm_abdelilah_akouibaa,ABDELILAH.AKOUIBAA,Abdelilah Akouibaa,FSBM,Laboratoire d’Ingénierie et de Matériaux,Sciences Mécanique et Matériaux,Membre Permanent(e),False,161,7
+fsbm_abderrazak_boubekri,Abderrazak.BOUBEKRI,Abderrazak Boubekri,FSBM,Laboratoire d’Ingénierie et de Matériaux,Sciences Mécanique et Matériaux,Membre Permanent(e),False,162,7
+fsbm_abdeslam_elassyry,ABDESLAM.ELASSYRY,Abdeslam Elassyry,FSBM,Laboratoire d’Ingénierie et de Matériaux,Sciences Mécanique et Matériaux,Membre Permanent(e),False,163,7
+fsbm_kamal_abderrafi,KAMAL.ABDERRAFI,Kamal Abderrafi,FSBM,Laboratoire d’Ingénierie et de Matériaux,Nanomatériaux et Couches Minces,Membre Permanent(e),False,164,7
+fsbm_laila_elaarabi,Laila.ELAARABI,Laila Elaarabi,FSBM,Laboratoire d’Ingénierie et de Matériaux,Sciences Mécanique et Matériaux,Membre Permanent(e),False,165,7
+fsbm_laila_mouakkir,LAILA.MOUAKKIR,Laila Mouakkir,FSBM,Laboratoire d’Ingénierie et de Matériaux,Sciences Mécanique et Matériaux,Membre Permanent(e),False,166,7
+fsbm_latifa_hajji,LATIFA.HAJJI,Latifa Hajji,FSBM,Laboratoire d’Ingénierie et de Matériaux,Matériaux Innovants,Membre Permanent(e),False,167,7
+fsbm_mbarka_mourabit,MBARKA.MOURABIT,Mbarka Mourabit,FSBM,Laboratoire d’Ingénierie et de Matériaux,Sciences Mécanique et Matériaux,Membre Permanent(e),False,168,7
+fsbm_meriem_errifaiy,MERIEM.ERRIFAIY,Meriem Errifaiy,FSBM,Laboratoire d’Ingénierie et de Matériaux,Sciences Mécanique et Matériaux,Membre Permanent(e),False,169,7
+fsbm_mina_oumam,MINA.OUMAM,Mina Oumam,FSBM,Laboratoire d’Ingénierie et de Matériaux,Matériaux Innovants,Membre Permanent(e),False,170,8
+fsbm_rachid_nassif,RACHID.NASSIF,Rachid Nassif,FSBM,Laboratoire d’Ingénierie et de Matériaux,Sciences Mécanique et Matériaux,Membre Permanent(e),False,171,8
+fsbm_rhma_adhiri,RHMA.ADHIRI,Rhma Adhiri,FSBM,Laboratoire d’Ingénierie et de Matériaux,Nanomatériaux et Couches Minces,Membre Permanent(e),False,172,8
+fsbm_said_gmouh,SAID.GMOUH,Said Gmouh,FSBM,Laboratoire d’Ingénierie et de Matériaux,Matériaux Innovants,Membre Permanent(e),False,173,8
+fsbm_siham_slassi,SIHAM.SLASSI,Siham Slassi,FSBM,Laboratoire d’Ingénierie et de Matériaux,Matériaux Innovants,Membre Permanent(e),False,174,8
+fsbm_souad_lahlou,SOUAD.LAHLOU,Souad Lahlou,FSBM,Laboratoire d’Ingénierie et de Matériaux,Nanomatériaux et Couches Minces,Membre Permanent(e),False,175,8
+fsbm_soumia_mordane,SOUMIA.MORDANE,Soumia Mordane,FSBM,Laboratoire d’Ingénierie et de Matériaux,Sciences Mécanique et Matériaux,Membre Permanent(e),False,176,8
+fsbm_touria_lachhab,TOURIA.LACHHAB,Touria Lachhab,FSBM,Laboratoire d’Ingénierie et de Matériaux,Nanomatériaux et Couches Minces,Membre Permanent(e),False,177,8
+fsbm_abdelmjid_abourriche,ABDELMJID.ABOURRICHE,Abdelmjid Abourriche,FSBM,Laboratoire Biologie et Santé,Biomolécules et Biomatériaux Polymères,Membre Permanent(e),False,178,8
+fsbm_aicha_nordine,AICHA.NORDINE,Aicha Nordine,FSBM,Laboratoire Biologie et Santé,Biomolécules et Biomatériaux Polymères,Membre Permanent(e),False,179,8
+fsbm_aljhanann_salih,ALJHANANN.SALIH,Aljhanann Salih,FSBM,Laboratoire Biologie et Santé,"Pathologies Métaboliques, Immunitaires et Tumorales",Membre Permanent(e),False,180,8
+fsbm_amal_elhamsaselyoubi,AMAL.ELHAMSASELYOUBI,Amal Elhamsaselyoubi,FSBM,Laboratoire Biologie et Santé,"Pathologies Métaboliques, Immunitaires et Tumorales",Membre Permanent(e),False,181,8
+fsbm_anass_kettani,ANASS.KETTANI,Anass Kettani,FSBM,Laboratoire Biologie et Santé,Modélisation Moléculaire et Contrôle Qualité,Membre Permanent(e),False,182,8
+fsbm_driss_radallah,DRISS.RADALLAH,Driss Radallah,FSBM,Laboratoire Biologie et Santé,"Pathologies Métaboliques, Immunitaires et Tumorales",Membre Permanent(e),False,183,8
+fsbm_fatimazahra_kehailou,FATIMAZAHRA.KEHAILOU,Fatimazahra Kehailou,FSBM,Laboratoire Biologie et Santé,Pathologies Chroniques et Nutrition Humaine,Membre Permanent(e),False,184,8
+fsbm_fouad_damiri,FOUAD.DAMIRI,Fouad Damiri,FSBM,Laboratoire Biologie et Santé,Biomolécules et Biomatériaux Polymères,Membre Permanent(e),False,185,8
+fsbm_halima_lebrazi,HALIMA.LEBRAZI,Halima Lebrazi,FSBM,Laboratoire Biologie et Santé,Pathologies Chroniques et Nutrition Humaine,Membre Permanent(e),False,186,8
+fsbm_hassan_taki,HASSAN.TAKI,Hassan Taki,FSBM,Laboratoire Biologie et Santé,Pathologies Chroniques et Nutrition Humaine,Membre Permanent(e),False,187,8
+fsbm_hassaniahmed_adlouni,HASSANIAHMED.ADLOUNI,Hassaniahmed Adlouni,FSBM,Laboratoire Biologie et Santé,"Pathologies Métaboliques, Immunitaires et Tumorales",Membre Permanent(e),False,188,8
+fsbm_hind_bouzoubaa,HIND.BOUZOUBAA,Hind Bouzoubaa,FSBM,Laboratoire Biologie et Santé,Modélisation Moléculaire et Contrôle Qualité,Membre Permanent(e),False,189,8
+fsbm_houda_bennani,HOUDA.BENNANI,Houda Bennani,FSBM,Laboratoire Biologie et Santé,Modélisation Moléculaire et Contrôle Qualité,Membre Permanent(e),False,190,8
+fsbm_imane_elouahabi,IMANE.ELOUAHABI,Imane Elouahabi,FSBM,Laboratoire Biologie et Santé,Modélisation Moléculaire et Contrôle Qualité,Membre Permanent(e),False,191,8
+fsbm_karima_mohtadi,Karima.MOHTADI,Karima Mohtadi,FSBM,Laboratoire Biologie et Santé,Pathologies Chroniques et Nutrition Humaine,Membre Permanent(e),False,192,8
+fsbm_meryem_bouqdayr,MERYEM.BOUQDAYR,Meryem Bouqdayr,FSBM,Laboratoire Biologie et Santé,Modélisation Moléculaire et Contrôle Qualité,Membre Permanent(e),False,193,8
+fsbm_mohammed_berrada,MOHAMMED.BERRADA,Mohammed Berrada,FSBM,Laboratoire Biologie et Santé,Biomolécules et Biomatériaux Polymères,Membre Permanent(e),False,194,8
+fsbm_rachid_saile,RACHID.SAILE,Rachid Saile,FSBM,Laboratoire Biologie et Santé,Pathologies Chroniques et Nutrition Humaine,Membre Permanent(e),False,195,8
+fmpc_salim_arouss,SALIM.AROUSS,Salim Arouss,FMPC,Laboratoire Biologie et Santé,"Pathologies Métaboliques, Immunitaires et Tumorales",Membre Permanent(e),False,196,8
+fsbm_samira_serghat,SAMIRA.SERGHAT,Samira Serghat,FSBM,Laboratoire Biologie et Santé,Modélisation Moléculaire et Contrôle Qualité,Membre Permanent(e),False,197,9
+fsbm_souad_rahim,SOUAD.RAHIM,Souad Rahim,FSBM,Laboratoire Biologie et Santé,Pathologies Chroniques et Nutrition Humaine,Membre Permanent(e),False,198,9
+fsbm_soumia_belouafa,SOUMIA.BELOUAFA,Soumia Belouafa,FSBM,Laboratoire Biologie et Santé,Biomolécules et Biomatériaux Polymères,Membre Permanent(e),False,199,9
+fsbm_abdelaziz_marzak,ABDELAZIZ.MARZAK,Abdelaziz Marzak,FSBM,Technologie de l'Information et Modélisation,Système intelligents et IOT,Membre Permanent(e),False,200,9
+fsbm_abderrahmane_daif,ABDERRAHMANE.DAIF,Abderrahmane Daif,FSBM,Technologie de l'Information et Modélisation,Big Data et Ingénierie des Systèmes d’Information,Membre Permanent(e),False,201,9
+fsbm_elhabib_benlahmar,ELHABIB.BENLAHMAR,Elhabib Benlahmar,FSBM,Technologie de l'Information et Modélisation,Modélisation dirigée par la donnée,Membre Permanent(e),False,202,9
+fsbm_ichrak_benamri,ICHRAK.BENAMRI,Ichrak Benamri,FSBM,Technologie de l'Information et Modélisation,Système intelligents et IOT,Membre Permanent(e),False,203,9
+fsbm_khalid_kandali,KHALID.KANDALI,Khalid Kandali,FSBM,Technologie de l'Information et Modélisation,Technologies Cognitives et Applications,Membre Permanent(e),False,204,9
+fsbm_mohamed_azzouazi,MOHAMED.AZZOUAZI,Mohamed Azzouazi,FSBM,Technologie de l'Information et Modélisation,Big Data et Ingénierie des Systèmes d’Information,Membre Permanent(e),False,205,9
+fsbm_mohamed_ghazouani,MOHAMED.GHAZOUANI,Mohamed Ghazouani,FSBM,Technologie de l'Information et Modélisation,Modélisation dirigée par la donnée,Membre Permanent(e),False,206,9
+fsbm_mohssine_bentaib,MOHSSINE.BENTAIB,Mohssine Bentaib,FSBM,Technologie de l'Information et Modélisation,Modélisation dirigée par la donnée,Membre Permanent(e),False,207,9
+fsbm_mounir_sadiq,MOUNIR.SADIQ,Mounir Sadiq,FSBM,Technologie de l'Information et Modélisation,Technologies Cognitives et Applications,Membre Permanent(e),False,208,9
+fsbm_omar_zahour,OMAR.ZAHOUR,Omar Zahour,FSBM,Technologie de l'Information et Modélisation,Modélisation dirigée par la donnée,Membre Permanent(e),False,209,9
+fsbm_said_nouh,SAID.NOUH,Said Nouh,FSBM,Technologie de l'Information et Modélisation,Technologies Cognitives et Applications,Membre Permanent(e),False,210,9
+fsbm_soufiane_ardchir,SOUFIANE.ARDCHIR,Soufiane Ardchir,FSBM,Technologie de l'Information et Modélisation,Big Data et Ingénierie des Systèmes d’Information,Membre Permanent(e),False,211,9
+fsbm_soumaya_ounacer,SOUMAYA.OUNACER,Soumaya Ounacer,FSBM,Technologie de l'Information et Modélisation,Big Data et Ingénierie des Systèmes d’Information,Membre Permanent(e),False,212,9
+fsbm_tarik_ahajjam,TARIK.AHAJJAM,Tarik Ahajjam,FSBM,Technologie de l'Information et Modélisation,Technologies Cognitives et Applications,Membre Permanent(e),False,213,9
+encg_yassine_elghoumari,YASSINE.ELGHOUMARI,Yassine Elghoumari,ENCG,Technologie de l'Information et Modélisation,Système intelligents et IOT,Membre Permanent(e),False,214,9
+fsbm_yman_chemlal,YMAN.CHEMLAL,Yman Chemlal,FSBM,Technologie de l'Information et Modélisation,Système intelligents et IOT,Membre Permanent(e),False,215,9

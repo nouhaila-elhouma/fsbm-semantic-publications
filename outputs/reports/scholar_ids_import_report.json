@@ -1,0 +1,952 @@
+[
+  {
+    "input_name": "Habib BEN LAHMAR",
+    "scholar_id": "upOdTrEAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_elhabib_benlahmar",
+    "matched_name": "Elhabib Benlahmar",
+    "etablissement": "FSBM",
+    "score": 0.93,
+    "note": ""
+  },
+  {
+    "input_name": "Nawal Sael",
+    "scholar_id": "hfAJHyYAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_nawal_sael",
+    "matched_name": "Nawal Sael",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Said Nouh",
+    "scholar_id": "2aKw_8kAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_said_nouh",
+    "matched_name": "Said Nouh",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "KHALID KANDALI",
+    "scholar_id": "C_Gt_7IAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_khalid_kandali",
+    "matched_name": "Khalid Kandali",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "faouzia Benabbou",
+    "scholar_id": "QOxPeEoAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_faouzia_benabbou",
+    "matched_name": "Faouzia Benabbou",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Mohamed Talea",
+    "scholar_id": "3ztbunUAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_mohamed_talea",
+    "matched_name": "Mohamed Talea",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Bouchaib Bounabat",
+    "scholar_id": "ErDjoI4AAAAJ",
+    "status": "not_in_roster",
+    "chercheur_id": null,
+    "matched_name": "Abdelhak Chakli",
+    "etablissement": "FSBM",
+    "score": 0.0,
+    "note": "aucun membre du PDF ne correspond (plus proche : Abdelhak Chakli, score 0.00)"
+  },
+  {
+    "input_name": "Abdelhakim Alali",
+    "scholar_id": "OcbnqJIAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_abdelhakim_alali",
+    "matched_name": "Abdelhakim Alali",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Abdellatif Slimani",
+    "scholar_id": "PA70UmkAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_abdellatif_slimani",
+    "matched_name": "Abdellatif Slimani",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Abdelmoghit ZAARANE",
+    "scholar_id": "WyhosLcAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_abdelmoghit_zaarane",
+    "matched_name": "Abdelmoghit Zaarane",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "GUENNOUN Asmae",
+    "scholar_id": "5S8wkxEAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_asmae_guennoun",
+    "matched_name": "Asmae Guennoun",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Aziza Elbakali Kassimi",
+    "scholar_id": "ADagKpAAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_aziza_elbakali",
+    "matched_name": "Aziza Elbakali",
+    "etablissement": "FSBM",
+    "score": 0.85,
+    "note": ""
+  },
+  {
+    "input_name": "issam Atouf",
+    "scholar_id": "4Rdvq2YAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_issam_atouf",
+    "matched_name": "Issam Atouf",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Tarik CHAFIQ",
+    "scholar_id": "J1rNqKQAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_tarik_chafiq",
+    "matched_name": "Tarik Chafiq",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Youssef NAIMI",
+    "scholar_id": "22H8d4UAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_youssef_naimi",
+    "matched_name": "Youssef Naimi",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Sefri Youssef",
+    "scholar_id": "aHie7pgAAAAJ",
+    "status": "other_institution",
+    "chercheur_id": "flshbm_youssef_sefri",
+    "matched_name": "Youssef Sefri",
+    "etablissement": "FLSHBM",
+    "score": 1.0,
+    "note": "membre FLSHBM : hors périmètre FSBM"
+  },
+  {
+    "input_name": "Abdellah Hamdaoui",
+    "scholar_id": "GcpkTJYAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_abdellah_hamdaoui",
+    "matched_name": "Abdellah Hamdaoui",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "abdenbi khouaja",
+    "scholar_id": "4GVCnygAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_abdenbi_khouaja",
+    "matched_name": "Abdenbi Khouaja",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Bouazza Braikat",
+    "scholar_id": "M9BcVSUAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_bouazza_braikat",
+    "matched_name": "Bouazza Braikat",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Mohamed IDIRI",
+    "scholar_id": "oDDe4n4AAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_mohamed_idiri",
+    "matched_name": "Mohamed Idiri",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Benlattar mourad",
+    "scholar_id": "xpxjPL4AAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_mourad_benlattar",
+    "matched_name": "Mourad Benlattar",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Othmane DAOUDI",
+    "scholar_id": "1W-uvFYAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_othmane_daoudi",
+    "matched_name": "Othmane Daoudi",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Rachida Moultif",
+    "scholar_id": "S26uLeQAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_rachida_moultif",
+    "matched_name": "Rachida Moultif",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Said Ouaskit",
+    "scholar_id": "YMFR4oAAAAJ",
+    "status": "invalid_id",
+    "chercheur_id": "fsbm_said_ouaskit",
+    "matched_name": "Said Ouaskit",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": "format invalide (11 caractères, 12 attendus) — recopiez l'ID depuis l'URL du profil"
+  },
+  {
+    "input_name": "Ahmed Fekri",
+    "scholar_id": "iVcGR4wAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_ahmed_fekri",
+    "matched_name": "Ahmed Fekri",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Allal Labriki",
+    "scholar_id": "5nrRDxAAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_allal_labriki",
+    "matched_name": "Allal Labriki",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Faouziya Haissen",
+    "scholar_id": "IOR7TaoAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_faouziya_haissen",
+    "matched_name": "Faouziya Haissen",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "mostafa oukassou",
+    "scholar_id": "AKNLvIEAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_mostafa_oukassou",
+    "matched_name": "Mostafa Oukassou",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Mustapha MOUFLIH",
+    "scholar_id": "DCymGMEAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_mustapha_mouflih",
+    "matched_name": "Mustapha Mouflih",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "NADIA BARHOUN",
+    "scholar_id": "AvtWIt8AAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_nadia_barhoun",
+    "matched_name": "Nadia Barhoun",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Rachid Essamoud",
+    "scholar_id": "pupxlJ0AAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_rachid_essamoud",
+    "matched_name": "Rachid Essamoud",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Soufiane Maimouni",
+    "scholar_id": "TvMcd8oAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_soufiane_maimouni",
+    "matched_name": "Soufiane Maimouni",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Mohamed MOUMOU",
+    "scholar_id": "0rekc_YAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_mohamed_moumou",
+    "matched_name": "Mohamed Moumou",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Mohamed Radid",
+    "scholar_id": "ZITQAJoAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_mohamed_radid",
+    "matched_name": "Mohamed Radid",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Samia YOUSFI",
+    "scholar_id": "BQ-SjWEAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_samia_yousfi",
+    "matched_name": "Samia Yousfi",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Samir CHTITA",
+    "scholar_id": "vdPyLoMAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_samir_chtita",
+    "matched_name": "Samir Chtita",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Asmaa BENBIYI",
+    "scholar_id": "tIzgYIoAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_asmaa_benbiyi",
+    "matched_name": "Asmaa Benbiyi",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "aziz boutouil",
+    "scholar_id": "8X0-WxsAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_aziz_boutouil",
+    "matched_name": "Aziz Boutouil",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Boubker MEHDAOUI",
+    "scholar_id": "SAAqKKsAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_boubker_mehdaoui",
+    "matched_name": "Boubker Mehdaoui",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Chaouki Sadik",
+    "scholar_id": "XytSkkwAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_chaouki_sadik",
+    "matched_name": "Chaouki Sadik",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Fouad ALLOUN",
+    "scholar_id": "zrGeAWgAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_fouad_alloun",
+    "matched_name": "Fouad Alloun",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "TANANE Omar",
+    "scholar_id": "0KSJLhAAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_omar_tanane",
+    "matched_name": "Omar Tanane",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Said BAKKALI",
+    "scholar_id": "idesK9gAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_said_bakkali",
+    "matched_name": "Said Bakkali",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "soufiane zerraf",
+    "scholar_id": "R7b0F7cAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_soufiane_zerraf",
+    "matched_name": "Soufiane Zerraf",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Younes Abboud",
+    "scholar_id": "G0zEVVUAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_younes_abboud",
+    "matched_name": "Younes Abboud",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Nahli abdelmottalib",
+    "scholar_id": "FJUvtg8AAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_abdelmottalib_nahli",
+    "matched_name": "Abdelmottalib Nahli",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Loubna BENIDIRE",
+    "scholar_id": "BhRwnEcAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_loubna_benidire",
+    "matched_name": "Loubna Benidire",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "NADIA IOUNES",
+    "scholar_id": "cWLIf40AAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_nadia_iounes",
+    "matched_name": "Nadia Iounes",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Wadi Badri",
+    "scholar_id": "ntBEnvsAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_wadi_badri",
+    "matched_name": "Wadi Badri",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "ABDESSAMAD BELANGOUR",
+    "scholar_id": "i8X0MgkAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_abdessamad_belangour",
+    "matched_name": "Abdessamad Belangour",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "AMAL ZAOUCH",
+    "scholar_id": "-_RLt1UAAAAJ",
+    "status": "other_institution",
+    "chercheur_id": "encg_amal_zaouch",
+    "matched_name": "Amal Zaouch",
+    "etablissement": "ENCG",
+    "score": 1.0,
+    "note": "membre ENCG : hors périmètre FSBM"
+  },
+  {
+    "input_name": "DRISS BOUGGAR",
+    "scholar_id": "6TfW2X0AAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_driss_bouggar",
+    "matched_name": "Driss Bouggar",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "FAOUZIA BENABBOU",
+    "scholar_id": "QOxPeEoAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_faouzia_benabbou",
+    "matched_name": "Faouzia Benabbou",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "KHADIJA ACHTAICH",
+    "scholar_id": "EhsD_L4AAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_khadija_achtaich",
+    "matched_name": "Khadija Achtaich",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "MOHAMMED AITDAOUD",
+    "scholar_id": "xjxxn0cAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_mohammed_aitdaoud",
+    "matched_name": "Mohammed Aitdaoud",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "NAWAL SAEL",
+    "scholar_id": "hfAJHyYAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_nawal_sael",
+    "matched_name": "Nawal Sael",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "RACHIDA AITABDELOUAHID",
+    "scholar_id": "w3Uyl9kAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_rachida_aitabdelouahid",
+    "matched_name": "Rachida Aitabdelouahid",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "SANAA ELFILALI",
+    "scholar_id": "peesMqoAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_sanaa_elfilali",
+    "matched_name": "Sanaa Elfilali",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "YOUSSEF SEKHARA",
+    "scholar_id": "ixCm7WYAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_youssef_sekhara",
+    "matched_name": "Youssef Sekhara",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "ABDELHAFID BASSOU",
+    "scholar_id": "FPo3tVoAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_abdelhafid_bassou",
+    "matched_name": "Abdelhafid Bassou",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "ABDERRAHIM ELADRAOUI",
+    "scholar_id": "QTr_ct4AAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_abderrahim_eladraoui",
+    "matched_name": "Abderrahim Eladraoui",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "ADNANE BOUKHOUIMA",
+    "scholar_id": "RlUhpMYAAAAJ",
+    "status": "other_institution",
+    "chercheur_id": "fsjesas_adnane_boukhouima",
+    "matched_name": "Adnane Boukhouima",
+    "etablissement": "FSJESAS",
+    "score": 1.0,
+    "note": "membre FSJESAS : hors périmètre FSBM"
+  },
+  {
+    "input_name": "BOUCHRA AHARMIM",
+    "scholar_id": "fEERQmoAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_bouchra_aharmim",
+    "matched_name": "Bouchra Aharmim",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "ELMEHDI LOTFI",
+    "scholar_id": "co3r6zAAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_elmehdi_lotfi",
+    "matched_name": "Elmehdi Lotfi",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "HASSAN LAARABI",
+    "scholar_id": "51svnvMAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_hassan_laarabi",
+    "matched_name": "Hassan Laarabi",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Imane AGMOUR",
+    "scholar_id": "MneM6ocAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_imane_agmour",
+    "matched_name": "Imane Agmour",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "KHALID ADNAOUI",
+    "scholar_id": "5ap2WIIAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_khalid_adnaoui",
+    "matched_name": "Khalid Adnaoui",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Malika IZID",
+    "scholar_id": "AF7HTzkAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_malika_izid",
+    "matched_name": "Malika Izid",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "OMAR ZAKARY",
+    "scholar_id": "J8JyWLYAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_omar_zakary",
+    "matched_name": "Omar Zakary",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "SAID BENKADDOUR",
+    "scholar_id": "rjrWg60AAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_said_benkaddour",
+    "matched_name": "Said Benkaddour",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "ABDELILAH AKOUIBAA",
+    "scholar_id": "0Q-T8x4AAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_abdelilah_akouibaa",
+    "matched_name": "Abdelilah Akouibaa",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "LAILA MOUAKKIR",
+    "scholar_id": "FJVaLHwAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_laila_mouakkir",
+    "matched_name": "Laila Mouakkir",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "MBARKA MOURABIT",
+    "scholar_id": "COxcISUAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_mbarka_mourabit",
+    "matched_name": "Mbarka Mourabit",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "MINA OUMAM",
+    "scholar_id": "moH1YMsAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_mina_oumam",
+    "matched_name": "Mina Oumam",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "RHMA ADHIRI",
+    "scholar_id": "8OVvchAAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_rhma_adhiri",
+    "matched_name": "Rhma Adhiri",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "SAID GMOUH",
+    "scholar_id": "DesMDlAAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_said_gmouh",
+    "matched_name": "Said Gmouh",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "SIHAM SLASSI",
+    "scholar_id": "-1DLu7sAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_siham_slassi",
+    "matched_name": "Siham Slassi",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "SOUMIA MORDANE",
+    "scholar_id": "hIN0ScAAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_soumia_mordane",
+    "matched_name": "Soumia Mordane",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "ABDELMJID ABOURRICHE",
+    "scholar_id": "iKIUSQIAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_abdelmjid_abourriche",
+    "matched_name": "Abdelmjid Abourriche",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "AMAL EL HAMSAS EL YOUBI",
+    "scholar_id": "6EGcmiAAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_amal_elhamsaselyoubi",
+    "matched_name": "Amal Elhamsaselyoubi",
+    "etablissement": "FSBM",
+    "score": 0.95,
+    "note": ""
+  },
+  {
+    "input_name": "ANASS KETTANI",
+    "scholar_id": "aKcwH1kAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_anass_kettani",
+    "matched_name": "Anass Kettani",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "DRISS RADALLAH",
+    "scholar_id": "ENJeQHAAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_driss_radallah",
+    "matched_name": "Driss Radallah",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "FOUAD DAMIRI",
+    "scholar_id": "1nFMkMcAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_fouad_damiri",
+    "matched_name": "Fouad Damiri",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "HALIMA LEBRAZI",
+    "scholar_id": "y3H-SrEAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_halima_lebrazi",
+    "matched_name": "Halima Lebrazi",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "Karima MOHTADI",
+    "scholar_id": "ExZwFJoAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_karima_mohtadi",
+    "matched_name": "Karima Mohtadi",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "MOHAMMED BERRADA",
+    "scholar_id": "IcuHRngAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_mohammed_berrada",
+    "matched_name": "Mohammed Berrada",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "RACHID SAILE",
+    "scholar_id": "QebcqNkAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_rachid_saile",
+    "matched_name": "Rachid Saile",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "SOUMIA BELOUAFA",
+    "scholar_id": "PwCedNQAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_soumia_belouafa",
+    "matched_name": "Soumia Belouafa",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "ABDERRAHMANE DAIF",
+    "scholar_id": "fCLesqQAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_abderrahmane_daif",
+    "matched_name": "Abderrahmane Daif",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "KHALID KANDALI",
+    "scholar_id": "C_Gt_7IAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_khalid_kandali",
+    "matched_name": "Khalid Kandali",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "MOHAMED GHAZOUANI",
+    "scholar_id": "6fywzcgAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_mohamed_ghazouani",
+    "matched_name": "Mohamed Ghazouani",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "MOHSSINE BENTAIB",
+    "scholar_id": "NC6PfXIAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_mohssine_bentaib",
+    "matched_name": "Mohssine Bentaib",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "MOUNIR SADIQ",
+    "scholar_id": "u_jsBCoAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_mounir_sadiq",
+    "matched_name": "Mounir Sadiq",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "OMAR ZAHOUR",
+    "scholar_id": "wUlKz4UAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_omar_zahour",
+    "matched_name": "Omar Zahour",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  },
+  {
+    "input_name": "SAID NOUH",
+    "scholar_id": "2aKw_8kAAAAJ",
+    "status": "accepted",
+    "chercheur_id": "fsbm_said_nouh",
+    "matched_name": "Said Nouh",
+    "etablissement": "FSBM",
+    "score": 1.0,
+    "note": ""
+  }
+]

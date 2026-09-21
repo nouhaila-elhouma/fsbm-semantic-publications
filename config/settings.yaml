@@ -1,0 +1,95 @@
+# Configuration centrale du pipeline. Tous les chemins sont relatifs à la racine du dépôt.
+
+project:
+  name: "FSBM Semantic Publications"
+  random_state: 42
+
+paths:
+  members_pdf: "data/input/Membres FSBM.pdf"
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  vector_store_dir: "data/vector_store"
+  cache_dir: "data/raw/cache"
+  figures_dir: "outputs/figures"
+  logs_dir: "outputs/logs"
+  reports_dir: "outputs/reports"
+
+data:
+  institution: "FSBM"                       # valeur exacte de la colonne "Etablissement" à conserver
+  university: "Université Hassan II de Casablanca"
+  # Colonnes du PDF à propager vers le bas si les cellules fusionnées sont vides (voir --forward-fill).
+  forward_fill_columns: []
+  only_with_scholar_id: true                # le dataset ne garde que les chercheurs dont le Scholar ID est connu
+                                            # (le CSV brut chercheurs_fsbm.csv reste complet)
+  min_abstract_chars: 50                   # en dessous : abstract jugé inexploitable pour l'embedding
+  year_min: 1950
+  fuzzy_title_threshold: 0.93               # seuil prudent de déduplication floue
+
+scraping:
+  backend: "http"                           # "http" (requests + BeautifulSoup) | "scholarly"
+  min_delay: 4                              # secondes, délai aléatoire entre deux requêtes
+  max_delay: 9
+  retries: 3
+  backoff_base: 5                           # secondes ; backoff exponentiel : base * 2^tentative
+  timeout: 30
+  max_publications_per_researcher: 50
+  checkpoint_every: 1                       # sauvegarde après chaque chercheur
+  fetch_publication_details: true           # 1 requête / publication pour l'abstract Scholar (lent mais complet)
+  # Conformité robots.txt de Google Scholar : « Disallow: /citations? », « Allow: /citations?user= »,
+  # « Disallow: /citations?*cstart= ». => profils/publications OK (URL « user= »), pagination et recherche
+  # d'auteurs par nom INTERDITES. Par défaut, la recherche est désactivée : renseignez les Scholar ID dans
+  # scholar_overrides.csv (python scripts/02_scrape_scholar.py --init-overrides), ou activez EXPLICITEMENT
+  # --allow-author-search (choix et responsabilité de l'utilisateur).
+  respect_robots_txt: true
+  allow_author_search: false
+  user_agent: "FSBM-Semantic-Publications/1.0 (academic research project; public data only)"
+  search_queries:                           # essayées dans l'ordre jusqu'à obtenir un candidat plausible
+    - "{name}"
+    - "{name} Hassan II University"
+  matching:
+    accept_threshold: 0.70                  # confiance minimale pour "matched"
+    ambiguous_threshold: 0.50               # sous ce seuil : "not_found"
+    min_margin: 0.15                        # écart minimal avec le 2e candidat, sinon "ambiguous"
+    min_name_score: 0.66
+  overrides_file: "data/raw/scholar_overrides.csv"   # validation manuelle (chercheur_id, scholar_id)
+
+enrichment:
+  enabled: true
+  timeout: 20
+  retries: 3
+  min_delay: 0.3
+  max_delay: 1.0
+  sources: ["crossref", "openalex", "semantic_scholar"]
+  publisher_page: false                     # tentative sur la page DOI (meta citation_abstract) ; désactivé par défaut
+  title_match_threshold: 0.90               # garde-fou : un abstract externe n'est retenu que si le titre correspond
+
+embedding:
+  model: "zembed-1"                         # EXIGENCE : ne jamais remplacer silencieusement
+  # "local" : POIDS OUVERTS officiels zeroentropy/zembed-1-embedding (Hugging Face, Apache-2.0) via sentence-transformers,
+  #           sans clé — GPU recommandé (Colab) ; ~8 Go de poids. C'est le mode par défaut : ZeroEntropy (racheté par Notion)
+  #           n'accepte plus de nouvelles inscriptions, donc plus de nouvelle clé API.
+  # "sdk" / "http" : API hébergée (SDK officiel / REST) — nécessite une ZEROENTROPY_API_KEY déjà existante.
+  transport: "local"
+  device: "auto"                            # auto | cpu | cuda
+  dtype: "auto"                             # auto (bfloat16 Ampere+/CPU, float16 GPU plus ancien) | bfloat16 | float16 | float32
+  max_seq_length: 512                       # tokens ; titre + abstract ≈ 150-400 tokens (le modèle accepte jusqu'à 32 768)
+  batch_size: 8                             # petit pour tenir en mémoire (16-32 possible sur GPU 16 Go)
+  dimensions: null                          # null = dimension par défaut du modèle (lue dans la réponse, jamais supposée)
+  timeout: 60
+  retries: 5
+  backoff_base: 5
+  latency: null                             # null | "fast" | "slow"  (paramètre officiel de l'API)
+  embed_in_json: "auto"                     # true | false | "auto" (auto : selon la taille)
+  embed_in_json_max_floats: 3000000
+
+search:
+  top_k: 5
+  researcher_pool: 100                      # nb de publications retrouvées avant agrégation par chercheur
+  researcher_top_m: 3                       # nb de meilleures publications agrégées par chercheur
+
+semantic_map:
+  reduction: "umap"                         # "umap" | "pca"
+  n_clusters: null                          # null = choix par silhouette dans k_range
+  k_range: [4, 12]
+  umap_n_neighbors: 15
+  umap_min_dist: 0.1

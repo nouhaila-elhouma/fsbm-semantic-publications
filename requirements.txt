@@ -1,0 +1,37 @@
+# Cartographie Sémantique des publications FSBM — dépendances réellement utilisées
+# Testé avec Python 3.12 (compatible 3.11). Voir README pour les versions exactes résolues.
+
+# Données
+pandas>=2.1
+numpy>=1.26
+pyarrow>=15.0
+pdfplumber>=0.11          # extraction du PDF "Membres FSBM"
+
+# Scraping / collecte
+requests>=2.31
+beautifulsoup4>=4.12
+scholarly>=1.7            # backend Google Scholar alternatif (config: scraping.backend)
+bibtexparser>=1.4,<2      # requis par scholarly (bibtexparser 2.x casse son import)
+
+# Validation / configuration
+pydantic>=2.6
+python-dotenv>=1.0
+PyYAML>=6.0
+
+# Embeddings zembed-1 : poids ouverts officiels (Hugging Face, Apache-2.0) exécutés en local / sur Colab (transport "local")
+torch>=2.2                # sur Colab, torch est déjà installé
+sentence-transformers>=5.0   # model.encode_query / encode_document
+# SDK officiel de l'API hébergée (transports "sdk"/"http") — optionnel : ZeroEntropy n'accepte plus de nouvelles clés
+zeroentropy>=0.1.0a11     # publié uniquement en pré-version alpha
+
+# Recherche vectorielle, ML, visualisation
+faiss-cpu>=1.8
+scikit-learn>=1.4
+umap-learn>=0.5
+matplotlib>=3.8
+plotly>=5.20
+
+# Notebook & tests
+jupyter>=1.0
+nbformat>=5.9
+pytest>=8.0

@@ -1,0 +1,39 @@
+# Secrets
+.env
+
+# Environnements Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Logs (le dossier est conservé grâce à .gitkeep)
+outputs/logs/*.log
+
+# PDF source des membres (document institutionnel : à ne pas redistribuer sans accord)
+data/input/*.pdf
+
+# Cache de scraping / d'enrichissement (reconstructible, volumineux)
+data/raw/cache/*
+!data/raw/cache/.gitkeep
+
+# Embeddings zembed-1 et index vectoriel : lourds (n x 2560 float32 par défaut) et
+# reconstructibles avec scripts/04 et 05. Ne pas versionner ; à publier via
+# Git LFS / une release GitHub si le professeur veut les récupérer.
+data/vector_store/*
+!data/vector_store/.gitkeep
+
+# Archive préparée pour Google Colab (contient les publications)
+outputs/colab/
+
+# Journaux de collecte détachée
+outputs/logs/*.txt
+
+# Figures interactives lourdes (reconstructibles)
+outputs/figures/*.html
+
+.DS_Store
+Thumbs.db
+.ruff_cache/
