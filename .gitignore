@@ -17,6 +17,11 @@ outputs/logs/*.txt
 # PDF source des membres (document institutionnel : à ne pas redistribuer sans accord)
 data/input/*.pdf
 
+# Pages Google Scholar enregistrées à la main (contenu tiers, non redistribué) et liste de travail
+data/input/scholar_html/*
+!data/input/scholar_html/.gitkeep
+outputs/reports/profils_a_enregistrer.html
+
 # Cache de scraping / d'enrichissement (reconstructible, volumineux)
 data/raw/cache/*
 !data/raw/cache/.gitkeep
