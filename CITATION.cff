@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ce dépôt, merci de le citer."
+title: "Cartographie sémantique et analyse des publications de la FSBM"
+abstract: "Pipeline de collecte, de nettoyage et d'encodage (zembed-1) des publications des enseignants-chercheurs de la FSBM, avec moteur de recherche sémantique et cartographie thématique."
+type: software
+authors:
+  - family-names: "Elhouma"
+    given-names: "Nouhaila"
+repository-code: "https://github.com/nouhaila-elhouma/fsbm-semantic-publications"
+license: MIT
+date-released: 2026-09-21
+keywords:
+  - NLP
+  - embeddings
+  - Google Scholar
+  - recherche sémantique
