@@ -20,12 +20,13 @@ from urllib.parse import quote
 import requests
 from bs4 import BeautifulSoup
 
-from src.preprocessing.text_cleaner import (clean_text_light, extract_doi, is_truncated, normalize_doi,
-                                            normalize_for_matching, strip_html, title_similarity)
+from src.preprocessing.text_cleaner import (clean_text_light, extract_doi, is_truncated, looks_like_affiliation,
+                                            normalize_doi, normalize_for_matching, strip_html, title_similarity)
 from src.utils.io import read_json, write_json
 from src.utils.retry import TransientError, polite_sleep, retry
 
 logger = logging.getLogger(__name__)
+CACHE_VERSION = 2       # v2 : + revue/éditeur ; les entrées v1 sont ré-enrichies
 MIN_ABSTRACT_CHARS = 80  # en dessous, une « description » d'API est rarement un vrai abstract
 
 
@@ -46,7 +47,7 @@ def clean_api_abstract(text: Optional[str]) -> Optional[str]:
     cleaned = clean_text_light(strip_html(text)) if text else None
     if cleaned and cleaned.lower().startswith("abstract"):
         cleaned = cleaned[8:].lstrip(" :.-–—") or None
-    return cleaned
+    return None if looks_like_affiliation(cleaned) else cleaned      # liste d'affiliations ≠ abstract
 
 
 def year_compatible(year_a: Optional[int], year_b: Optional[int], tolerance: int = 1) -> bool:
@@ -119,7 +120,7 @@ class PublicationEnricher:
             data = self._call(f"https://api.crossref.org/works/{quote(doi, safe='/')}")
             item = data.get("message") if data else None
         else:
-            params = {"query.bibliographic": pub["titre"], "rows": 5, "select": "DOI,title,abstract,issued"}
+            params = {"query.bibliographic": pub["titre"], "rows": 5, "select": "DOI,title,abstract,issued,container-title,publisher"}
             if self.contact_email:
                 params["mailto"] = self.contact_email
             data = self._call("https://api.crossref.org/works", params)
@@ -129,7 +130,8 @@ class PublicationEnricher:
                                     self.threshold)
         if not item:
             return {}
-        return {"doi": normalize_doi(item.get("DOI")), "abstract": clean_api_abstract(item.get("abstract"))}
+        return {"doi": normalize_doi(item.get("DOI")), "abstract": clean_api_abstract(item.get("abstract")),
+                "journal": clean_text_light(_first(item.get("container-title"))), "publisher": clean_text_light(item.get("publisher"))}
 
     def _openalex(self, pub: dict[str, Any], doi: Optional[str]) -> dict[str, Any]:
         params = {"mailto": self.contact_email} if self.contact_email else {}
@@ -141,12 +143,15 @@ class PublicationEnricher:
                                     lambda i: i.get("publication_year"), self.threshold)
         if not item:
             return {}
+        source = ((item.get("primary_location") or {}).get("source")) or {}
         return {"doi": normalize_doi(item.get("doi")),
-                "abstract": clean_api_abstract(openalex_abstract(item.get("abstract_inverted_index")))}
+                "abstract": clean_api_abstract(openalex_abstract(item.get("abstract_inverted_index"))),
+                "journal": clean_text_light(source.get("display_name")),
+                "publisher": clean_text_light(source.get("host_organization_name"))}
 
     def _semantic_scholar(self, pub: dict[str, Any], doi: Optional[str]) -> dict[str, Any]:
         headers = {"x-api-key": self.s2_api_key} if self.s2_api_key else None
-        fields = "title,abstract,year,externalIds"
+        fields = "title,abstract,year,externalIds,venue"
         if doi:
             item = self._call(f"https://api.semanticscholar.org/graph/v1/paper/DOI:{quote(doi, safe='/')}",
                               {"fields": fields}, headers)
@@ -158,7 +163,7 @@ class PublicationEnricher:
         if not item:
             return {}
         return {"doi": normalize_doi((item.get("externalIds") or {}).get("DOI")),
-                "abstract": clean_api_abstract(item.get("abstract"))}
+                "abstract": clean_api_abstract(item.get("abstract")), "journal": clean_text_light(item.get("venue"))}
 
     def _publisher_page(self, doi: str) -> dict[str, Any]:
         """Métadonnées ``citation_abstract`` de la page DOI (uniquement si l'éditeur les expose)."""
@@ -194,14 +199,19 @@ class PublicationEnricher:
         doi = normalize_doi(pub.get("doi")) or extract_doi(pub.get("external_url")) or extract_doi(pub.get("pdf_url"))
         has_full = pub.get("abstract_status") == "found"
         api_error = False
+        found_journal: Optional[str] = None
+        found_publisher: Optional[str] = None
+        has_venue = bool(pub.get("journal") or pub.get("conference"))
 
         for source in self.cfg["sources"]:
-            if has_full and doi:
+            if has_full and doi and (has_venue or found_journal):
                 break
             status, result = self._run_source(source, pub, doi)
             attempts.append({"source": source, "status": status})
             api_error |= status == "api_error"
             doi = doi or result.get("doi")
+            found_journal = found_journal or result.get("journal")
+            found_publisher = found_publisher or result.get("publisher")
             abstract = result.get("abstract")
             current = pub.get("abstract") or ""
             if abstract and not is_truncated(abstract) and len(abstract) >= MIN_ABSTRACT_CHARS and not has_full:
@@ -221,6 +231,10 @@ class PublicationEnricher:
                 logger.info("Page éditeur inaccessible (%s)", exc)
 
         pub["doi"] = doi
+        if found_journal and not has_venue:
+            pub["journal"] = found_journal                      # revue/actes : Crossref > OpenAlex > Semantic Scholar
+        if found_publisher and not pub.get("publisher"):
+            pub["publisher"] = found_publisher
         pub["abstract_attempts"] = attempts
         if not has_full:
             if pub.get("abstract"):
@@ -236,20 +250,20 @@ class PublicationEnricher:
     def enrich_all(self, publications: list[dict[str, Any]], resume: bool = True, save_every: int = 10) -> dict[str, int]:
         """Enrichit toutes les publications ; les résultats définitifs sont mis en cache (reprise)."""
         stats = {"total": len(publications), "from_cache": 0, "enriched": 0, "api_errors": 0}
-        fields = ("doi", "abstract", "abstract_source", "abstract_status", "abstract_attempts")
+        fields = ("doi", "abstract", "abstract_source", "abstract_status", "abstract_attempts", "journal", "publisher")
         for i, pub in enumerate(publications, start=1):
             if not pub.get("titre"):
                 continue
             key = cache_key(pub)
             cached = self.cache.get(key) if resume else None
-            if cached and cached.get("final"):
-                pub.update({f: cached[f] for f in fields})
+            if cached and cached.get("final") and cached.get("v") == CACHE_VERSION:
+                pub.update({f: cached[f] for f in fields if f not in ("journal", "publisher") or not pub.get(f)})
                 stats["from_cache"] += 1
                 continue
             final = self.enrich_publication(pub)
             stats["enriched"] += 1
             stats["api_errors"] += 0 if final else 1
-            self.cache[key] = {**{f: pub.get(f) for f in fields}, "final": final}
+            self.cache[key] = {**{f: pub.get(f) for f in fields}, "final": final, "v": CACHE_VERSION}
             if i % save_every == 0:
                 write_json(self.cache_path, self.cache)
                 logger.info("Enrichissement : %d/%d publications", i, len(publications))

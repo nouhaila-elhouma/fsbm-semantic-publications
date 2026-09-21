@@ -20,7 +20,7 @@ from pydantic import ValidationError
 from src.data.extract_fsbm_members import is_target_institution
 from src.data.schemas import (DOI_RE, Publication, ResearcherProfile, ScholarMetrics, assert_unique, year_max)
 from src.preprocessing.text_cleaner import (build_embedding_text, clean_abstract_for_nlp, clean_text_light,
-                                            extract_doi, normalize_doi, normalize_for_matching)
+                                            extract_doi, looks_like_affiliation, normalize_doi, normalize_for_matching)
 
 logger = logging.getLogger(__name__)
 
@@ -107,6 +107,8 @@ def clean_publication_record(raw: dict[str, Any], min_abstract_chars: int = 50, 
     doi = normalize_doi(raw.get("doi")) or extract_doi(raw.get("external_url"))
 
     abstract_raw = raw.get("abstract")
+    if looks_like_affiliation(abstract_raw):          # contenu invalide (affiliations d'auteurs) : jamais utilisé comme abstract
+        abstract_raw = None
     abstract_clean = clean_abstract_for_nlp(abstract_raw)
     status = raw.get("abstract_status") or "not_found"
     if abstract_clean is None:

@@ -22,6 +22,30 @@ _LIGATURES = {"ﬁ": "fi", "ﬂ": "fl", "ﬀ": "ff", "ﬃ": "ffi", "ﬄ": "ffl"}
 _SPECIAL_SPACES = dict.fromkeys(map(ord, "              　"), " ")
 
 
+_AFFILIATION_RE = re.compile(
+    r"\b(universit\w*|laborator\w*|facult\w*|department|d[ée]partement|institute|institut|school|college|"
+    r"morocco|maroc|casablanca|france|spain|usa)\b", re.IGNORECASE)
+_SENTENCE_CUES_RE = re.compile(r"\b(we|this paper|this study|this article|propose\w*|present\w*|show\w*|results?|aims?|"
+                               r"investigat\w*|study|studies|approach|method)\b", re.IGNORECASE)
+
+
+def looks_like_affiliation(text: str | None) -> bool:
+    """Vrai si ``text`` ressemble à une liste d'affiliations d'auteurs plutôt qu'à un abstract.
+
+    Certaines API renvoient « 1Research Laboratory, … University of Casablanca, Morocco 2Laboratory of … » dans le champ
+    abstract. Critère prudent : au moins 2 mots d'affiliation, texte court, et aucune tournure d'abstract (« we »,
+    « this paper », « results »…).
+    """
+    if not text:
+        return False
+    cleaned = clean_text_light(text) or ""
+    hits = len(_AFFILIATION_RE.findall(cleaned))
+    numbered = bool(re.match(r"^\d+\s?[A-Z]", cleaned))
+    if _SENTENCE_CUES_RE.search(cleaned):
+        return False
+    return (hits >= 2 and len(cleaned) < 600) or (numbered and hits >= 1)
+
+
 def strip_html(text: str) -> str:
     """Supprime les balises HTML/JATS et décode les entités (``&amp;`` → ``&``)."""
     if "<" in text:

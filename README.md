@@ -98,10 +98,12 @@ python scripts/05_build_index.py
 python scripts/06_demo_search.py
 ```
 
-**Embeddings sur GPU (Colab).** zembed-1 a 4 milliards de paramètres (~8 Go) : sans GPU compatible, l'encodage de milliers de publications est trop lent. Procédure :
+**Embeddings sur GPU (Colab).** zembed-1 a 4 milliards de paramètres (~8 Go) : sans GPU, l’encodage prend ~2 min par publication (plusieurs jours pour 2 000). Procédure :
 1. `python scripts/make_colab_bundle.py` → `outputs/colab/colab_bundle.zip` (code + `publications_clean.parquet` uniquement ; ni `.env`, ni PDF, ni données brutes) ;
 2. ouvrir `notebooks/02_colab_embeddings_gpu.ipynb` dans Google Colab (GPU T4), envoyer le zip, exécuter les cellules ;
 3. décompresser le `zembed_outputs.zip` téléchargé dans `data/vector_store/`, puis `python scripts/05_build_index.py` (et, si souhaité, `python scripts/04_generate_embeddings.py --attach-only`).
+
+**Un GPU est nécessaire pour le jeu de données complet.** Mesuré sur un portable (i7 4 cœurs, sans GPU utilisable) : environ **2 minutes par publication réelle** (titre + abstract ≈ 250-300 tokens) — plusieurs jours pour 2 000 publications. Le mode CPU (`python scripts/04_generate_embeddings.py`) ne convient qu'à de petits échantillons (`--limit N`) ; le cache SQLite est alimenté après chaque lot, on peut interrompre puis relancer. Sur un GPU gratuit de Colab (T4), l'ordre de grandeur attendu est de quelques minutes (estimation à partir de la puissance de calcul, non mesurée ici). Le modèle est identique dans les deux cas ; seule la durée change. Un autre GPU (Kaggle, station de l'université) convient aussi.
 
 Les 5 requêtes de démonstration sont encodées en même temps et stockées dans le cache : `06_demo_search.py` fonctionne ensuite sans recharger le modèle. Une requête libre demande de charger les poids en local (lent sur CPU).
 

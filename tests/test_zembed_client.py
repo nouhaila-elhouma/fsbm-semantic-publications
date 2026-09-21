@@ -348,3 +348,51 @@ def test_enrich_all_uses_cache_between_researchers_and_runs(tmp_path):
     again = make_enricher({}, tmp_path)                                        # nouveau process : cache disque
     assert again.enrich_all([raw_pub()])["from_cache"] == 1
     assert cache_key(a) == cache_key(b)
+
+
+# ---------------------------------------------------------------- qualité : affiliations ≠ abstract, revue/éditeur
+def test_affiliation_lists_are_not_accepted_as_abstracts():
+    from src.preprocessing.text_cleaner import looks_like_affiliation
+
+    aff = ("1Research and Engineering Laboratory, National High School for Electricity and Mechanics, Hassan II University "
+           "of Casablanca, Casablanca, Morocco 2Laboratory of Information Processing, Faculty of Sciences Ben M’Sick, "
+           "Hassan II University of Casablanca, Casablanca, Morocco")
+    assert looks_like_affiliation(aff)
+    assert clean_api_abstract(f"<jats:p>{aff}</jats:p>") is None
+    real = ("We study air pollution in Casablanca, Morocco, and propose a method based on machine learning; "
+            "results show that particulate matter increases near the university campus.")
+    assert not looks_like_affiliation(real) and clean_api_abstract(real) == real
+    assert not looks_like_affiliation(None) and not looks_like_affiliation("Deep learning for medical imaging.")
+
+
+def test_affiliation_abstract_is_treated_as_missing_by_the_cleaner():
+    from src.preprocessing.data_cleaner import clean_publication_record
+
+    rec = clean_publication_record({"raw_pub_id": "c::1", "chercheur_id": "fsbm_a_b", "titre": "A title", "auteurs": ["X"],
+                                    "annee": 2022, "abstract": "1Laboratory of Physics, Faculty of Sciences, Hassan II University, Morocco",
+                                    "abstract_status": "found", "abstract_source": "crossref"})
+    assert rec["abstract"] is None and rec["abstract_clean"] is None and rec["abstract_status"] == "not_found"
+    assert rec["embedding_source"] == "title_only"
+
+
+def test_enrichment_fills_missing_journal_and_publisher_but_never_overwrites(tmp_path):
+    item = {"DOI": "10.1000/zzz", "abstract": LONG_ABSTRACT, "title": [raw_pub()["titre"]], "issued": {"date-parts": [[2021]]},
+            "container-title": ["Procedia Computer Science"], "publisher": "Elsevier BV"}
+    enricher = make_enricher({"https://api.crossref.org/works": (200, {"message": {"items": [item]}})}, tmp_path)
+    pub = raw_pub()
+    enricher.enrich_publication(pub)
+    assert pub["journal"] == "Procedia Computer Science" and pub["publisher"] == "Elsevier BV"
+    kept = raw_pub(journal="Journal déjà connu par Scholar", publisher="Éditeur Scholar")
+    make_enricher({"https://api.crossref.org/works": (200, {"message": {"items": [item]}})}, tmp_path).enrich_publication(kept)
+    assert kept["journal"] == "Journal déjà connu par Scholar" and kept["publisher"] == "Éditeur Scholar"
+
+
+def test_old_cache_entries_without_journal_are_re_enriched(tmp_path):
+    item = {"DOI": "10.1000/zzz", "abstract": LONG_ABSTRACT, "title": [raw_pub()["titre"]], "issued": {"date-parts": [[2021]]},
+            "container-title": ["Some Journal"]}
+    enricher = make_enricher({"https://api.crossref.org/works": (200, {"message": {"items": [item]}})}, tmp_path)
+    old = {"doi": "10.1000/zzz", "abstract": LONG_ABSTRACT, "abstract_source": "crossref", "abstract_status": "found",
+           "abstract_attempts": [], "final": True}                                             # entrée v1 : pas de « v », pas de revue
+    enricher.cache[cache_key(raw_pub())] = old
+    pub = raw_pub()
+    assert enricher.enrich_all([pub])["from_cache"] == 0 and pub["journal"] == "Some Journal"
